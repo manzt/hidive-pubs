@@ -51,7 +51,7 @@ function formatCitation(
     page: string;
     volume: string;
     issue: string;
-    url: string;
+    URL: string;
     DOI: string;
   },
 ) {
@@ -64,16 +64,16 @@ function formatCitation(
   } else {
     // some kind of preprint check url for arXiv, bioRxiv, medRxiv, or OSF
     let preprint: string | undefined;
-    if (c.url?.includes("arxiv")) {
+    if (c.URL?.includes("arxiv")) {
       preprint = "arXiv";
-    } else if (c.url?.includes("biorxiv")) {
+    } else if (c.URL?.includes("biorxiv")) {
       preprint = "bioRxiv";
-    } else if (c.url?.includes("medrxiv")) {
+    } else if (c.URL?.includes("medrxiv")) {
       preprint = "medRxiv";
-    } else if (c.url?.includes("osf")) {
+    } else if (c.URL?.includes("osf")) {
       preprint = "OSF Preprints";
     }
-    if (preprint) citation += `${preprint} ${c.DOI}`;
+    if (preprint) citation += ` ${preprint}`;
   }
   return citation + ` (${c.issued.year}).`;
 }
