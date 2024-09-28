@@ -51,19 +51,31 @@ function formatCitation(
     page: string;
     volume: string;
     issue: string;
+    url: string;
+    DOI: string;
   },
 ) {
   let citation = `${formatAuthors(c.author)}, "${c.title}", `;
-  if (c["container-title"]) citation += `${c["container-title"]}, `;
-  if (c.volume) citation += `${c.volume}`;
-  if (c.issue) citation += `(${c.issue})`;
-  if (c.page) citation += `${(c.issue || c.volume) ? ":" : ""}${c.page}`;
-  if (c.issued) {
-    citation += `${
-      (c.issue || c.volume || c.page) ? " " : ""
-    }(${c.issued.year})`;
+  if (c["container-title"]) {
+    citation += `${c["container-title"]}, `;
+    if (c.volume) citation += `${c.volume}`;
+    if (c.issue) citation += `(${c.issue})`;
+    if (c.page) citation += `${(c.issue || c.volume) ? ":" : ""}${c.page}`;
+  } else {
+    // some kind of preprint check url for arXiv, bioRxiv, medRxiv, or OSF
+    let preprint: string | undefined;
+    if (c.url?.includes("arxiv")) {
+      preprint = "arXiv";
+    } else if (c.url?.includes("biorxiv")) {
+      preprint = "bioRxiv";
+    } else if (c.url?.includes("medrxiv")) {
+      preprint = "medRxiv";
+    } else if (c.url?.includes("osf")) {
+      preprint = "OSF Preprints";
+    }
+    if (preprint) citation += `${preprint} ${c.DOI}`;
   }
-  return citation + ".";
+  return citation + ` (${c.issued.year}).`;
 }
 
 let rows = pubs.map(({ csljson: pub, pmid }) => ({
