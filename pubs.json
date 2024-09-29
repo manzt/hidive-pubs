@@ -111164,6 +111164,48 @@
     }
   },
   {
+    "key": "RN69PLAN",
+    "version": 2222,
+    "bib": "AK Manrai, CJ Patel, N Gehlenborg, NP Tatonetti, JP Ionnaidis, IS Kohane, \"Methods to enhance the reproducibility of precision medicine\" Biocomputing 2016: Proceedings of the Pacific Symposium. 180–182 (2016)",
+    "csljson": {
+      "id": "15307880/RN69PLAN",
+      "type": "paper-conference",
+      "title": "Methods to enhance the reproducibility of precision medicine",
+      "container-title": "Biocomputing 2016: Proceedings of the Pacific Symposium",
+      "page": "180–182",
+      "DOI": "10.1142/9789814749411_0017",
+      "author": [
+        {
+          "family": "Manrai",
+          "given": "Arjun K"
+        },
+        {
+          "family": "Patel",
+          "given": "Chirag J"
+        },
+        {
+          "family": "Gehlenborg",
+          "given": "N"
+        },
+        {
+          "family": "Tatonetti",
+          "given": "Nicholas P"
+        },
+        {
+          "family": "Ionnaidis",
+          "given": "John PA"
+        },
+        {
+          "family": "Kohane",
+          "given": "Isaac S"
+        }
+      ],
+      "issued": {
+        "year": 2016
+      }
+    }
+  },
+  {
     "pmid": "26824661",
     "key": "SZJIC3VP",
     "version": 2080,

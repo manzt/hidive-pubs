@@ -114,8 +114,12 @@ if (import.meta.main) {
   for (let itemKey of itemKeys) {
     try {
       items.push(await fetchZoteroItem(itemKey));
-    } catch (error) {
-      console.error(`Could not fetch item ${itemKey}: ${error}`);
+    } catch (_) {
+      try {
+        items.push(await fetchZoteroItem(itemKey));
+      } catch (error) {
+        console.error(`Could not fetch item ${itemKey}: ${error}`);
+      }
     }
     await pb.render(i++);
   }
