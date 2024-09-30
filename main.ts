@@ -1,7 +1,6 @@
+import * as p from "npm:@clack/prompts@0.7.0";
 import { z } from "npm:zod@3.23.8";
-import he from "npm:he@1.2.0";
-import ProgressBar from "jsr:@deno-library/progress@1.4.9";
-import { assert } from "jsr:@std/assert@1.0.6";
+import * as colors from "jsr:@std/fmt@1.0.2/colors";
 import { stringify } from "jsr:@std/csv@1.0.3";
 
 let HIDIVE_GROUP_ID = "5145258";
@@ -9,7 +8,7 @@ let HIDIVE_PUBLICATIONS_COLLECTION_ID = "YGTEVG73";
 let HIDIVE_PREPRINTS_COLLECTION_ID = "AJKTPNSI";
 let BASE_URL = new URL(`https://api.zotero.org/groups/${HIDIVE_GROUP_ID}/`);
 
-type ZoteroItem = z.infer<typeof zoteroItemResponse>;
+type ZoteroItem = z.infer<typeof zoteroItemSchema>;
 type Author = ZoteroItem["creators"][number];
 
 let zoteroItemDataSchema = z.object({
@@ -47,8 +46,7 @@ let zoteroItemDataSchema = z.object({
   url: z.string().transform((v) => v === "" ? undefined : v).optional(),
 });
 
-let zoteroItemResponse = z.object({
-  bib: z.string().transform(parseBibEntry),
+let zoteroItemSchema = z.object({
   data: zoteroItemDataSchema,
   csljson: z.object({
     issued: z.object({
@@ -60,21 +58,14 @@ let zoteroItemResponse = z.object({
       return { year: parts[0], month: parts[1], day: parts[2] };
     }),
   }),
-}).transform(({ bib, data, csljson }) => ({
+}).transform(({ data, csljson }) => ({
   ...data,
-  bib,
   date: csljson.issued,
 }));
 
 let ncbiIdConverterResponseSchema = z.object({
   records: z.object({ doi: z.string(), pmid: z.string().optional() }).array(),
 });
-
-function parseBibEntry(xml: string): string {
-  let match = xml.match(/<div class="csl-right-inline"[^>]*>(.*?)<\/div>/);
-  assert(match, "Could not find the bib entry");
-  return he.decode(match[1].trim());
-}
 
 /**
  * Fetches the publications from the HiDive Zotero group.
@@ -128,19 +119,6 @@ async function getPubMedIds(
   return records;
 }
 
-async function fetchZoteroItem(itemKey: string): Promise<ZoteroItem> {
-  let url = new URL(`items/${itemKey}`, BASE_URL);
-  url.searchParams.set("format", "json");
-  url.searchParams.set("include", "csljson,bib,data");
-  url.searchParams.set(
-    "style",
-    "https://raw.githubusercontent.com/manzt/hidive-pubs/51c2da1aa0c00425c4d188207517a487fbe25ef7/assets/hidive.csl",
-  );
-  let response = await fetch(url);
-  let data = await response.json();
-  return zoteroItemResponse.parse(data);
-}
-
 function formatAuthors(authors: Array<Author>) {
   let formatted = authors.map((author) => {
     if ("name" in author) {
@@ -176,11 +154,11 @@ function formatJournalInfo(meta: ZoteroItem) {
   return citation;
 }
 
-function formatCitation(meta: ZoteroItem) {
-  let authors = formatAuthors(meta.creators);
-  let title = meta.title;
-  let info = formatJournalInfo(meta);
-  let year = meta.date.year;
+function formatCitation(item: ZoteroItem) {
+  let authors = formatAuthors(item.creators);
+  let title = item.title;
+  let info = formatJournalInfo(item);
+  let year = item.date.year;
   return `${authors}, "${title}", ${info} (${year}).`;
 }
 
@@ -196,45 +174,88 @@ function toCsv(pubs: Array<ZoteroItem & { pmid?: string }>) {
   return csv;
 }
 
-async function main() {
-  let [pubIds, preprintIds] = await Promise.all([
-    fetchHidiveZoteroItemKeys(HIDIVE_PUBLICATIONS_COLLECTION_ID),
-    fetchHidiveZoteroItemKeys(HIDIVE_PREPRINTS_COLLECTION_ID),
-  ]);
-  // make sure we don't have overlap between the two collections
-  assert(
-    pubIds.intersection(preprintIds).size === 0,
-    "Overlap between collections",
-  );
-  let itemKeys = [...pubIds, ...preprintIds];
+async function fetchAllCollectionItems(
+  collectionId: string,
+): Promise<ZoteroItem[]> {
+  let itemsPerPage = 100;
+  let items: ZoteroItem[] = [];
+  let start = 0;
 
-  let pb = new ProgressBar({
-    title: "Fetching publications",
-    total: itemKeys.length,
-  });
+  while (true) {
+    let url = new URL(`collections/${collectionId}/items`, BASE_URL);
+    url.searchParams.set("format", "json");
+    url.searchParams.set("include", "csljson,data");
+    url.searchParams.set("itemType", "-attachment");
+    url.searchParams.set("limit", itemsPerPage.toString());
+    url.searchParams.set("start", start.toString());
 
-  let items: Array<ZoteroItem> = [];
-  let i = 0;
-  for (let itemKey of itemKeys) {
-    try {
-      items.push(await fetchZoteroItem(itemKey));
-    } catch (_) {
-      try {
-        items.push(await fetchZoteroItem(itemKey));
-      } catch (error) {
-        console.error(`Could not fetch item ${itemKey}: ${error}`);
-      }
+    let response = await fetch(url);
+    let json = await response.json();
+
+    let newItems = zoteroItemSchema.array().parse(
+      // deno-lint-ignore no-explicit-any
+      json.filter((item: any) => item.data.itemType !== "note"),
+    );
+
+    items.push(...newItems);
+
+    if (json.length < itemsPerPage) {
+      break; // We've reached the end of the collection
     }
-    await pb.render(i++);
+    start += itemsPerPage;
   }
 
-  let idMap = await getPubMedIds(
-    items
-      .map((item) => item.DOI)
-      .filter((d) => typeof d === "string"),
-  );
+  return items;
+}
 
-  let final = items
+if (import.meta.main) {
+  let items: Array<ZoteroItem> = [];
+  let idMap: Record<string, string> = {};
+
+  p.intro("hidive-pubs");
+  {
+    let spinner = p.spinner();
+    spinner.start(
+      colors.bold(`Fetching HIDIVE ${colors.cyan("publications")}`),
+    );
+    let pubs = await fetchAllCollectionItems(HIDIVE_PUBLICATIONS_COLLECTION_ID);
+    spinner.stop(
+      `Fetched ${colors.yellow(pubs.length.toString())} publications`,
+    );
+    items.push(...pubs);
+  }
+
+  {
+    let spinner = p.spinner();
+    spinner.start(colors.bold(`Fetching HIDIVE ${colors.cyan("preprints")}`));
+    let preprints = await fetchAllCollectionItems(
+      HIDIVE_PREPRINTS_COLLECTION_ID,
+    );
+    spinner.stop(
+      `Fetched ${colors.yellow(preprints.length.toString())} preprints`,
+    );
+    items.push(...preprints);
+  }
+
+  {
+    let dois = items.map((item) => item.DOI).filter((d) =>
+      typeof d === "string"
+    );
+    let spinner = p.spinner();
+    spinner.start(
+      colors.bold(
+        `Fetching PubMed IDs for ${
+          colors.cyan(dois.length.toString())
+        } DOIs...`,
+      ),
+    );
+    idMap = await getPubMedIds(dois);
+    spinner.stop(
+      `Found ${colors.yellow(Object.keys(idMap).length.toString())} PubMed IDs`,
+    );
+  }
+
+  let withPubMedIds = items
     .toSorted((a, b) => {
       let dateA = new Date(a.date.year, a.date.month ?? 0);
       let dateB = new Date(b.date.year, b.date.month ?? 0);
@@ -245,17 +266,34 @@ async function main() {
       ...item,
     }));
 
-  Deno.writeTextFileSync("assets/pubs.json", JSON.stringify(final, null, 2));
-  Deno.writeTextFileSync(
-    "assets/pubs.csv",
-    toCsv(final.filter((p) => p.itemType !== "preprint")),
-  );
-  Deno.writeTextFileSync(
-    "assets/preprints.csv",
-    toCsv(final.filter((p) => p.itemType === "preprint")),
-  );
-}
+  {
+    let spinner = p.spinner();
 
-if (import.meta.main) {
-  main();
+    spinner.start("Writing data to disk");
+
+    Deno.writeTextFileSync(
+      "assets/papers.json",
+      JSON.stringify(withPubMedIds, null, 2),
+    );
+
+    Deno.writeTextFileSync(
+      "assets/pubs.csv",
+      toCsv(withPubMedIds.filter((p) => p.itemType !== "preprint")),
+    );
+
+    Deno.writeTextFileSync(
+      "assets/preprints.csv",
+      toCsv(withPubMedIds.filter((p) => p.itemType === "preprint")),
+    );
+
+    spinner.stop(
+      `Wrote ${colors.yellow(items.length.toString())} papers to: ${
+        colors.cyan("assets/papers.json")
+      }, ${colors.cyan("assets/pubs.csv")}, ${
+        colors.cyan("assets/preprints.csv")
+      }`,
+    );
+  }
+
+  p.outro("Done!");
 }
