@@ -1,58 +1,7 @@
 [
   {
-    "key": "E5SHMDTH",
-    "version": 2285,
-    "itemType": "journalArticle",
-    "title": "Vitessce: integrative visualization of multimodal and spatially resolved single-cell data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Mark S.",
-        "lastName": "Keller"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ilan",
-        "lastName": "Gold"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Chuck",
-        "lastName": "McCallum"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Trevor",
-        "lastName": "Manz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter V.",
-        "lastName": "Kharchenko"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Multiomics technologies with single-cell and spatial resolution make it possible to measure thousands of features across millions of cells. However, visual analysis of high-dimensional transcriptomic, proteomic, genome-mapped and imaging data types simultaneously remains a challenge. Here we describe Vitessce, an interactive web-based visualization framework for exploration of multimodal and spatially resolved single-cell data. We demonstrate integrative visualization of millions of data points, including cell-type annotations, gene expression quantities, spatially resolved transcripts and cell segmentations, across multiple coordinated views. The open-source software is available at http://vitessce.io.",
-    "publicationTitle": "Nature Methods",
-    "pages": "1-5",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/s41592-024-02436-x",
-    "ISSN": "1548-7105",
-    "shortTitle": "Vitessce",
-    "url": "https://www.nature.com/articles/s41592-024-02436-x",
-    "date": {
-      "year": 2024,
-      "month": 9,
-      "day": 27
-    }
-  },
-  {
     "key": "ULRFBUJD",
-    "version": 2297,
+    "version": 2415,
     "itemType": "journalArticle",
     "title": "A foundation model for clinician-centered drug repurposing",
     "creators": [
@@ -117,6 +66,57 @@
       "year": 2024,
       "month": 9,
       "day": 25
+    }
+  },
+  {
+    "key": "E5SHMDTH",
+    "version": 2285,
+    "itemType": "journalArticle",
+    "title": "Vitessce: integrative visualization of multimodal and spatially resolved single-cell data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Mark S.",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ilan",
+        "lastName": "Gold"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chuck",
+        "lastName": "McCallum"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Trevor",
+        "lastName": "Manz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter V.",
+        "lastName": "Kharchenko"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "Multiomics technologies with single-cell and spatial resolution make it possible to measure thousands of features across millions of cells. However, visual analysis of high-dimensional transcriptomic, proteomic, genome-mapped and imaging data types simultaneously remains a challenge. Here we describe Vitessce, an interactive web-based visualization framework for exploration of multimodal and spatially resolved single-cell data. We demonstrate integrative visualization of millions of data points, including cell-type annotations, gene expression quantities, spatially resolved transcripts and cell segmentations, across multiple coordinated views. The open-source software is available at http://vitessce.io.",
+    "publicationTitle": "Nature Methods",
+    "pages": "1-5",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/s41592-024-02436-x",
+    "ISSN": "1548-7105",
+    "shortTitle": "Vitessce",
+    "url": "https://www.nature.com/articles/s41592-024-02436-x",
+    "date": {
+      "year": 2024,
+      "month": 9,
+      "day": 27
     }
   },
   {
@@ -3272,6 +3272,70 @@
     }
   },
   {
+    "key": "9ZZVZPRR",
+    "version": 2418,
+    "itemType": "journalArticle",
+    "title": "Cell2Cell: Explorative Cell Interaction Analysis in Multi-Volumetric Tissue Data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Eric",
+        "lastName": "Mörth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kevin",
+        "lastName": "Sidak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zoltan",
+        "lastName": "Maliga"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Torsten",
+        "lastName": "Möller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter",
+        "lastName": "Sorger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hanspeter",
+        "lastName": "Pfister"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Johanna",
+        "lastName": "Beyer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robert",
+        "lastName": "Krüger"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "pages": "1-11",
+    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
+    "DOI": "10.1109/TVCG.2024.3456406",
+    "ISSN": "1077-2626, 1941-0506, 2160-9306",
+    "shortTitle": "Cell2Cell",
+    "url": "https://ieeexplore.ieee.org/document/10672552/",
+    "date": {
+      "year": 2024
+    }
+  },
+  {
     "key": "WQT4999N",
     "version": 2285,
     "itemType": "journalArticle",
@@ -3400,70 +3464,6 @@
     }
   },
   {
-    "key": "9ZZVZPRR",
-    "version": 2298,
-    "itemType": "journalArticle",
-    "title": "Cell2Cell: Explorative Cell Interaction Analysis in Multi-Volumetric Tissue Data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Eric",
-        "lastName": "Mörth"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kevin",
-        "lastName": "Sidak"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Zoltan",
-        "lastName": "Maliga"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Torsten",
-        "lastName": "Möller"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter",
-        "lastName": "Sorger"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hanspeter",
-        "lastName": "Pfister"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Johanna",
-        "lastName": "Beyer"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Robert",
-        "lastName": "Krüger"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
-    "pages": "1-11",
-    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
-    "DOI": "10.1109/TVCG.2024.3456406",
-    "ISSN": "1077-2626, 1941-0506, 2160-9306",
-    "shortTitle": "Cell2Cell",
-    "url": "https://ieeexplore.ieee.org/document/10672552/",
-    "date": {
-      "year": 2024
-    }
-  },
-  {
     "key": "GJRLPYV3",
     "version": 2279,
     "itemType": "preprint",
@@ -3497,6 +3497,48 @@
       "year": 2023,
       "month": 11,
       "day": 3
+    }
+  },
+  {
+    "key": "U3RUJWVF",
+    "version": 2411,
+    "itemType": "conferencePaper",
+    "title": "Enabling Multimodal User Interactions for Genomics Visualization Creation",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Qianwen",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xiao",
+        "lastName": "Liu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Man Qing",
+        "lastName": "Liang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L’Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "pages": "111-115",
+    "DOI": "10.1109/VIS54172.2023.00031",
+    "url": "https://ieeexplore.ieee.org/document/10360908/",
+    "date": {
+      "year": 2023,
+      "month": 10,
+      "day": 21
     }
   },
   {
@@ -3629,10 +3671,11 @@
     }
   },
   {
-    "key": "KJBFYQMQ",
-    "version": 2279,
-    "itemType": "preprint",
-    "title": "Enabling Multimodal User Interactions for Genomics Visualization Creation",
+    "pmid": "38074525",
+    "key": "SFVKCKZY",
+    "version": 2354,
+    "itemType": "conferencePaper",
+    "title": "DRAVA: Aligning Human Concepts with Machine Learning Latent Dimensions for the Visual Exploration of Small Multiples",
     "creators": [
       {
         "creatorType": "author",
@@ -3641,16 +3684,6 @@
       },
       {
         "creatorType": "author",
-        "firstName": "Xiao",
-        "lastName": "Liu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Man Qing",
-        "lastName": "Liang"
-      },
-      {
-        "creatorType": "author",
         "firstName": "Sehi",
         "lastName": "L'Yi"
       },
@@ -3660,75 +3693,15 @@
         "lastName": "Gehlenborg"
       }
     ],
-    "abstractNote": "Visualization plays an important role in extracting insights from complex and large-scale genomics data. Traditional graphical user interfaces (GUIs) offer limited flexibility for custom visualizations. Our prior work, Gosling, enables expressive visualization creation using a grammar-based approach, but beginners may face challenges in constructing complex visualizations. To address this, we explore multimodal interactions, including sketches, example images, and natural language inputs, to streamline visualization creation. Specifically, we customize two deep learning models (YOLO v7 and GPT3.5) to interpret user interactions and convert them into Gosling specifications. A workflow is proposed to progressively introduce and integrate multimodal interactions. We then present use cases demonstrating their effectiveness and identify challenges and opportunities for future research.",
-    "DOI": "10.31219/osf.io/5zgye",
-    "url": "https://osf.io/5zgye",
+    "abstractNote": "",
+    "pages": "1-15",
+    "DOI": "10.1145/3544548.3581127",
+    "shortTitle": "DRAVA",
+    "url": "https://dl.acm.org/doi/10.1145/3544548.3581127",
     "date": {
       "year": 2023,
-      "month": 6,
-      "day": 9
-    }
-  },
-  {
-    "key": "KRSW6C9M",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "Chromoscope: interactive multiscale visualization for structural variation in human genomes",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Dominika",
-        "lastName": "Maziec"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Victoria",
-        "lastName": "Stevens"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Trevor",
-        "lastName": "Manz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Veit"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michele",
-        "lastName": "Berselli"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter J",
-        "lastName": "Park"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Dominik",
-        "lastName": "Glodzik"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Whole genome sequencing is now routinely used to profile mutations in DNA in the soma and in the germline, informing molecular diagnoses of disease and therapeutic decisions. Structural variants (SVs) are the main new type of alterations we see more of, and they are often diagnostic, prognostic, or therapy-informing. However, the size and complexity of SV data, combined with the difficulty of obtaining accurate SV calls, pose challenges in the interpretation of SVs, requiring tedious visual inspection of potentially pathogenic variants with multiple visualization tools. To overcome the problems with the interpretation of SVs, we developed Chromoscope, an open-source web-based application for the interactive visualization of structural variants. Chromoscope has several innovative features which unlock the insights from whole genome sequencing: visualization at multiple scale levels simultaneously, effective navigation across scales;  easy setup for loading users' large datasets, and a feature to export, share, and further customize visualizations. We are hosting a freely available public instance of Chromoscope (https://chromoscope.bio) to showcase data from the ‘Pan-cancer Analysis of the Whole Genomes’ consortium, providing easy access to this reference dataset. We additionally facilitate the set up of visualizations for users' data.  We anticipate that Chromoscope will accelerate the exploration and interpretation of SVs by a broad range of scientists and clinicians, leading to new insights into genomic biomarkers.",
-    "DOI": "10.31219/osf.io/pyqrx",
-    "shortTitle": "Chromoscope",
-    "url": "https://osf.io/pyqrx",
-    "date": {
-      "year": 2023,
-      "month": 5,
-      "day": 10
+      "month": 4,
+      "day": 19
     }
   },
   {
@@ -3767,73 +3740,6 @@
       "year": 2023,
       "month": 4,
       "day": 3
-    }
-  },
-  {
-    "pmid": "39148855",
-    "key": "RNI97XID",
-    "version": 2279,
-    "itemType": "preprint",
-    "title": "A foundation model for clinician-centered drug repurposing",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Kexin",
-        "lastName": "Huang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Payal",
-        "lastName": "Chandak"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Shreyas",
-        "lastName": "Havaldar"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Akhil",
-        "lastName": "Vaid"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jure",
-        "lastName": "Leskovec"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Girish",
-        "lastName": "Nadkarni"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Benjamin S.",
-        "lastName": "Glicksberg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marinka",
-        "lastName": "Zitnik"
-      }
-    ],
-    "abstractNote": "Drug repurposing – identifying new therapeutic uses for approved drugs – is often serendipitous and opportunistic, expanding the use of drugs for new diseases. The clinical utility of drug repurposing AI models remains limited because the models focus narrowly on diseases for which some drugs already exist. Here, we introduce T\n            x\n            GNN, a graph foundation model for zero-shot drug repurposing, identifying therapeutic candidates even for diseases with limited treatment options or no existing drugs. Trained on a medical knowledge graph, T\n            x\n            GNN utilizes a graph neural network and metric-learning module to rank drugs as potential indications and contraindications across 17,080 diseases. When benchmarked against eight methods, T\n            x\n            GNN improves prediction accuracy for indications by 49.2% and contraindications by 35.1% under stringent zero-shot evaluation. To facilitate model interpretation, T\n            x\n            GNN’s Explainer module offers transparent insights into multi-hop medical knowledge paths that form T\n            x\n            GNN’s predictive rationales. Human evaluation of T\n            x\n            GNN’s Explainer showed that T\n            x\n            GNN’s predictions and explanations perform encouragingly on multiple axes of performance beyond accuracy. Many of T\n            x\n            GNN’s novel predictions align with off-label prescriptions clinicians make in a large healthcare system. T\n            x\n            GNN’s drug repurposing predictions are accurate, consistent with off-label drug use, and can be investigated by human experts through multi-hop interpretable rationales.",
-    "DOI": "10.1101/2023.03.19.23287458",
-    "url": "http://medrxiv.org/lookup/doi/10.1101/2023.03.19.23287458",
-    "date": {
-      "year": 2023,
-      "month": 3,
-      "day": 20
     }
   },
   {
@@ -4047,6 +3953,130 @@
       "year": 2023,
       "month": 2,
       "day": 15
+    }
+  },
+  {
+    "pmid": "36166553",
+    "key": "EBW4IH5W",
+    "version": 2390,
+    "itemType": "journalArticle",
+    "title": "Multi-View Design Patterns and Responsive Visualization for Genomics Data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L'Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "A series of recent studies has focused on designing cross-resolution and cross-device visualizations, i.e., responsive visualization, a concept adopted from responsive web design. However, these studies mainly focused on visualizations with a single view to a small number of views, and there are still unresolved questions about how to design responsive multi-view visualizations. In this paper, we present a reusable and generalizable framework for designing responsive multi-view visualizations focused on genomics data. To gain a better understanding of existing design challenges, we review web-based genomics visualization tools in the wild. By characterizing tools based on a taxonomy of responsive designs, we find that responsiveness is rarely supported in existing tools. To distill insights from the survey results in a systematic way, we classify typical view composition patterns, such as \"vertically long,\" \"horizontally wide,\" \"circular,\" and \"cross-shaped\" compositions. We then identify their usability issues in different resolutions that stem from the composition patterns, as well as discussing approaches to address the issues and to make genomics visualizations responsive. By extending the Gosling visualization grammar to support responsive constructs, we show how these approaches can be supported. A valuable follow-up study would be taking different input modalities into account, such as mouse and touch interactions, which was not considered in our study.",
+    "publicationTitle": "IEEE transactions on visualization and computer graphics",
+    "volume": "29",
+    "issue": "1",
+    "pages": "559-569",
+    "journalAbbreviation": "IEEE Trans Vis Comput Graph",
+    "DOI": "10.1109/TVCG.2022.3209398",
+    "ISSN": "1941-0506",
+    "date": {
+      "year": 2023,
+      "month": 1
+    }
+  },
+  {
+    "key": "H6YDK8WJ",
+    "version": 2389,
+    "itemType": "journalArticle",
+    "title": "Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Qianwen",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kexin",
+        "lastName": "Huang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Payal",
+        "lastName": "Chandak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marinka",
+        "lastName": "Zitnik"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "Whether AI explanations can help users achieve specific tasks efficiently (i.e., usable explanations) is significantly influenced by their visual presentation. While many techniques exist to generate explanations, it remains unclear how to select and visually present AI explanations based on the characteristics of domain users. This paper aims to understand this question through a multidisciplinary design study for a specific problem: explaining graph neural network (GNN) predictions to domain experts in drug repurposing, i.e., reuse of existing drugs for new diseases. Building on the nested design model of visualization, we incorporate XAI design considerations from a literature review and from our collaborators' feedback into the design process. Specifically, we discuss XAI-related design considerations for usable visual explanations at each design layer: target user, usage context, domain explanation, and XAI goal at the domain layer; format, granularity, and operation of explanations at the abstraction layer; encodings and interactions at the visualization layer; and XAI and rendering algorithm at the algorithm layer. We present how the extended nested model motivates and informs the design of DrugExplorer, an XAI tool for drug repurposing. Based on our domain characterization, DrugExplorer provides path-based explanations and presents them both as individual paths and meta-paths for two key XAI operations, why and what else. DrugExplorer offers a novel visualization design called MetaMatrix with a set of interactions to help domain users organize and compare explanation paths at different levels of granularity to generate domain-meaningful insights. We demonstrate the effectiveness of the selected visual presentation and DrugExplorer as a whole via a usage scenario, a user study, and expert interviews. From these evaluations, we derive insightful observations and reflections that can inform the design of XAI visualizations for other scientific applications.",
+    "publicationTitle": "IEEE transactions on visualization and computer graphics",
+    "volume": "29",
+    "issue": "1",
+    "pages": "1266-1276",
+    "journalAbbreviation": "IEEE Trans Vis Comput Graph",
+    "DOI": "10.1109/TVCG.2022.3209435",
+    "ISSN": "1941-0506",
+    "shortTitle": "Extending the Nested Model for User-Centric XAI",
+    "date": {
+      "year": 2023,
+      "month": 1
+    }
+  },
+  {
+    "pmid": "36155452",
+    "key": "IVFXTYYJ",
+    "version": 2352,
+    "itemType": "journalArticle",
+    "title": "Polyphony: an Interactive Transfer Learning Framework for Single-Cell Data Analysis",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Furui",
+        "lastName": "Cheng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark S",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Huamin",
+        "lastName": "Qu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qianwen",
+        "lastName": "Wang"
+      }
+    ],
+    "abstractNote": "Reference-based cell-type annotation can significantly reduce time and effort in single-cell analysis by transferring labels from a previously-annotated dataset to a new dataset. However, label transfer by end-to-end computational methods is challenging due to the entanglement of technical (e.g., from different sequencing batches or techniques) and biological (e.g., from different cellular microenvironments) variations, only the first of which must be removed. To address this issue, we propose Polyphony, an interactive transfer learning (ITL) framework, to complement biologists' knowledge with advanced computational methods. Polyphony is motivated and guided by domain experts' needs for a controllable, interactive, and algorithm-assisted annotation process, identified through interviews with seven biologists. We introduce anchors, i.e., analogous cell populations across datasets, as a paradigm to explain the computational process and collect user feedback for model improvement. We further design a set of visualizations and interactions to empower users to add, delete, or modify anchors, resulting in refined cell type annotations. The effectiveness of this approach is demonstrated through quantitative experiments, two hypothetical use cases, and interviews with two biologists. The results show that our anchor-based ITL method takes advantage of both human and machine intelligence in annotating massive single-cell datasets.",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "29",
+    "issue": "1",
+    "pages": "591-601",
+    "DOI": "10.1109/TVCG.2022.3209408",
+    "ISSN": "1941-0506",
+    "shortTitle": "Polyphony",
+    "url": "https://ieeexplore.ieee.org/abstract/document/9903604",
+    "date": {
+      "year": 2023,
+      "month": 1
     }
   },
   {
@@ -4326,48 +4356,68 @@
     }
   },
   {
-    "pmid": "36155452",
-    "key": "4BPELC4B",
-    "version": 2330,
+    "pmid": "37914857",
+    "key": "MBYKK2HR",
+    "version": 2355,
     "itemType": "journalArticle",
-    "title": "Polyphony: an Interactive Transfer Learning Framework for Single-Cell Data Analysis",
+    "title": "Chromoscope: interactive multiscale visualization for structural variation in human genomes",
     "creators": [
       {
         "creatorType": "author",
-        "firstName": "Furui",
-        "lastName": "Cheng"
+        "firstName": "Sehi",
+        "lastName": "L’Yi"
       },
       {
         "creatorType": "author",
-        "firstName": "Mark S",
-        "lastName": "Keller"
+        "firstName": "Dominika",
+        "lastName": "Maziec"
       },
       {
         "creatorType": "author",
-        "firstName": "Huamin",
-        "lastName": "Qu"
+        "firstName": "Victoria",
+        "lastName": "Stevens"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Trevor",
+        "lastName": "Manz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Veit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michele",
+        "lastName": "Berselli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter J.",
+        "lastName": "Park"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dominik",
+        "lastName": "Głodzik"
       },
       {
         "creatorType": "author",
         "firstName": "Nils",
         "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
       }
     ],
     "abstractNote": "",
-    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
-    "volume": "29",
-    "issue": "1",
-    "pages": "591-601",
-    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
-    "DOI": "10.1109/TVCG.2022.3209408",
-    "ISSN": "1077-2626, 1941-0506, 2160-9306",
-    "shortTitle": "Polyphony",
-    "url": "https://ieeexplore.ieee.org/document/9903604/",
+    "publicationTitle": "Nature Methods",
+    "volume": "20",
+    "issue": "12",
+    "pages": "1834-1835",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/s41592-023-02056-x",
+    "ISSN": "1548-7091, 1548-7105",
+    "shortTitle": "Chromoscope",
+    "url": "https://www.nature.com/articles/s41592-023-02056-x",
     "date": {
       "year": 2023
     }
@@ -22179,106 +22229,6 @@
     }
   },
   {
-    "key": "E876A286",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "DRAVA: Aligning Human Concepts with Machine Learning Latent Dimensions for the Visual Exploration of Small Multiples",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "This paper proposes Drava, a novel method that utilizes Disentangled Representation learning as A Visual Analytics approach for concept-driven exploration of small multiples. While latent vectors extracted by machine learning models are widely used to organize and explore data (e.g., layout data items based on their latent vectors in a 2D space using t-SNE), they usually suffer from a lack of interpretability. Disentangled representation learning (DRL) alleviates this issue by learning vectors that encode concepts in separated dimensions and are therefore more interpretable. Even though promising, it can be challenging to apply these disentangled vectors due to the imperfections of algorithms and our limited understanding of how to support DRL-based visual exploration. To address this problem, we propose a three-step workflow where users 1) understand ML-learned concepts, 2) refine and align ML concepts with human concepts, and 3) generate new knowledge about the analyzed data through concept-driven exploration. We support this three-step workflow by providing a set of interactions based on visual piles and enhancing the DRL model with a concept adaptor that fine-tunes concept quality based on human feedback. Interactive visual piles enable users to effectively organize, summarize, and compare groups of items based on human-readable concepts. The concept adaptor assists users in modifying potential imperfect semantic vectors and better facilitates concept-driven exploration. We demonstrate the usability of Drava using four usage scenarios with different datasets. Our experiments show that the semantic latent vectors can capture human-readable concepts and the concept adaptor can further improve these semantic concepts using human feedback.",
-    "DOI": "10.31219/osf.io/gzu27",
-    "shortTitle": "DRAVA",
-    "url": "https://osf.io/gzu27",
-    "date": {
-      "year": 2022,
-      "month": 4,
-      "day": 1
-    }
-  },
-  {
-    "key": "6W6MQ8YH",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kexin",
-        "lastName": "Huang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Payal",
-        "lastName": "Chandak"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marinka",
-        "lastName": "Zitnik"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Whether AI explanations can help users achieve specific tasks efficiently (i.e., the usability of explanations) can be significantly influenced by their visual presentations. While many techniques exist to generate explanations, it remains unclear how to select and visually present AI explanations based on the characteristics of domain users. This paper aims to understand this question through a multidisciplinary design study for a specific problem: explaining graph neural network (GNN) predictions to domain experts in drug repurposing (i.e., reuse of existing drugs for new diseases). Apart from following the nested design model of visualization, we incorporate XAI design considerations from a literature review and from the collaborators’ feedback into the design process. Specifically, we discuss XAI-related design considerations (i.e., blocks) for usable visual explanations at each design layer: target user, usage context, domain explanation, and XAI goal at the domain layer; format, granularity, and operation of explanations at the abstraction layer; encodings and interactions at the visualization layer. We explain the connections (i.e., guidelines) among these design decisions. The design of DrugExplorer is motivated and informed by these design decisions. Based on our domain characterization, we select path-based explanations and presented them at both local-level (individual paths) and group-level (meta paths) for two main XAI operations, why and what else. DrugExplorer offers a novel visualization design MetaMatrix with a set of interactions to help domain users organize and compare explanation paths at different levels of granularity to generate domain meaningful insights. We demonstrate the effectiveness of the selected visual presentation and DrugExplorer as a whole via a usage scenario, a user study, and expert interviews. From these evaluations, we derive insightful observations and reflections that can inspire the design of XAI visualizations for other scientific applications.",
-    "DOI": "10.31219/osf.io/yhdpv",
-    "shortTitle": "Extending the Nested Model for User-Centric XAI",
-    "url": "https://osf.io/yhdpv",
-    "date": {
-      "year": 2022,
-      "month": 4,
-      "day": 1
-    }
-  },
-  {
-    "key": "M764CCXI",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "Multi-View Design Patterns and Responsive Visualization for Genomics Data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "A series of recent studies focused on designing cross-resolution and cross-device visualizations, i.e., responsive visualization, a concept adopted from responsive web design. However, these studies mainly focused on visualizations with a single view to a few number of views and did not address the design of responsive multi-view visualizations. In this paper, we present a reusable and generalizable framework for designing responsive multi-view visualizations focused on genomics data. To gain a better understanding of existing design challenges, we review web-based genomics visualization tools in the wild. By characterizing tools based on a taxonomy of responsive designs, we find that responsiveness is rarely supported in existing tools. To distill insights from the survey results in a systematic way, we classify typical view composition patterns, such as ``vertically long,'' ``horizontally wide,'' ``circular,'' and ``cross-shaped'' compositions. We then identify their usability issues in different resolutions that stem from the composition patterns, as well as discussing approaches to address the issues and to make genomics visualizations responsive. By extending the Gosling visualization grammar for genomics data, we show how these approaches can be seamlessly supported in visualization grammars.",
-    "DOI": "10.31219/osf.io/pd7vq",
-    "url": "https://osf.io/pd7vq",
-    "date": {
-      "year": 2022,
-      "month": 3,
-      "day": 31
-    }
-  },
-  {
     "key": "F2P6MVFB",
     "version": 2279,
     "itemType": "preprint",
@@ -22307,6 +22257,73 @@
       "year": 2022,
       "month": 1,
       "day": 20
+    }
+  },
+  {
+    "pmid": "35545714",
+    "key": "ZLNB3PQY",
+    "version": 2409,
+    "itemType": "journalArticle",
+    "title": "Viv: multiscale visualization of high-resolution multiplexed bioimaging data on the web",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Trevor",
+        "lastName": "Manz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ilan",
+        "lastName": "Gold"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nathan Heath",
+        "lastName": "Patterson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chuck",
+        "lastName": "McCallum"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark S.",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bruce W.",
+        "lastName": "Herr"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Katy",
+        "lastName": "Börner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jeffrey M.",
+        "lastName": "Spraggins"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "19",
+    "issue": "5",
+    "pages": "515-516",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/s41592-022-01482-7",
+    "ISSN": "1548-7091, 1548-7105",
+    "shortTitle": "Viv",
+    "url": "https://www.nature.com/articles/s41592-022-01482-7",
+    "date": {
+      "year": 2022
     }
   },
   {
@@ -26675,6 +26692,69 @@
     }
   },
   {
+    "pmid": "34252935",
+    "key": "8TU8WGLT",
+    "version": 2359,
+    "itemType": "journalArticle",
+    "title": "OncoThreads: visualization of large-scale longitudinal cancer molecular data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Theresa A.",
+        "lastName": "Harbig"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sabrina",
+        "lastName": "Nusrat"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tali",
+        "lastName": "Mazor"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qianwen",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Thomson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hans",
+        "lastName": "Bitter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ethan",
+        "lastName": "Cerami"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "MOTIVATION: Molecular profiling of patient tumors and liquid biopsies over time with next-generation sequencing technologies and new immuno-profile assays are becoming part of standard research and clinical practice. With the wealth of new longitudinal data, there is a critical need for visualizations for cancer researchers to explore and interpret temporal patterns not just in a single patient but across cohorts.\nRESULTS: To address this need we developed OncoThreads, a tool for the visualization of longitudinal clinical and cancer genomics and other molecular data in patient cohorts. The tool visualizes patient cohorts as temporal heatmaps and Sankey diagrams that support the interactive exploration and ranking of a wide range of clinical and molecular features. This allows analysts to discover temporal patterns in longitudinal data, such as the impact of mutations on response to a treatment, for example, emergence of resistant clones. We demonstrate the functionality of OncoThreads using a cohort of 23 glioma patients sampled at 2-4 timepoints.\nAVAILABILITY AND IMPLEMENTATION: Freely available at http://oncothreads.gehlenborglab.org. Implemented in Java Script using the cBioPortal web API as a backend.\nSUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+    "publicationTitle": "Bioinformatics (Oxford, England)",
+    "volume": "37",
+    "issue": "Suppl_1",
+    "pages": "i59-i66",
+    "journalAbbreviation": "Bioinformatics",
+    "DOI": "10.1093/bioinformatics/btab289",
+    "ISSN": "1367-4811",
+    "shortTitle": "OncoThreads",
+    "date": {
+      "year": 2021,
+      "month": 7,
+      "day": 12
+    }
+  },
+  {
     "pmid": "34307261",
     "key": "8Q9FW4QW",
     "version": 2299,
@@ -28193,63 +28273,6 @@
       "year": 2021,
       "month": 3,
       "day": 2
-    }
-  },
-  {
-    "key": "87VULTWY",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "OncoThreads: Visualization of Large Scale Longitudinal Cancer Molecular Data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Theresa A",
-        "lastName": "Harbig"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sabrina",
-        "lastName": "Nusrat"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tali",
-        "lastName": "Mazor"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Thomson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hans",
-        "lastName": "Bitter"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ethan",
-        "lastName": "Cerami"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Molecular profiling of patient tumors and liquid biopsies over time with next-generation sequencing technologies and new immuno-profile assays are becoming part of standard research and clinical practice. With the wealth of new longitudinal data, there is a critical need for visualizations for cancer researchers to explore and interpret temporal patterns not just in a single patient but across cohorts. To address this need we developed OncoThreads, a tool for the visualization of longitudinal clinical and cancer genomics and other molecular data in patient cohorts. The tool visualizes patient cohorts as temporal heatmaps and Sankey diagrams that support the interactive exploration and ranking of a wide range of clinical and molecular features. This allows analysts to discover temporal patterns in longitudinal data, such as the impact of mutations on response to a treatment, e.g. emergence of resistant clones. We demonstrate the functionality of OncoThreads using a cohort of 23 glioma patients sampled at 2-4 timepoints. OncoThreads is freely available at http://oncothreads.gehlenborglab.org and implemented in Javascript using the cBioPortal web API as a backend.",
-    "DOI": "10.31219/osf.io/b3n4u",
-    "shortTitle": "OncoThreads",
-    "url": "https://osf.io/b3n4u",
-    "date": {
-      "year": 2021,
-      "month": 1,
-      "day": 27
     }
   },
   {
@@ -29891,68 +29914,6 @@
     }
   },
   {
-    "key": "NQHXRKSJ",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "Viv: Multiscale Visualization of High-Resolution Multiplexed Bioimaging Data on the Web",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Trevor",
-        "lastName": "Manz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ilan",
-        "lastName": "Gold"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nathan Heath",
-        "lastName": "Patterson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Chuck",
-        "lastName": "McCallum"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mark S",
-        "lastName": "Keller"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Bruce W",
-        "lastName": "Herr"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Katy",
-        "lastName": "Börner"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jeffrey M",
-        "lastName": "Spraggins"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Recent advances in highly multiplexed imaging have enabled the comprehensive profiling of complex tissues in healthy and diseased states, facilitating the study of fundamental biology and human disease in spatially-resolved contexts at subcellular resolution. However, current computational infrastructure to distribute and visualize these data on the web remains complex to set up and maintain. To address these limitations, we have developed Viv—an open-source image visualization library for high-resolution multiplexed image data that is implemented in JavaScript and builds on modern web technologies. Viv directly renders OME-TIFF and OME-NGFF data formats. Three use cases, including integration into Jupyter Notebooks (https://github.com/hms-dbmi/vizarr), a visual exploration tool, and an image viewer (http://avivator.gehlenborglab.org) demonstrate the capabilities of our proposed approach.",
-    "DOI": "10.31219/osf.io/wd2gu",
-    "shortTitle": "Viv",
-    "url": "https://osf.io/wd2gu",
-    "date": {
-      "year": 2020,
-      "month": 8,
-      "day": 12
-    }
-  },
-  {
     "key": "LBA5BV5P",
     "version": 2280,
     "itemType": "preprint",
@@ -29991,6 +29952,32 @@
       "year": 2020,
       "month": 3,
       "day": 27
+    }
+  },
+  {
+    "key": "MEW9NIJN",
+    "version": 2400,
+    "itemType": "conferencePaper",
+    "title": "Making Tools that People Will Use: User-Centered Design in Computational Biology Research",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Mary",
+        "lastName": "Goldman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "pages": "346-350",
+    "DOI": "10.1142/9789811232701_0034",
+    "shortTitle": "Making Tools that People Will Use",
+    "url": "https://www.worldscientific.com/doi/abs/10.1142/9789811232701_0034",
+    "date": {
+      "year": 2020
     }
   },
   {
@@ -30162,32 +30149,6 @@
     "ISSN": "0167-7055, 1467-8659",
     "shortTitle": "P <span style=\"font-variant",
     "url": "https://onlinelibrary.wiley.com/doi/10.1111/cgf.13971",
-    "date": {
-      "year": 2020
-    }
-  },
-  {
-    "key": "HH3BIL99",
-    "version": 2295,
-    "itemType": "conferencePaper",
-    "title": "Making Tools that People Will Use: User-Centered Design in Computational Biology Research",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Mary",
-        "lastName": "Goldman"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "pages": "346-350",
-    "DOI": "10.1142/9789811232701_0034",
-    "shortTitle": "Making Tools that People Will Use",
-    "url": "https://www.worldscientific.com/doi/abs/10.1142/9789811232701_0034",
     "date": {
       "year": 2020
     }
@@ -31032,6 +30993,50 @@
       "year": 2019,
       "month": 10,
       "day": 10
+    }
+  },
+  {
+    "pmid": "29993603",
+    "key": "ZRKSHRG5",
+    "version": 2388,
+    "itemType": "journalArticle",
+    "title": "Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Carolina",
+        "lastName": "Nobre"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hilary",
+        "lastName": "Coon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Lex"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "25",
+    "issue": "3",
+    "pages": "1543-1558",
+    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
+    "DOI": "10.1109/TVCG.2018.2811488",
+    "ISSN": "1077-2626, 1941-0506, 2160-9306",
+    "shortTitle": "Lineage",
+    "url": "https://ieeexplore.ieee.org/document/8307265/",
+    "date": {
+      "year": 2019,
+      "month": 3,
+      "day": 1
     }
   },
   {
@@ -129857,43 +129862,6 @@
     }
   },
   {
-    "key": "HLAS9LZX",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "Lineage: Visualizing Multivariate Clinical Data in Genealogy Graphs",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Carolina",
-        "lastName": "Nobre"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hilary",
-        "lastName": "Coon"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Lex"
-      }
-    ],
-    "abstractNote": "The majority of diseases that are a significant challenge for public and individual heath are caused by a combination of hereditary and environmental factors. In this paper we introduce Lineage, a novel visual analysis tool designed to support domain experts who study such multifactorial diseases in the context of genealogies. Incorporating familial relationships between cases with other data can provide insights into shared genomic variants and shared environmental exposures that may be implicated in such diseases. We introduce a data and task abstraction, and argue that the problem of analyzing such diseases based on genealogical, clinical, and genetic data can be mapped to a multivariate graph visualization problem. The main contribution of our design study is a novel visual representation for tree-like, multivariate graphs, which we apply to genealogies and clinical data about the individuals in these families. We introduce data-driven aggregation methods to scale to multiple families. By designing the genealogy graph layout to align with a tabular view, we are able to incorporate extensive, multivariate attributes in the analysis of the genealogy without cluttering the graph. We validate our designs by conducting case studies with our domain collaborators.",
-    "DOI": "10.1101/128579",
-    "shortTitle": "Lineage",
-    "url": "http://biorxiv.org/lookup/doi/10.1101/128579",
-    "date": {
-      "year": 2017,
-      "month": 4,
-      "day": 19
-    }
-  },
-  {
     "key": "ELYVZ423",
     "version": 2278,
     "itemType": "preprint",
@@ -138234,6 +138202,41 @@
     }
   },
   {
+    "key": "67A8XVNB",
+    "version": 2385,
+    "itemType": "journalArticle",
+    "title": "TaCo: Comparative Visualization of Large Tabular Data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Reem",
+        "lastName": "Hourieh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Holger",
+        "lastName": "Stitz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marc",
+        "lastName": "Streit"
+      }
+    ],
+    "abstractNote": "Tabular data plays a vital role in many different domains. In the course of a project, changes to the structure and content of tables can result in multiple instances of a table. A challenging task when working with such derived tables is to understand what exactly has changed from one version to another. Traditional comparison tools assist users in inspecting differences between multiple table instances, however, the resulting visualizations are often hard to interpret or do not scale to large tables with thousands of rows and columns. To address these challenges, we developed TaCo, an interactive comparison tool that effectively visualizes the differences between multiple tables at various levels of granularity: (1) the aggregated differences between all table instances, (2) the differences between one table compared to all others, and (3) the detailed differences between two instances.",
+    "DOI": "10.2312/EURP.20161149",
+    "shortTitle": "TaCo",
+    "url": "https://diglib.eg.org/handle/10.2312/eurp20161149",
+    "date": {
+      "year": 2016
+    }
+  },
+  {
     "pmid": "27158780",
     "key": "EJVENS66",
     "version": 2296,
@@ -139744,41 +139747,6 @@
     }
   },
   {
-    "key": "XJS87T9Z",
-    "version": 2280,
-    "itemType": "preprint",
-    "title": "TaCo: Comparative Visualization of Large Tabular Data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Reem",
-        "lastName": "Hourieh"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Holger",
-        "lastName": "Stitz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marc",
-        "lastName": "Streit"
-      }
-    ],
-    "abstractNote": "Tabular data plays a vital role in many different domains. In the course of a project, changes to the structure and content of tables can result in multiple instances of a table. A challenging task when working with such derived tables is to understand what exactly has changed from one version to another. Traditional comparison tools assist users in inspecting differences between multiple table instances, however, the resulting visualizations are often hard to interpret or do not scale to large tables with thousands of rows and columns. To address these challenges, we developed TaCo, an interactive comparison tool that effectively visualizes the differences between multiple tables at various levels of granularity: (1) the aggregated differences between all table instances, (2) the differences between one table compared to all others, and (3) the detailed differences between two instances.",
-    "DOI": "10.2312/EURP.20161149",
-    "shortTitle": "TaCo",
-    "url": "https://diglib.eg.org/handle/10.2312/eurp20161149",
-    "date": {
-      "year": 2016
-    }
-  },
-  {
     "key": "ZYIFJN6W",
     "version": 2297,
     "itemType": "dataset",
@@ -139856,7 +139824,7 @@
   },
   {
     "key": "5MERTEFS",
-    "version": 2328,
+    "version": 2351,
     "itemType": "journalArticle",
     "title": "Points of View: Temporal data",
     "creators": [
@@ -146666,38 +146634,8 @@
     }
   },
   {
-    "key": "BPKHE2VS",
-    "version": 2327,
-    "itemType": "journalArticle",
-    "title": "Points of View: Bar charts and box plots",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Marc",
-        "lastName": "Streit"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "11",
-    "issue": "2",
-    "pages": "117-117",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.2807",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.2807",
-    "date": {
-      "year": 2014
-    }
-  },
-  {
     "key": "QPTTZ7ZX",
-    "version": 2326,
+    "version": 2351,
     "itemType": "journalArticle",
     "title": "Points of View: Sets and intersections",
     "creators": [
@@ -146721,6 +146659,36 @@
     "DOI": "10.1038/nmeth.3033",
     "ISSN": "1548-7091, 1548-7105",
     "url": "https://www.nature.com/articles/nmeth.3033",
+    "date": {
+      "year": 2014
+    }
+  },
+  {
+    "key": "BPKHE2VS",
+    "version": 2349,
+    "itemType": "journalArticle",
+    "title": "Points of View: Bar charts and box plots",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Marc",
+        "lastName": "Streit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "11",
+    "issue": "2",
+    "pages": "117-117",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.2807",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.2807",
     "date": {
       "year": 2014
     }
@@ -151689,7 +151657,7 @@
   },
   {
     "key": "9LIS98VC",
-    "version": 2325,
+    "version": 2350,
     "itemType": "journalArticle",
     "title": "Points of View: Power of the plane",
     "creators": [
@@ -151718,10 +151686,10 @@
     }
   },
   {
-    "key": "K8QFF25T",
-    "version": 2324,
+    "key": "TJAZCB8U",
+    "version": 2350,
     "itemType": "journalArticle",
-    "title": "Points of View: Into the third dimension",
+    "title": "Points of View: Networks",
     "creators": [
       {
         "creatorType": "author",
@@ -151737,19 +151705,19 @@
     "abstractNote": "",
     "publicationTitle": "Nature Methods",
     "volume": "9",
-    "issue": "9",
-    "pages": "851-851",
+    "issue": "2",
+    "pages": "115-115",
     "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.2151",
+    "DOI": "10.1038/nmeth.1862",
     "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.2151",
+    "url": "https://www.nature.com/articles/nmeth.1862",
     "date": {
       "year": 2012
     }
   },
   {
     "key": "FKRT82Z5",
-    "version": 2323,
+    "version": 2348,
     "itemType": "journalArticle",
     "title": "Points of View: Mapping quantitative data to color",
     "creators": [
@@ -151778,10 +151746,10 @@
     }
   },
   {
-    "key": "U2RZT79K",
-    "version": 2322,
+    "key": "K8QFF25T",
+    "version": 2347,
     "itemType": "journalArticle",
-    "title": "Points of View: Integrating data",
+    "title": "Points of View: Into the third dimension",
     "creators": [
       {
         "creatorType": "author",
@@ -151797,19 +151765,19 @@
     "abstractNote": "",
     "publicationTitle": "Nature Methods",
     "volume": "9",
-    "issue": "4",
-    "pages": "315-315",
+    "issue": "9",
+    "pages": "851-851",
     "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.1944",
+    "DOI": "10.1038/nmeth.2151",
     "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.1944",
+    "url": "https://www.nature.com/articles/nmeth.2151",
     "date": {
       "year": 2012
     }
   },
   {
     "key": "ZJ2CXXYA",
-    "version": 2321,
+    "version": 2347,
     "itemType": "journalArticle",
     "title": "Points of View: Heat maps",
     "creators": [
@@ -151838,10 +151806,10 @@
     }
   },
   {
-    "key": "TJAZCB8U",
-    "version": 2320,
+    "key": "U2RZT79K",
+    "version": 2346,
     "itemType": "journalArticle",
-    "title": "Points of View: Networks",
+    "title": "Points of View: Integrating data",
     "creators": [
       {
         "creatorType": "author",
@@ -151857,12 +151825,12 @@
     "abstractNote": "",
     "publicationTitle": "Nature Methods",
     "volume": "9",
-    "issue": "2",
-    "pages": "115-115",
+    "issue": "4",
+    "pages": "315-315",
     "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.1862",
+    "DOI": "10.1038/nmeth.1944",
     "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.1862",
+    "url": "https://www.nature.com/articles/nmeth.1944",
     "date": {
       "year": 2012
     }
