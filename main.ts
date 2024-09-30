@@ -5,61 +5,70 @@ import { assert } from "jsr:@std/assert@1.0.6";
 import { stringify } from "jsr:@std/csv@1.0.3";
 
 let HIDIVE_GROUP_ID = "5145258";
-let HIDIVE_PUBLICATIONS_COLLECTION_ID = "K2GPFB99";
+let HIDIVE_PUBLICATIONS_COLLECTION_ID = "YGTEVG73";
+let HIDIVE_PREPRINTS_COLLECTION_ID = "AJKTPNSI";
 let BASE_URL = new URL(`https://api.zotero.org/groups/${HIDIVE_GROUP_ID}/`);
 
-type Item = z.infer<typeof zoteroItemResponse>;
-type CslJson = z.infer<typeof cslJsonSchema>;
-type Author =
-  | { kind: "human"; family: string; given: string }
-  | { kind: "consortium"; name: string };
+type ZoteroItem = z.infer<typeof zoteroItemResponse>;
+type Author = ZoteroItem["creators"][number];
 
-let authorSchema = z.object({
-  family: z.string(),
-  given: z.string(),
-}).transform((author): Author => {
-  if (isNetworkOrConsortium(author.family)) {
-    return { kind: "consortium", name: author.family };
-  }
-  return { kind: "human", family: author.family, given: author.given };
-});
-
-let cslJsonSchema = z.object({
-  id: z.string(),
-  type: z.string(),
+let zoteroItemDataSchema = z.object({
+  key: z.string(),
+  version: z.number(),
+  itemType: z.string(),
   title: z.string(),
-  "container-title": z.string().optional(),
-  page: z.string().optional(),
-  volume: z.string().optional(),
-  issue: z.string().optional(),
-  URL: z.string().optional(),
-  DOI: z.string().optional(),
-  journalAbbreviation: z.string().optional(),
-  author: z.array(authorSchema),
-  issued: z.object({
-    "date-parts": z.array(z.array(z.coerce.number()).min(1).max(3)),
-  }).transform((value) => ({
-    year: value["date-parts"][0][0],
-    month: value["date-parts"][0][1] ?? undefined,
-    day: value["date-parts"][0][2] ?? undefined,
-  })).optional(),
+  creators: z.union([
+    z.object({
+      creatorType: z.string(),
+      name: z.string(),
+    }),
+    z.object({
+      creatorType: z.string(),
+      firstName: z.string(),
+      lastName: z.string(),
+    }),
+  ]).array(),
+  abstractNote: z.string().transform((value) =>
+    value.replace(/^Abstract\s+/, "") // remove "Abstract" prefix
+  ).optional(),
+  publicationTitle: z.string().transform((v) => v === "" ? undefined : v)
+    .optional(),
+  volume: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  issue: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  pages: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  series: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  seriesTitle: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  seriesText: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  journalAbbreviation: z.string().transform((v) => v === "" ? undefined : v)
+    .optional(),
+  DOI: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  ISSN: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  shortTitle: z.string().transform((v) => v === "" ? undefined : v).optional(),
+  url: z.string().transform((v) => v === "" ? undefined : v).optional(),
 });
 
 let zoteroItemResponse = z.object({
-  key: z.string(),
-  version: z.number(),
   bib: z.string().transform(parseBibEntry),
-  csljson: cslJsonSchema,
-});
+  data: zoteroItemDataSchema,
+  csljson: z.object({
+    issued: z.object({
+      "date-parts": z.array(z.array(z.union([z.number(), z.string()]))),
+    }).refine((value) => value["date-parts"].length === 1, {
+      message: "Too many dates",
+    }).transform((value) => {
+      let parts = value["date-parts"][0].map(Number);
+      return { year: parts[0], month: parts[1], day: parts[2] };
+    }),
+  }),
+}).transform(({ bib, data, csljson }) => ({
+  ...data,
+  bib,
+  date: csljson.issued,
+}));
 
 let ncbiIdConverterResponseSchema = z.object({
   records: z.object({ doi: z.string(), pmid: z.string().optional() }).array(),
 });
-
-function isNetworkOrConsortium(familyName: string) {
-  familyName = familyName.toLowerCase();
-  return familyName.includes("network") || familyName.includes("consortium");
-}
 
 function parseBibEntry(xml: string): string {
   let match = xml.match(/<div class="csl-right-inline"[^>]*>(.*?)<\/div>/);
@@ -72,16 +81,32 @@ function parseBibEntry(xml: string): string {
  * @see https://www.zotero.org/support/dev/web_api/v3/basics
  * @returns A list of publications.
  */
-async function fetchHidivePublications(): Promise<Array<string>> {
+export async function fetchHidiveZoteroItemKeys(
+  collectionId: string,
+): Promise<Set<string>> {
+  let ids = new Set<string>();
+
   let url = new URL(
-    `collections/${HIDIVE_PUBLICATIONS_COLLECTION_ID}/items`,
+    `collections/${collectionId}/items`,
     BASE_URL,
   );
   url.searchParams.set("format", "keys");
-  url.searchParams.set("itemType", "-attachment");
+  url.searchParams.set("itemType", `-attachment`);
   let response = await fetch(url);
   let text = await response.text();
-  return text.trim().split("\n");
+  for (let id of text.trim().split("\n")) {
+    ids.add(id);
+  }
+
+  // idk we want to filter out attachments and notes but I don't know how to do
+  // that in a single request
+  url.searchParams.set("itemType", "note");
+  response = await fetch(url);
+  text = await response.text();
+  for (let id of text.trim().split("\n")) {
+    ids.delete(id);
+  }
+  return ids;
 }
 
 async function getPubMedIds(
@@ -103,80 +128,92 @@ async function getPubMedIds(
   return records;
 }
 
-async function fetchZoteroItem(itemKey: string): Promise<Item> {
+async function fetchZoteroItem(itemKey: string): Promise<ZoteroItem> {
   let url = new URL(`items/${itemKey}`, BASE_URL);
   url.searchParams.set("format", "json");
-  url.searchParams.set("include", "csljson,bib");
+  url.searchParams.set("include", "csljson,bib,data");
   url.searchParams.set(
     "style",
     "https://gist.githubusercontent.com/manzt/743d185cc9e84fec0669aefb2d423d78/raw/d303835cf3bb82096e30a27be0f0225a42c65323/hidive.csl",
   );
   let response = await fetch(url);
   let data = await response.json();
-  let item = zoteroItemResponse.parse(data);
-  return item;
+  return zoteroItemResponse.parse(data);
 }
 
 function formatAuthors(authors: Array<Author>) {
   let formatted = authors.map((author) => {
-    if (author.kind === "consortium") {
+    if ("name" in author) {
       return author.name;
     }
-    let { given, family } = author;
-    let initials = given.match(/[A-Z]/g); // get initials
-    return `${initials?.join("") ?? ""} ${family}`;
+    let { firstName, lastName } = author;
+    let initials = firstName.match(/[A-Z]/g); // get initials
+    return `${initials?.join("") ?? ""} ${lastName}`;
   });
   if (formatted.length === 2) return formatted.join(" and ");
   return formatted.join(", ");
 }
 
-function formatCitation(meta: CslJson) {
-  let citation = `${formatAuthors(meta.author)}, "${meta.title}", `;
-  if (meta["container-title"]) {
-    citation += `${meta["container-title"]} `;
-    if (meta.volume) citation += `${meta.volume}`;
-    if (meta.issue) citation += `(${meta.issue})`;
-    if (meta.page) {
-      citation += `${(meta.issue || meta.volume) ? ":" : ""}${meta.page}`;
-    }
-  } else {
-    // some kind of preprint check url for arXiv, bioRxiv, medRxiv, or OSF
-    let preprint: string | undefined;
-    if (meta.URL?.includes("arxiv")) {
-      preprint = "arXiv";
-    } else if (meta.URL?.includes("biorxiv")) {
-      preprint = "bioRxiv";
-    } else if (meta.URL?.includes("medrxiv")) {
-      preprint = "medRxiv";
-    } else if (meta.URL?.includes("osf")) {
-      preprint = "OSF Preprints";
-    }
-    if (preprint) citation += ` ${preprint}`;
+function formatJournalInfo(meta: ZoteroItem) {
+  if (meta.itemType === "thesis") {
+    return "Thesis";
   }
-  assert(meta.issued, "Missing year in publication");
-  return citation + ` (${meta.issued.year}).`;
+  if (meta.itemType === "preprint") {
+    if (meta.url?.includes("arxiv")) return "arXiv";
+    if (meta.url?.includes("biorxiv")) return "bioRxiv";
+    if (meta.url?.includes("medrxiv")) return "medRxiv";
+    if (meta.url?.includes("osf")) return "OSF Preprints";
+    return "Preprint";
+  }
+  let { publicationTitle, volume, issue, pages } = meta;
+  if (!publicationTitle) return "";
+  let citation = publicationTitle;
+  if (volume) citation += ` ${volume}`;
+  if (issue) citation += `(${issue})`;
+  if (pages) {
+    citation += `${(issue || volume) ? ":" : " "}${pages}`;
+  }
+  return citation;
 }
 
-function toCsv(pubs: Array<Item & { pmid?: string }>) {
-  let rows = pubs.map(({ csljson: pub, pmid }) => ({
-    Month: pub.issued?.month,
-    Year: pub.issued?.year,
+function formatCitation(meta: ZoteroItem) {
+  let authors = formatAuthors(meta.creators);
+  let title = meta.title;
+  let info = formatJournalInfo(meta);
+  let year = meta.date.year;
+  return `${authors}, "${title}", ${info} (${year}).`;
+}
+
+function toCsv(pubs: Array<ZoteroItem & { pmid?: string }>) {
+  let rows = pubs.map((pub) => ({
+    Month: pub.date.month,
+    Year: pub.date.year,
     Citation: formatCitation(pub),
-    "PubMed ID": pmid,
+    "PubMed ID": pub.pmid,
     DOI: pub.DOI,
   }));
   let csv = stringify(rows, { columns: Object.keys(rows[0]) });
   return csv;
 }
 
-if (import.meta.main) {
-  let itemKeys = await fetchHidivePublications();
+async function main() {
+  let [pubIds, preprintIds] = await Promise.all([
+    fetchHidiveZoteroItemKeys(HIDIVE_PUBLICATIONS_COLLECTION_ID),
+    fetchHidiveZoteroItemKeys(HIDIVE_PREPRINTS_COLLECTION_ID),
+  ]);
+  // make sure we don't have overlap between the two collections
+  assert(
+    pubIds.intersection(preprintIds).size === 0,
+    "Overlap between collections",
+  );
+  let itemKeys = [...pubIds, ...preprintIds];
+
   let pb = new ProgressBar({
     title: "Fetching publications",
     total: itemKeys.length,
   });
 
-  let items = [];
+  let items: Array<ZoteroItem> = [];
   let i = 0;
   for (let itemKey of itemKeys) {
     try {
@@ -193,30 +230,32 @@ if (import.meta.main) {
 
   let idMap = await getPubMedIds(
     items
-      .map((item) => item.csljson.DOI)
+      .map((item) => item.DOI)
       .filter((d) => typeof d === "string"),
   );
 
   let final = items
-    // filter out items without authors
-    .filter((item) => item.csljson.author)
-    // sort by date (newest first)
     .toSorted((a, b) => {
-      let dateA = new Date(
-        a.csljson.issued?.year ?? 0,
-        a.csljson.issued?.month ?? 0,
-      );
-      let dateB = new Date(
-        b.csljson.issued?.year ?? 0,
-        b.csljson.issued?.month ?? 0,
-      );
+      let dateA = new Date(a.date.year, a.date.month ?? 0);
+      let dateB = new Date(b.date.year, b.date.month ?? 0);
       return dateB.getTime() - dateA.getTime();
     })
     .map((item) => ({
-      pmid: item.csljson.DOI ? idMap[item.csljson.DOI] : undefined,
+      pmid: idMap[item.DOI as string],
       ...item,
     }));
 
   Deno.writeTextFileSync("pubs.json", JSON.stringify(final, null, 2));
-  Deno.writeTextFileSync("pubs.csv", toCsv(final));
+  Deno.writeTextFileSync(
+    "pubs.csv",
+    toCsv(final.filter((p) => p.itemType !== "preprint")),
+  );
+  Deno.writeTextFileSync(
+    "preprints.csv",
+    toCsv(final.filter((p) => p.itemType === "preprint")),
+  );
+}
+
+if (import.meta.main) {
+  main();
 }
