@@ -134,7 +134,7 @@ async function fetchZoteroItem(itemKey: string): Promise<ZoteroItem> {
   url.searchParams.set("include", "csljson,bib,data");
   url.searchParams.set(
     "style",
-    "https://raw.githubusercontent.com/manzt/hidive-pubs/refs/heads/main/hidive.csl",
+    "https://raw.githubusercontent.com/manzt/hidive-pubs/51c2da1aa0c00425c4d188207517a487fbe25ef7/assets/hidive.csl",
   );
   let response = await fetch(url);
   let data = await response.json();
