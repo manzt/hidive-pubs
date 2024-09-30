@@ -22,7 +22,6 @@ jobs:
         with:
           deno-version: rc
       - run: deno run -A main.ts
-      - run: deno run -A update-readme.ts
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:
