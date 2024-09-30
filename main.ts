@@ -2,14 +2,26 @@ import { z } from "npm:zod@3.23.8";
 import he from "npm:he@1.2.0";
 import ProgressBar from "jsr:@deno-library/progress@1.4.9";
 import { assert } from "jsr:@std/assert@1.0.6";
+import { stringify } from "jsr:@std/csv@1.0.3";
 
 let HIDIVE_GROUP_ID = "5145258";
 let HIDIVE_PUBLICATIONS_COLLECTION_ID = "K2GPFB99";
 let BASE_URL = new URL(`https://api.zotero.org/groups/${HIDIVE_GROUP_ID}/`);
 
+type Item = z.infer<typeof zoteroItemResponse>;
+type CslJson = z.infer<typeof cslJsonSchema>;
+type Author =
+  | { kind: "human"; family: string; given: string }
+  | { kind: "consortium"; name: string };
+
 let authorSchema = z.object({
   family: z.string(),
   given: z.string(),
+}).transform((author): Author => {
+  if (isNetworkOrConsortium(author.family)) {
+    return { kind: "consortium", name: author.family };
+  }
+  return { kind: "human", family: author.family, given: author.given };
 });
 
 let cslJsonSchema = z.object({
@@ -23,7 +35,7 @@ let cslJsonSchema = z.object({
   URL: z.string().optional(),
   DOI: z.string().optional(),
   journalAbbreviation: z.string().optional(),
-  author: z.array(authorSchema).optional(),
+  author: z.array(authorSchema),
   issued: z.object({
     "date-parts": z.array(z.array(z.coerce.number()).min(1).max(3)),
   }).transform((value) => ({
@@ -43,6 +55,11 @@ let zoteroItemResponse = z.object({
 let ncbiIdConverterResponseSchema = z.object({
   records: z.object({ doi: z.string(), pmid: z.string().optional() }).array(),
 });
+
+function isNetworkOrConsortium(familyName: string) {
+  familyName = familyName.toLowerCase();
+  return familyName.includes("network") || familyName.includes("consortium");
+}
 
 function parseBibEntry(xml: string): string {
   let match = xml.match(/<div class="csl-right-inline"[^>]*>(.*?)<\/div>/);
@@ -66,8 +83,6 @@ async function fetchHidivePublications(): Promise<Array<string>> {
   let text = await response.text();
   return text.trim().split("\n");
 }
-
-type Item = z.infer<typeof zoteroItemResponse>;
 
 async function getPubMedIds(
   dois: Array<string>,
@@ -100,6 +115,58 @@ async function fetchZoteroItem(itemKey: string): Promise<Item> {
   let data = await response.json();
   let item = zoteroItemResponse.parse(data);
   return item;
+}
+
+function formatAuthors(authors: Array<Author>) {
+  let formatted = authors.map((author) => {
+    if (author.kind === "consortium") {
+      return author.name;
+    }
+    let { given, family } = author;
+    let initials = given.match(/[A-Z]/g); // get initials
+    return `${initials?.join("") ?? ""} ${family}`;
+  });
+  if (formatted.length === 2) return formatted.join(" and ");
+  return formatted.join(", ");
+}
+
+function formatCitation(meta: CslJson) {
+  let citation = `${formatAuthors(meta.author)}, "${meta.title}", `;
+  if (meta["container-title"]) {
+    citation += `${meta["container-title"]} `;
+    if (meta.volume) citation += `${meta.volume}`;
+    if (meta.issue) citation += `(${meta.issue})`;
+    if (meta.page) {
+      citation += `${(meta.issue || meta.volume) ? ":" : ""}${meta.page}`;
+    }
+  } else {
+    // some kind of preprint check url for arXiv, bioRxiv, medRxiv, or OSF
+    let preprint: string | undefined;
+    if (meta.URL?.includes("arxiv")) {
+      preprint = "arXiv";
+    } else if (meta.URL?.includes("biorxiv")) {
+      preprint = "bioRxiv";
+    } else if (meta.URL?.includes("medrxiv")) {
+      preprint = "medRxiv";
+    } else if (meta.URL?.includes("osf")) {
+      preprint = "OSF Preprints";
+    }
+    if (preprint) citation += ` ${preprint}`;
+  }
+  assert(meta.issued, "Missing year in publication");
+  return citation + ` (${meta.issued.year}).`;
+}
+
+function toCsv(pubs: Array<Item & { pmid?: string }>) {
+  let rows = pubs.map(({ csljson: pub, pmid }) => ({
+    Month: pub.issued?.month,
+    Year: pub.issued?.year,
+    Citation: formatCitation(pub),
+    "PubMed ID": pmid,
+    DOI: pub.DOI,
+  }));
+  let csv = stringify(rows, { columns: Object.keys(rows[0]) });
+  return csv;
 }
 
 if (import.meta.main) {
@@ -151,4 +218,5 @@ if (import.meta.main) {
     }));
 
   Deno.writeTextFileSync("pubs.json", JSON.stringify(final, null, 2));
+  Deno.writeTextFileSync("pubs.csv", toCsv(final));
 }
