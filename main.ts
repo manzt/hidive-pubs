@@ -1,5 +1,6 @@
 import * as p from "npm:@clack/prompts@0.7.0";
 import { z } from "npm:zod@3.23.8";
+import * as fs from "jsr:@std/fs@1.0.4";
 import * as colors from "jsr:@std/fmt@1.0.2/colors";
 import { stringify } from "jsr:@std/csv@1.0.3";
 
@@ -267,30 +268,27 @@ if (import.meta.main) {
     }));
 
   {
+    let outDir = new URL("assets/", import.meta.url);
     let spinner = p.spinner();
+    spinner.start("Exporting papers to disk");
 
-    spinner.start("Writing data to disk");
-
+    await fs.ensureDir(outDir);
     Deno.writeTextFileSync(
-      "assets/papers.json",
+      new URL("papers.json", outDir),
       JSON.stringify(withPubMedIds, null, 2),
     );
-
     Deno.writeTextFileSync(
-      "assets/pubs.csv",
+      new URL("pubs.csv", outDir),
       toCsv(withPubMedIds.filter((p) => p.itemType !== "preprint")),
     );
-
     Deno.writeTextFileSync(
-      "assets/preprints.csv",
+      new URL("preprints.csv", outDir),
       toCsv(withPubMedIds.filter((p) => p.itemType === "preprint")),
     );
 
     spinner.stop(
-      `Wrote ${colors.yellow(items.length.toString())} papers to: ${
-        colors.cyan("assets/papers.json")
-      }, ${colors.cyan("assets/pubs.csv")}, ${
-        colors.cyan("assets/preprints.csv")
+      `Exported ${colors.yellow(items.length.toString())} papers to: ${
+        colors.cyan(outDir.toString())
       }`,
     );
   }
