@@ -129904,6 +129904,31 @@
     }
   },
   {
+    "pmid": "28052061",
+    "key": "7Y2TD9C9",
+    "version": 2419,
+    "itemType": "journalArticle",
+    "title": "Integrated genomic characterization of oesophageal carcinoma",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "The Cancer Genome Atlas Research Network"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature",
+    "volume": "541",
+    "issue": "7636",
+    "pages": "169-175",
+    "journalAbbreviation": "Nature",
+    "DOI": "10.1038/nature20805",
+    "ISSN": "0028-0836, 1476-4687",
+    "url": "https://www.nature.com/articles/nature20805",
+    "date": {
+      "year": 2017
+    }
+  },
+  {
     "pmid": "28810144",
     "key": "EF3RU9WH",
     "version": 2287,
