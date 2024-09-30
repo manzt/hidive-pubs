@@ -4,51 +4,52 @@ import * as fs from "jsr:@std/fs@1.0.4";
 import * as colors from "jsr:@std/fmt@1.0.2/colors";
 import { stringify } from "jsr:@std/csv@1.0.3";
 
-let HIDIVE_GROUP_ID = "5145258";
-let HIDIVE_PUBLICATIONS_COLLECTION_ID = "YGTEVG73";
-let HIDIVE_PREPRINTS_COLLECTION_ID = "AJKTPNSI";
-let BASE_URL = new URL(`https://api.zotero.org/groups/${HIDIVE_GROUP_ID}/`);
+let HIDIVE_GROUP_ID = "5145258" as const;
+let HIDIVE_PUBLICATIONS_COLLECTION_ID = "YGTEVG73" as const;
+let HIDIVE_PREPRINTS_COLLECTION_ID = "AJKTPNSI" as const;
 
 type ZoteroItem = z.infer<typeof zoteroItemSchema>;
 type Author = ZoteroItem["creators"][number];
 
-let zoteroItemDataSchema = z.object({
-  key: z.string(),
-  version: z.number(),
-  itemType: z.string(),
-  title: z.string(),
-  creators: z.union([
-    z.object({
-      creatorType: z.string(),
-      name: z.string(),
-    }),
-    z.object({
-      creatorType: z.string(),
-      firstName: z.string(),
-      lastName: z.string(),
-    }),
-  ]).array(),
-  abstractNote: z.string().transform((value) =>
-    value.replace(/^Abstract\s+/, "") // remove "Abstract" prefix
-  ).optional(),
-  publicationTitle: z.string().transform((v) => v === "" ? undefined : v)
-    .optional(),
-  volume: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  issue: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  pages: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  series: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  seriesTitle: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  seriesText: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  journalAbbreviation: z.string().transform((v) => v === "" ? undefined : v)
-    .optional(),
-  DOI: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  ISSN: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  shortTitle: z.string().transform((v) => v === "" ? undefined : v).optional(),
-  url: z.string().transform((v) => v === "" ? undefined : v).optional(),
-});
+/** An optional string that is transformed to undefined if it is an empty string. */
+let maybeStringSchema = z
+  .string()
+  .transform((v) => v === "" ? undefined : v)
+  .optional();
 
 let zoteroItemSchema = z.object({
-  data: zoteroItemDataSchema,
+  data: z.object({
+    key: z.string(),
+    version: z.number(),
+    itemType: z.string(),
+    title: z.string(),
+    creators: z.union([
+      z.object({
+        creatorType: z.enum(["author", "editor"]),
+        name: z.string(),
+      }),
+      z.object({
+        creatorType: z.enum(["author", "editor"]),
+        firstName: z.string(),
+        lastName: z.string(),
+      }),
+    ]).array(),
+    abstractNote: z.string().transform((value) =>
+      value.replace(/^Abstract\s+/, "") // remove "Abstract" prefix
+    ),
+    publicationTitle: maybeStringSchema,
+    volume: maybeStringSchema,
+    issue: maybeStringSchema,
+    pages: maybeStringSchema,
+    series: maybeStringSchema,
+    seriesTitle: maybeStringSchema,
+    seriesText: maybeStringSchema,
+    journalAbbreviation: maybeStringSchema,
+    DOI: maybeStringSchema,
+    ISSN: maybeStringSchema,
+    shortTitle: maybeStringSchema,
+    url: maybeStringSchema,
+  }),
   csljson: z.object({
     issued: z.object({
       "date-parts": z.array(z.array(z.union([z.number(), z.string()]))),
@@ -59,47 +60,11 @@ let zoteroItemSchema = z.object({
       return { year: parts[0], month: parts[1], day: parts[2] };
     }),
   }),
-}).transform(({ data, csljson }) => ({
-  ...data,
-  date: csljson.issued,
-}));
+}).transform(({ data, csljson }) => ({ ...data, date: csljson.issued }));
 
 let ncbiIdConverterResponseSchema = z.object({
   records: z.object({ doi: z.string(), pmid: z.string().optional() }).array(),
 });
-
-/**
- * Fetches the publications from the HiDive Zotero group.
- * @see https://www.zotero.org/support/dev/web_api/v3/basics
- * @returns A list of publications.
- */
-export async function fetchHidiveZoteroItemKeys(
-  collectionId: string,
-): Promise<Set<string>> {
-  let ids = new Set<string>();
-
-  let url = new URL(
-    `collections/${collectionId}/items`,
-    BASE_URL,
-  );
-  url.searchParams.set("format", "keys");
-  url.searchParams.set("itemType", `-attachment`);
-  let response = await fetch(url);
-  let text = await response.text();
-  for (let id of text.trim().split("\n")) {
-    ids.add(id);
-  }
-
-  // idk we want to filter out attachments and notes but I don't know how to do
-  // that in a single request
-  url.searchParams.set("itemType", "note");
-  response = await fetch(url);
-  text = await response.text();
-  for (let id of text.trim().split("\n")) {
-    ids.delete(id);
-  }
-  return ids;
-}
 
 async function getPubMedIds(
   dois: Array<string>,
@@ -126,7 +91,8 @@ function formatAuthors(authors: Array<Author>) {
       return author.name;
     }
     let { firstName, lastName } = author;
-    let initials = firstName.match(/[A-Z]/g); // get initials
+    // extract capital letters from first name as initials
+    let initials = firstName.match(/[A-Z]/g);
     return `${initials?.join("") ?? ""} ${lastName}`;
   });
   if (formatted.length === 2) return formatted.join(" and ");
@@ -175,15 +141,25 @@ function toCsv(pubs: Array<ZoteroItem & { pmid?: string }>) {
   return csv;
 }
 
-async function fetchAllCollectionItems(
+/**
+ * Fetches all items in a Zotero collection.
+ *
+ * Uses the Zotero API to fetch all items in a collection. The API is paginated
+ * so this function will make multiple requests to fetch all items.
+ *
+ * @param collectionId The ID of the collection to fetch items from.
+ */
+async function fetchZoteroCollection(
+  groupId: string,
   collectionId: string,
 ): Promise<ZoteroItem[]> {
+  let baseUrl = new URL(`https://api.zotero.org/groups/${groupId}/`);
   let itemsPerPage = 100;
   let items: ZoteroItem[] = [];
   let start = 0;
 
   while (true) {
-    let url = new URL(`collections/${collectionId}/items`, BASE_URL);
+    let url = new URL(`collections/${collectionId}/items`, baseUrl);
     url.searchParams.set("format", "json");
     url.searchParams.set("include", "csljson,data");
     url.searchParams.set("itemType", "-attachment");
@@ -209,7 +185,7 @@ async function fetchAllCollectionItems(
   return items;
 }
 
-if (import.meta.main) {
+async function main() {
   let items: Array<ZoteroItem> = [];
   let idMap: Record<string, string> = {};
 
@@ -219,7 +195,10 @@ if (import.meta.main) {
     spinner.start(
       colors.bold(`Fetching HIDIVE ${colors.cyan("publications")}`),
     );
-    let pubs = await fetchAllCollectionItems(HIDIVE_PUBLICATIONS_COLLECTION_ID);
+    let pubs = await fetchZoteroCollection(
+      HIDIVE_GROUP_ID,
+      HIDIVE_PUBLICATIONS_COLLECTION_ID,
+    );
     spinner.stop(
       `Fetched ${colors.yellow(pubs.length.toString())} publications`,
     );
@@ -229,7 +208,8 @@ if (import.meta.main) {
   {
     let spinner = p.spinner();
     spinner.start(colors.bold(`Fetching HIDIVE ${colors.cyan("preprints")}`));
-    let preprints = await fetchAllCollectionItems(
+    let preprints = await fetchZoteroCollection(
+      HIDIVE_GROUP_ID,
       HIDIVE_PREPRINTS_COLLECTION_ID,
     );
     spinner.stop(
@@ -294,4 +274,8 @@ if (import.meta.main) {
   }
 
   p.outro("Done!");
+}
+
+if (import.meta.main) {
+  main();
 }
