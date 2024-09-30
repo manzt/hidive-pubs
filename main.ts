@@ -200,7 +200,7 @@ async function main() {
       HIDIVE_PUBLICATIONS_COLLECTION_ID,
     );
     spinner.stop(
-      `Fetched ${colors.yellow(pubs.length.toString())} publications`,
+      `Found ${colors.yellow(pubs.length.toString())} publications`,
     );
     items.push(...pubs);
   }
@@ -213,7 +213,7 @@ async function main() {
       HIDIVE_PREPRINTS_COLLECTION_ID,
     );
     spinner.stop(
-      `Fetched ${colors.yellow(preprints.length.toString())} preprints`,
+      `Found ${colors.yellow(preprints.length.toString())} preprints`,
     );
     items.push(...preprints);
   }
