@@ -1,0 +1,30 @@
+name: Run script
+
+on:
+  workflow_dispatch:
+  # Schedule to run every day at 00:00 UTC
+  cron:
+    - '0 0 * * *'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: denoland/setup-deno@v1
+        with:
+          deno-version: rc
+      - run: deno run -A main.ts
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'Update HIDIVE papers'
+          title: 'Update HIDIVE papers'
+          body: |
+            This is an automated pull request to update HIDIVE lab papers from Zotero collections.
+          branch: update-papers
+          base: main
