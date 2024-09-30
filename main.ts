@@ -245,13 +245,13 @@ async function main() {
       ...item,
     }));
 
-  Deno.writeTextFileSync("pubs.json", JSON.stringify(final, null, 2));
+  Deno.writeTextFileSync("assets/pubs.json", JSON.stringify(final, null, 2));
   Deno.writeTextFileSync(
-    "pubs.csv",
+    "assets/pubs.csv",
     toCsv(final.filter((p) => p.itemType !== "preprint")),
   );
   Deno.writeTextFileSync(
-    "preprints.csv",
+    "assets/preprints.csv",
     toCsv(final.filter((p) => p.itemType === "preprint")),
   );
 }
