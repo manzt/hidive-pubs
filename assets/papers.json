@@ -4326,6 +4326,53 @@
     }
   },
   {
+    "pmid": "36155452",
+    "key": "4BPELC4B",
+    "version": 2330,
+    "itemType": "journalArticle",
+    "title": "Polyphony: an Interactive Transfer Learning Framework for Single-Cell Data Analysis",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Furui",
+        "lastName": "Cheng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark S",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Huamin",
+        "lastName": "Qu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qianwen",
+        "lastName": "Wang"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "29",
+    "issue": "1",
+    "pages": "591-601",
+    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
+    "DOI": "10.1109/TVCG.2022.3209408",
+    "ISSN": "1077-2626, 1941-0506, 2160-9306",
+    "shortTitle": "Polyphony",
+    "url": "https://ieeexplore.ieee.org/document/9903604/",
+    "date": {
+      "year": 2023
+    }
+  },
+  {
     "pmid": "36944733",
     "key": "P8JV3HLJ",
     "version": 2317,
@@ -22129,48 +22176,6 @@
       "year": 2022,
       "month": 4,
       "day": 29
-    }
-  },
-  {
-    "key": "IKPRIMWV",
-    "version": 2278,
-    "itemType": "preprint",
-    "title": "Polyphony: an Interactive Transfer Learning Framework for Single-Cell Data Analysis",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Furui",
-        "lastName": "Cheng"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mark S",
-        "lastName": "Keller"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Huamin",
-        "lastName": "Qu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
-      }
-    ],
-    "abstractNote": "Reference-based cell-type annotation can significantly reduce time and effort in single-cell analysis by transferring labels from a previously-annotated dataset to a new dataset. However, label transfer by end-to-end computational methods is challenging due to the entanglement of technical (e.g., from different sequencing batches or techniques) and biological (e.g., from different cellular microenvironments) variation, only the first of which must be removed. To address this issue, we propose Polyphony, an interactive transfer learning (ITL) framework, to complement biologists' knowledge with advanced computational methods. Polyphony is motivated and guided by domain experts' needs for a controllable, interactive, and algorithm-assisted annotation process, identified through our multi-round expert interviews with seven biologists. We introduce anchors, analogous cell populations across datasets, as a paradigm to explain the computational process and collect user feedback for model improvement. A set of visualizations and interactions is provided to empower users to add, delete, or modify anchors, resulting in refined cell type annotations. We demonstrate the effectiveness of this approach through quantitative experiments, two hypothetical use cases, and interviews with two biologists. The results show that our anchor-based ITL method takes advantage of both human and machine intelligence in annotating massive single-cell datasets.",
-    "DOI": "10.31219/osf.io/b76nt",
-    "shortTitle": "Polyphony",
-    "url": "https://osf.io/b76nt",
-    "date": {
-      "year": 2022,
-      "month": 4,
-      "day": 1
     }
   },
   {
