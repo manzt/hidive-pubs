@@ -1,6 +1,7 @@
 import * as p from "npm:@clack/prompts@0.7.0";
 import { z } from "npm:zod@3.23.8";
 import * as fs from "jsr:@std/fs@1.0.4";
+import * as path from "jsr:@std/path@1.0.6";
 import * as colors from "jsr:@std/fmt@1.0.2/colors";
 import { stringify } from "jsr:@std/csv@1.0.3";
 
@@ -248,21 +249,21 @@ async function main() {
     }));
 
   {
-    let outDir = new URL("assets/", import.meta.url);
+    let outDir = Deno.args[0] ?? "./hidive-papers";
     let spinner = p.spinner();
-    spinner.start("Exporting papers to disk");
+    spinner.start(`Exporting papers to ${colors.cyan(outDir)}`);
 
     await fs.ensureDir(outDir);
     Deno.writeTextFileSync(
-      new URL("papers.json", outDir),
+      path.join(outDir, "papers.json"),
       JSON.stringify(withPubMedIds, null, 2),
     );
     Deno.writeTextFileSync(
-      new URL("pubs.csv", outDir),
+      path.join(outDir, "pubs.csv"),
       toCsv(withPubMedIds.filter((p) => p.itemType !== "preprint")),
     );
     Deno.writeTextFileSync(
-      new URL("preprints.csv", outDir),
+      path.join(outDir, "preprints.csv"),
       toCsv(withPubMedIds.filter((p) => p.itemType === "preprint")),
     );
 

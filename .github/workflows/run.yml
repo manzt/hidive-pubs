@@ -21,7 +21,7 @@ jobs:
       - uses: denoland/setup-deno@v1
         with:
           deno-version: 1.x
-      - run: deno run -A main.ts
+      - run: deno run -A main.ts ./assets
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
         with:

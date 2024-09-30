@@ -7,6 +7,7 @@
       "jsr:@std/fmt@1.0.2": "jsr:@std/fmt@1.0.2",
       "jsr:@std/fs@1.0.4": "jsr:@std/fs@1.0.4",
       "jsr:@std/internal@^1.0.4": "jsr:@std/internal@1.0.4",
+      "jsr:@std/path@1.0.6": "jsr:@std/path@1.0.6",
       "jsr:@std/path@^1.0.6": "jsr:@std/path@1.0.6",
       "jsr:@std/streams@^1.0.4": "jsr:@std/streams@1.0.6",
       "npm:@clack/prompts@0.7.0": "npm:@clack/prompts@0.7.0",
