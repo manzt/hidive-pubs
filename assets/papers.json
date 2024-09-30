@@ -139850,6 +139850,36 @@
     }
   },
   {
+    "key": "5MERTEFS",
+    "version": 2328,
+    "itemType": "journalArticle",
+    "title": "Points of View: Temporal data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Marc",
+        "lastName": "Streit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "12",
+    "issue": "2",
+    "pages": "97-97",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.3262",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.3262",
+    "date": {
+      "year": 2015
+    }
+  },
+  {
     "key": "QQSJTBM9",
     "version": 2300,
     "itemType": "journalArticle",
@@ -144151,36 +144181,6 @@
     }
   },
   {
-    "key": "5MERTEFS",
-    "version": 2298,
-    "itemType": "journalArticle",
-    "title": "Temporal data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Marc",
-        "lastName": "Streit"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "12",
-    "issue": "2",
-    "pages": "97-97",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.3262",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.3262",
-    "date": {
-      "year": 2015
-    }
-  },
-  {
     "key": "PE3CB7ST",
     "version": 2285,
     "itemType": "conferencePaper",
@@ -146661,6 +146661,66 @@
     }
   },
   {
+    "key": "BPKHE2VS",
+    "version": 2327,
+    "itemType": "journalArticle",
+    "title": "Points of View: Bar charts and box plots",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Marc",
+        "lastName": "Streit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "11",
+    "issue": "2",
+    "pages": "117-117",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.2807",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.2807",
+    "date": {
+      "year": 2014
+    }
+  },
+  {
+    "key": "QPTTZ7ZX",
+    "version": 2326,
+    "itemType": "journalArticle",
+    "title": "Points of View: Sets and intersections",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Lex"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "11",
+    "issue": "8",
+    "pages": "779-779",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.3033",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.3033",
+    "date": {
+      "year": 2014
+    }
+  },
+  {
     "pmid": "25109877",
     "key": "JVV46NFN",
     "version": 2299,
@@ -146841,36 +146901,6 @@
     "DOI": "10.1016/j.cell.2014.06.049",
     "ISSN": "00928674",
     "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867414008769",
-    "date": {
-      "year": 2014
-    }
-  },
-  {
-    "key": "BPKHE2VS",
-    "version": 2296,
-    "itemType": "journalArticle",
-    "title": "Bar charts and box plots",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Marc",
-        "lastName": "Streit"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "11",
-    "issue": "2",
-    "pages": "117-117",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.2807",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.2807",
     "date": {
       "year": 2014
     }
@@ -149603,36 +149633,6 @@
     }
   },
   {
-    "key": "QPTTZ7ZX",
-    "version": 2296,
-    "itemType": "journalArticle",
-    "title": "Sets and intersections",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Lex"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "11",
-    "issue": "8",
-    "pages": "779-779",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.3033",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.3033",
-    "date": {
-      "year": 2014
-    }
-  },
-  {
     "key": "IZQAUFGF",
     "version": 2285,
     "itemType": "conferencePaper",
@@ -151683,95 +151683,10 @@
     }
   },
   {
-    "pmid": "23000897",
-    "key": "GNBNRS2Z",
-    "version": 2295,
-    "itemType": "journalArticle",
-    "title": "Comprehensive molecular portraits of human breast tumours",
-    "creators": [
-      {
-        "creatorType": "author",
-        "name": "The Cancer Genome Atlas Research Network"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature",
-    "volume": "490",
-    "issue": "7418",
-    "pages": "61-70",
-    "journalAbbreviation": "Nature",
-    "DOI": "10.1038/nature11412",
-    "ISSN": "0028-0836, 1476-4687",
-    "url": "https://www.nature.com/articles/nature11412",
-    "date": {
-      "year": 2012
-    }
-  },
-  {
-    "key": "FKRT82Z5",
-    "version": 2297,
-    "itemType": "journalArticle",
-    "title": "Mapping quantitative data to color",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Bang",
-        "lastName": "Wong"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "9",
-    "issue": "8",
-    "pages": "769-769",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.2134",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.2134",
-    "date": {
-      "year": 2012
-    }
-  },
-  {
-    "key": "U2RZT79K",
-    "version": 2298,
-    "itemType": "journalArticle",
-    "title": "Integrating data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Bang",
-        "lastName": "Wong"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "9",
-    "issue": "4",
-    "pages": "315-315",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.1944",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.1944",
-    "date": {
-      "year": 2012
-    }
-  },
-  {
     "key": "9LIS98VC",
-    "version": 2297,
+    "version": 2325,
     "itemType": "journalArticle",
-    "title": "Power of the plane",
+    "title": "Points of View: Power of the plane",
     "creators": [
       {
         "creatorType": "author",
@@ -151799,9 +151714,9 @@
   },
   {
     "key": "K8QFF25T",
-    "version": 2297,
+    "version": 2324,
     "itemType": "journalArticle",
-    "title": "Into the third dimension",
+    "title": "Points of View: Into the third dimension",
     "creators": [
       {
         "creatorType": "author",
@@ -151828,10 +151743,100 @@
     }
   },
   {
-    "key": "TJAZCB8U",
-    "version": 2297,
+    "key": "FKRT82Z5",
+    "version": 2323,
     "itemType": "journalArticle",
-    "title": "Networks",
+    "title": "Points of View: Mapping quantitative data to color",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bang",
+        "lastName": "Wong"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "9",
+    "issue": "8",
+    "pages": "769-769",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.2134",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.2134",
+    "date": {
+      "year": 2012
+    }
+  },
+  {
+    "key": "U2RZT79K",
+    "version": 2322,
+    "itemType": "journalArticle",
+    "title": "Points of View: Integrating data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bang",
+        "lastName": "Wong"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "9",
+    "issue": "4",
+    "pages": "315-315",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.1944",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.1944",
+    "date": {
+      "year": 2012
+    }
+  },
+  {
+    "key": "ZJ2CXXYA",
+    "version": 2321,
+    "itemType": "journalArticle",
+    "title": "Points of View: Heat maps",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bang",
+        "lastName": "Wong"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "9",
+    "issue": "3",
+    "pages": "213-213",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.1902",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.1902",
+    "date": {
+      "year": 2012
+    }
+  },
+  {
+    "key": "TJAZCB8U",
+    "version": 2320,
+    "itemType": "journalArticle",
+    "title": "Points of View: Networks",
     "creators": [
       {
         "creatorType": "author",
@@ -151858,31 +151863,26 @@
     }
   },
   {
-    "key": "ZJ2CXXYA",
-    "version": 2296,
+    "pmid": "23000897",
+    "key": "GNBNRS2Z",
+    "version": 2295,
     "itemType": "journalArticle",
-    "title": "Heat maps",
+    "title": "Comprehensive molecular portraits of human breast tumours",
     "creators": [
       {
         "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Bang",
-        "lastName": "Wong"
+        "name": "The Cancer Genome Atlas Research Network"
       }
     ],
     "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "9",
-    "issue": "3",
-    "pages": "213-213",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.1902",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.1902",
+    "publicationTitle": "Nature",
+    "volume": "490",
+    "issue": "7418",
+    "pages": "61-70",
+    "journalAbbreviation": "Nature",
+    "DOI": "10.1038/nature11412",
+    "ISSN": "0028-0836, 1476-4687",
+    "url": "https://www.nature.com/articles/nature11412",
     "date": {
       "year": 2012
     }
