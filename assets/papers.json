@@ -21720,6 +21720,1393 @@
     }
   },
   {
+    "pmid": "35697747",
+    "key": "EL85K8FP",
+    "version": 2426,
+    "itemType": "journalArticle",
+    "title": "International comparisons of laboratory values from the 4CE collaborative to predict COVID-19 mortality",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Griffin M.",
+        "lastName": "Weber"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chuan",
+        "lastName": "Hong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zongqi",
+        "lastName": "Xia"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nathan P.",
+        "lastName": "Palmer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Paul",
+        "lastName": "Avillach"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L’Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark S.",
+        "lastName": "Keller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shawn N.",
+        "lastName": "Murphy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alba",
+        "lastName": "Gutiérrez-Sacristán"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Clara-Lea",
+        "lastName": "Bonzel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Arnaud",
+        "lastName": "Serret-Larmande"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Antoine",
+        "lastName": "Neuraz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gilbert S.",
+        "lastName": "Omenn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shyam",
+        "lastName": "Visweswaran"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jeffrey G.",
+        "lastName": "Klann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew M.",
+        "lastName": "South"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ne Hooi Will",
+        "lastName": "Loh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mario",
+        "lastName": "Cannataro"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Brett K.",
+        "lastName": "Beaulieu-Jones"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Riccardo",
+        "lastName": "Bellazzi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Giuseppe",
+        "lastName": "Agapito"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mario",
+        "lastName": "Alessiani"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bruce J.",
+        "lastName": "Aronow"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Douglas S.",
+        "lastName": "Bell"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vincent",
+        "lastName": "Benoit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Florence T.",
+        "lastName": "Bourgeois"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Luca",
+        "lastName": "Chiovato"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kelly",
+        "lastName": "Cho"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Arianna",
+        "lastName": "Dagliati"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Scott L.",
+        "lastName": "DuVall"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Noelia García",
+        "lastName": "Barrio"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David A.",
+        "lastName": "Hanauer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yuk-Lam",
+        "lastName": "Ho"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "John H.",
+        "lastName": "Holmes"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Richard W.",
+        "lastName": "Issitt"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Molei",
+        "lastName": "Liu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yuan",
+        "lastName": "Luo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kristine E.",
+        "lastName": "Lynch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sarah E.",
+        "lastName": "Maidlow"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alberto",
+        "lastName": "Malovini"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kenneth D.",
+        "lastName": "Mandl"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chengsheng",
+        "lastName": "Mao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael E.",
+        "lastName": "Matheny"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jason H.",
+        "lastName": "Moore"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jeffrey S.",
+        "lastName": "Morris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michele",
+        "lastName": "Morris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Danielle L.",
+        "lastName": "Mowery"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kee Yuan",
+        "lastName": "Ngiam"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lav P.",
+        "lastName": "Patel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Miguel",
+        "lastName": "Pedrera-Jimenez"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rachel B.",
+        "lastName": "Ramoni"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Emily R.",
+        "lastName": "Schriver"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Petra",
+        "lastName": "Schubert"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pablo Serrano",
+        "lastName": "Balazote"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anastasia",
+        "lastName": "Spiridou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Amelia L. M.",
+        "lastName": "Tan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Byorn W. L.",
+        "lastName": "Tan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Valentina",
+        "lastName": "Tibollo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carlo",
+        "lastName": "Torti"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Enrico M.",
+        "lastName": "Trecarichi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xuan",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "name": "The Consortium for Clinical Characterization of COVID-19 by EHR (4CE)"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James R.",
+        "lastName": "Aaron"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Adem",
+        "lastName": "Albayrak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Giuseppe",
+        "lastName": "Albi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anna",
+        "lastName": "Alloni"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Danilo F.",
+        "lastName": "Amendola"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "François",
+        "lastName": "Angoulvant"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Li L. L. J.",
+        "lastName": "Anthony"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fatima",
+        "lastName": "Ashraf"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew",
+        "lastName": "Atz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Paul",
+        "lastName": "Avillach"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Paula S.",
+        "lastName": "Azevedo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James",
+        "lastName": "Balshi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Brett K.",
+        "lastName": "Beaulieu-Jones"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Antonio",
+        "lastName": "Bellasi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vincent",
+        "lastName": "Benoit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michele",
+        "lastName": "Beraghi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "José Luis",
+        "lastName": "Bernal-Sobrino"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mélodie",
+        "lastName": "Bernaux"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Romain",
+        "lastName": "Bey"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Surbhi",
+        "lastName": "Bhatnagar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alvar",
+        "lastName": "Blanco-Martínez"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Boeker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "John",
+        "lastName": "Booth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Silvano",
+        "lastName": "Bosari"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robert L.",
+        "lastName": "Bradford"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gabriel A.",
+        "lastName": "Brat"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stéphane",
+        "lastName": "Bréant"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicholas W.",
+        "lastName": "Brown"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Raffaele",
+        "lastName": "Bruno"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "William A.",
+        "lastName": "Bryant"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mauro",
+        "lastName": "Bucalo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Emily",
+        "lastName": "Bucholz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anita",
+        "lastName": "Burgun"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tianxi",
+        "lastName": "Cai"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Aldo",
+        "lastName": "Carmona"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Charlotte",
+        "lastName": "Caucheteux"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Julien",
+        "lastName": "Champ"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Krista Y.",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jin",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lorenzo",
+        "lastName": "Chiudinelli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kelly",
+        "lastName": "Cho"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James J.",
+        "lastName": "Cimino"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tiago K.",
+        "lastName": "Colicchio"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sylvie",
+        "lastName": "Cormont"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sébastien",
+        "lastName": "Cossin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jean B.",
+        "lastName": "Craig"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Juan Luis",
+        "lastName": "Cruz-Bermúdez"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jaime",
+        "lastName": "Cruz-Rojo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mohamad",
+        "lastName": "Daniar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christel",
+        "lastName": "Daniel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Priyam",
+        "lastName": "Das"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Batsal",
+        "lastName": "Devkota"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Audrey",
+        "lastName": "Dionne"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rui",
+        "lastName": "Duan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Julien",
+        "lastName": "Dubiel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Loic",
+        "lastName": "Esteve"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hossein",
+        "lastName": "Estiri"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shirley",
+        "lastName": "Fan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robert W.",
+        "lastName": "Follett"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas",
+        "lastName": "Ganslandt"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Noelia",
+        "lastName": "García-Barrio"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lana X.",
+        "lastName": "Garmire"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Emily J.",
+        "lastName": "Getzen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alon",
+        "lastName": "Geva"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tobias",
+        "lastName": "Gradinger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexandre",
+        "lastName": "Gramfort"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Romain",
+        "lastName": "Griffier"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicolas",
+        "lastName": "Griffon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Olivier",
+        "lastName": "Grisel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alba",
+        "lastName": "Gutiérrez-Sacristán"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Larry",
+        "lastName": "Han"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David A.",
+        "lastName": "Hanauer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christian",
+        "lastName": "Haverkamp"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Derek Y.",
+        "lastName": "Hazard"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bing",
+        "lastName": "He"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Darren W.",
+        "lastName": "Henderson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Hilka"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kenneth M.",
+        "lastName": "Huling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Meghan R.",
+        "lastName": "Hutch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Richard W.",
+        "lastName": "Issitt"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anne Sophie",
+        "lastName": "Jannot"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vianney",
+        "lastName": "Jouhet"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ramakanth",
+        "lastName": "Kavuluru"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chris J.",
+        "lastName": "Kennedy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kate F.",
+        "lastName": "Kernan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel A.",
+        "lastName": "Key"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Katie",
+        "lastName": "Kirchoff"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jeffrey G.",
+        "lastName": "Klann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Isaac S.",
+        "lastName": "Kohane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ian D.",
+        "lastName": "Krantz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Detlef",
+        "lastName": "Kraska"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ashok K.",
+        "lastName": "Krishnamurthy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Trang T.",
+        "lastName": "Le"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Judith",
+        "lastName": "Leblanc"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Guillaume",
+        "lastName": "Lemaitre"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Leslie",
+        "lastName": "Lenert"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Damien",
+        "lastName": "Leprovost"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Molei",
+        "lastName": "Liu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qi",
+        "lastName": "Long"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sara",
+        "lastName": "Lozano-Zahonero"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sadiqa",
+        "lastName": "Mahmood"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sarah E.",
+        "lastName": "Maidlow"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Adeline",
+        "lastName": "Makoudjou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anupama",
+        "lastName": "Maram"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Patricia",
+        "lastName": "Martel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marcelo R.",
+        "lastName": "Martins"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jayson S.",
+        "lastName": "Marwaha"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Aaron J.",
+        "lastName": "Masino"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Maria",
+        "lastName": "Mazzitelli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Arthur",
+        "lastName": "Mensch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marianna",
+        "lastName": "Milano"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marcos F.",
+        "lastName": "Minicucci"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bertrand",
+        "lastName": "Moal"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Taha Mohseni",
+        "lastName": "Ahooyi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jason H.",
+        "lastName": "Moore"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Cinta",
+        "lastName": "Moraleda"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jeffrey S.",
+        "lastName": "Morris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Karyn L.",
+        "lastName": "Moshal"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sajad",
+        "lastName": "Mousavi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Douglas A.",
+        "lastName": "Murad"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shawn N.",
+        "lastName": "Murphy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas P.",
+        "lastName": "Naughton"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carlos Tadeu Breda",
+        "lastName": "Neto"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jane",
+        "lastName": "Newburger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kee Yuan",
+        "lastName": "Ngiam"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Wanjiku F. M.",
+        "lastName": "Njoroge"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James B.",
+        "lastName": "Norman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jihad",
+        "lastName": "Obeid"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marina P.",
+        "lastName": "Okoshi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Karen L.",
+        "lastName": "Olson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gilbert S.",
+        "lastName": "Omenn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nina",
+        "lastName": "Orlova"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Brian D.",
+        "lastName": "Ostasiewski"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nathan P.",
+        "lastName": "Palmer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicolas",
+        "lastName": "Paris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lav P.",
+        "lastName": "Patel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Miguel",
+        "lastName": "Pedrera-Jiménez"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ashley C.",
+        "lastName": "Pfaff"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Emily R.",
+        "lastName": "Pfaff"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Danielle",
+        "lastName": "Pillion"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sara",
+        "lastName": "Pizzimenti"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hans U.",
+        "lastName": "Prokosch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robson A.",
+        "lastName": "Prudente"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrea",
+        "lastName": "Prunotto"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Víctor",
+        "lastName": "Quirós-González"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rachel B.",
+        "lastName": "Ramoni"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Maryna",
+        "lastName": "Raskin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Siegbert",
+        "lastName": "Rieg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gustavo",
+        "lastName": "Roig-Domínguez"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pablo",
+        "lastName": "Rojo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Paula",
+        "lastName": "Rubio-Mayo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Paolo",
+        "lastName": "Sacchi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carlos",
+        "lastName": "Sáez"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Elisa",
+        "lastName": "Salamanca"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Malarkodi Jebathilagam",
+        "lastName": "Samayamuthu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "L. Nelson",
+        "lastName": "Sanchez-Pinto"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Arnaud",
+        "lastName": "Sandrin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nandhini",
+        "lastName": "Santhanam"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Janaina C. C.",
+        "lastName": "Santos"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fernando J.",
+        "lastName": "Sanz Vidorreta"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Maria",
+        "lastName": "Savino"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Juergen",
+        "lastName": "Schuettler"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Luigia",
+        "lastName": "Scudeller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Neil J.",
+        "lastName": "Sebire"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pablo",
+        "lastName": "Serrano-Balazote"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Patricia",
+        "lastName": "Serre"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Arnaud",
+        "lastName": "Serret-Larmande"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mohsin",
+        "lastName": "Shah"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zahra Shakeri Hossein",
+        "lastName": "Abad"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Domenick",
+        "lastName": "Silvio"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Piotr",
+        "lastName": "Sliz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jiyeon",
+        "lastName": "Son"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Charles",
+        "lastName": "Sonday"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew M.",
+        "lastName": "South"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Francesca",
+        "lastName": "Sperotto"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zachary H.",
+        "lastName": "Strasser"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Amelia L. M.",
+        "lastName": "Tan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bryce W. Q.",
+        "lastName": "Tan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Suzana E.",
+        "lastName": "Tanni"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Deanne M.",
+        "lastName": "Taylor"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ana I.",
+        "lastName": "Terriza-Torres"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Patric",
+        "lastName": "Tippmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Emma M. S.",
+        "lastName": "Toh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yi-Ju",
+        "lastName": "Tseng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew K.",
+        "lastName": "Vallejos"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gael",
+        "lastName": "Varoquaux"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret E.",
+        "lastName": "Vella"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Guillaume",
+        "lastName": "Verdy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jill-Jênn",
+        "lastName": "Vie"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shyam",
+        "lastName": "Visweswaran"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michele",
+        "lastName": "Vitacca"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kavishwar B.",
+        "lastName": "Wagholikar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lemuel R.",
+        "lastName": "Waitman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Demian",
+        "lastName": "Wassermann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Griffin M.",
+        "lastName": "Weber"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Martin",
+        "lastName": "Wolkewitz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Scott",
+        "lastName": "Wong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zongqi",
+        "lastName": "Xia"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xin",
+        "lastName": "Xiong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ye",
+        "lastName": "Ye"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nadir",
+        "lastName": "Yehya"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "William",
+        "lastName": "Yuan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alberto",
+        "lastName": "Zambelli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Harrison G.",
+        "lastName": "Zhang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniela",
+        "lastName": "Zöller"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Valentina",
+        "lastName": "Zuccaro"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chiara",
+        "lastName": "Zucco"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Isaac S.",
+        "lastName": "Kohane"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tianxi",
+        "lastName": "Cai"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gabriel A.",
+        "lastName": "Brat"
+      }
+    ],
+    "abstractNote": "Given the growing number of prediction algorithms developed to predict COVID-19 mortality, we evaluated the transportability of a mortality prediction algorithm using a multi-national network of healthcare systems. We predicted COVID-19 mortality using baseline commonly measured laboratory values and standard demographic and clinical covariates across healthcare systems, countries, and continents. Specifically, we trained a Cox regression model with nine measured laboratory test values, standard demographics at admission, and comorbidity burden pre-admission. These models were compared at site, country, and continent level. Of the 39,969 hospitalized patients with COVID-19 (68.6% male), 5717 (14.3%) died. In the Cox model, age, albumin, AST, creatine, CRP, and white blood cell count are most predictive of mortality. The baseline covariates are more predictive of mortality during the early days of COVID-19 hospitalization. Models trained at healthcare systems with larger cohort size largely retain good transportability performance when porting to different sites. The combination of routine laboratory test values at admission along with basic demographic features can predict mortality in patients hospitalized with COVID-19. Importantly, this potentially deployable model differs from prior work by demonstrating not only consistent performance but also reliable transportability across healthcare systems in the US and Europe, highlighting the generalizability of this model and the overall approach.",
+    "publicationTitle": "npj Digital Medicine",
+    "volume": "5",
+    "issue": "1",
+    "pages": "74",
+    "journalAbbreviation": "npj Digit. Med.",
+    "DOI": "10.1038/s41746-022-00601-0",
+    "ISSN": "2398-6352",
+    "url": "https://www.nature.com/articles/s41746-022-00601-0",
+    "date": {
+      "year": 2022,
+      "month": 6,
+      "day": 13
+    }
+  },
+  {
     "pmid": "35768548",
     "key": "VEIGTHFR",
     "version": 2293,
@@ -29456,8 +30843,8 @@
   },
   {
     "pmid": "32864472",
-    "key": "MNQ342ME",
-    "version": 2290,
+    "key": "D7ZAJ8K7",
+    "version": 2424,
     "itemType": "journalArticle",
     "title": "International electronic health record-derived COVID-19 clinical course profiles: the 4CE consortium",
     "creators": [
