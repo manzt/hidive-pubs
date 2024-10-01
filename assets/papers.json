@@ -3960,39 +3960,8 @@
     }
   },
   {
-    "pmid": "36166553",
-    "key": "EBW4IH5W",
-    "version": 2390,
-    "itemType": "journalArticle",
-    "title": "Multi-View Design Patterns and Responsive Visualization for Genomics Data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "A series of recent studies has focused on designing cross-resolution and cross-device visualizations, i.e., responsive visualization, a concept adopted from responsive web design. However, these studies mainly focused on visualizations with a single view to a small number of views, and there are still unresolved questions about how to design responsive multi-view visualizations. In this paper, we present a reusable and generalizable framework for designing responsive multi-view visualizations focused on genomics data. To gain a better understanding of existing design challenges, we review web-based genomics visualization tools in the wild. By characterizing tools based on a taxonomy of responsive designs, we find that responsiveness is rarely supported in existing tools. To distill insights from the survey results in a systematic way, we classify typical view composition patterns, such as \"vertically long,\" \"horizontally wide,\" \"circular,\" and \"cross-shaped\" compositions. We then identify their usability issues in different resolutions that stem from the composition patterns, as well as discussing approaches to address the issues and to make genomics visualizations responsive. By extending the Gosling visualization grammar to support responsive constructs, we show how these approaches can be supported. A valuable follow-up study would be taking different input modalities into account, such as mouse and touch interactions, which was not considered in our study.",
-    "publicationTitle": "IEEE transactions on visualization and computer graphics",
-    "volume": "29",
-    "issue": "1",
-    "pages": "559-569",
-    "journalAbbreviation": "IEEE Trans Vis Comput Graph",
-    "DOI": "10.1109/TVCG.2022.3209398",
-    "ISSN": "1941-0506",
-    "date": {
-      "year": 2023,
-      "month": 1
-    }
-  },
-  {
     "key": "H6YDK8WJ",
-    "version": 2389,
+    "version": 2456,
     "itemType": "journalArticle",
     "title": "Extending the Nested Model for User-Centric XAI: A Design Study on GNN-based Drug Repurposing",
     "creators": [
@@ -4023,7 +3992,7 @@
       }
     ],
     "abstractNote": "Whether AI explanations can help users achieve specific tasks efficiently (i.e., usable explanations) is significantly influenced by their visual presentation. While many techniques exist to generate explanations, it remains unclear how to select and visually present AI explanations based on the characteristics of domain users. This paper aims to understand this question through a multidisciplinary design study for a specific problem: explaining graph neural network (GNN) predictions to domain experts in drug repurposing, i.e., reuse of existing drugs for new diseases. Building on the nested design model of visualization, we incorporate XAI design considerations from a literature review and from our collaborators' feedback into the design process. Specifically, we discuss XAI-related design considerations for usable visual explanations at each design layer: target user, usage context, domain explanation, and XAI goal at the domain layer; format, granularity, and operation of explanations at the abstraction layer; encodings and interactions at the visualization layer; and XAI and rendering algorithm at the algorithm layer. We present how the extended nested model motivates and informs the design of DrugExplorer, an XAI tool for drug repurposing. Based on our domain characterization, DrugExplorer provides path-based explanations and presents them both as individual paths and meta-paths for two key XAI operations, why and what else. DrugExplorer offers a novel visualization design called MetaMatrix with a set of interactions to help domain users organize and compare explanation paths at different levels of granularity to generate domain-meaningful insights. We demonstrate the effectiveness of the selected visual presentation and DrugExplorer as a whole via a usage scenario, a user study, and expert interviews. From these evaluations, we derive insightful observations and reflections that can inform the design of XAI visualizations for other scientific applications.",
-    "publicationTitle": "IEEE transactions on visualization and computer graphics",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
     "volume": "29",
     "issue": "1",
     "pages": "1266-1276",
@@ -4031,6 +4000,37 @@
     "DOI": "10.1109/TVCG.2022.3209435",
     "ISSN": "1941-0506",
     "shortTitle": "Extending the Nested Model for User-Centric XAI",
+    "date": {
+      "year": 2023,
+      "month": 1
+    }
+  },
+  {
+    "pmid": "36166553",
+    "key": "EBW4IH5W",
+    "version": 2455,
+    "itemType": "journalArticle",
+    "title": "Multi-View Design Patterns and Responsive Visualization for Genomics Data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L'Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "A series of recent studies has focused on designing cross-resolution and cross-device visualizations, i.e., responsive visualization, a concept adopted from responsive web design. However, these studies mainly focused on visualizations with a single view to a small number of views, and there are still unresolved questions about how to design responsive multi-view visualizations. In this paper, we present a reusable and generalizable framework for designing responsive multi-view visualizations focused on genomics data. To gain a better understanding of existing design challenges, we review web-based genomics visualization tools in the wild. By characterizing tools based on a taxonomy of responsive designs, we find that responsiveness is rarely supported in existing tools. To distill insights from the survey results in a systematic way, we classify typical view composition patterns, such as \"vertically long,\" \"horizontally wide,\" \"circular,\" and \"cross-shaped\" compositions. We then identify their usability issues in different resolutions that stem from the composition patterns, as well as discussing approaches to address the issues and to make genomics visualizations responsive. By extending the Gosling visualization grammar to support responsive constructs, we show how these approaches can be supported. A valuable follow-up study would be taking different input modalities into account, such as mouse and touch interactions, which was not considered in our study.",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "29",
+    "issue": "1",
+    "pages": "559-569",
+    "journalAbbreviation": "IEEE Trans Vis Comput Graph",
+    "DOI": "10.1109/TVCG.2022.3209398",
+    "ISSN": "1941-0506",
     "date": {
       "year": 2023,
       "month": 1
@@ -4357,6 +4357,1326 @@
       "year": 2023,
       "month": 1,
       "day": 1
+    }
+  },
+  {
+    "pmid": "36936385",
+    "key": "R5Y32RGT",
+    "version": 2463,
+    "itemType": "journalArticle",
+    "title": "NIH SenNet Consortium to map senescent cells throughout the human lifespan to understand physiological health",
+    "creators": [
+      {
+        "creatorType": "author",
+        "name": "SenNet Consortium"
+      },
+      {
+        "creatorType": "author",
+        "name": "Writing Group"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Patty J.",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christopher C.",
+        "lastName": "Benz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Philip",
+        "lastName": "Blood"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Katy",
+        "lastName": "Börner"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Judith",
+        "lastName": "Campisi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Feng",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Heike",
+        "lastName": "Daldrup-Link"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Phil",
+        "lastName": "De Jager"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Li",
+        "lastName": "Ding"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Francesca E.",
+        "lastName": "Duncan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Oliver",
+        "lastName": "Eickelberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rong",
+        "lastName": "Fan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Toren",
+        "lastName": "Finkel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Furman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vesna",
+        "lastName": "Garovic"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carolyn",
+        "lastName": "Glass"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Indra",
+        "lastName": "Heckenbach"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ziv-Bar",
+        "lastName": "Joseph"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pragati",
+        "lastName": "Katiyar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "So-Jin",
+        "lastName": "Kim"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Melanie",
+        "lastName": "Königshoff"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "George A.",
+        "lastName": "Kuchel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Haesung",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jun Hee",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jian",
+        "lastName": "Ma"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qin",
+        "lastName": "Ma"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Simon",
+        "lastName": "Melov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kay",
+        "lastName": "Metis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ana L.",
+        "lastName": "Mora"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicolas",
+        "lastName": "Musi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nicola",
+        "lastName": "Neretti"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "João F.",
+        "lastName": "Passos"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Irfan",
+        "lastName": "Rahman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Juan Carlos",
+        "lastName": "Rivera-Mulia"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Paul",
+        "lastName": "Robson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mauricio",
+        "lastName": "Rojas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ananda L.",
+        "lastName": "Roy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Morten",
+        "lastName": "Scheibye-Knudsen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Birgit",
+        "lastName": "Schilling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pixu",
+        "lastName": "Shi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jonathan C.",
+        "lastName": "Silverstein"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vidyani",
+        "lastName": "Suryadevara"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jichun",
+        "lastName": "Xie"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jinhua",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A. Ian",
+        "lastName": "Wong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Laura J.",
+        "lastName": "Niedernhofer"
+      },
+      {
+        "creatorType": "author",
+        "name": "Brown University TDA"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Siyuan",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "name": "Buck Institute for Research on Aging TMC/TDA"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hannah",
+        "lastName": "Anvari"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Julia",
+        "lastName": "Balough"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christopher",
+        "lastName": "Benz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joanna",
+        "lastName": "Bons"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Boris",
+        "lastName": "Brenerman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "William",
+        "lastName": "Evans"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Akos",
+        "lastName": "Gerencser"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Heather",
+        "lastName": "Gregory"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Malene",
+        "lastName": "Hansen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jamie",
+        "lastName": "Justice"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Pankaj",
+        "lastName": "Kapahi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Natalia",
+        "lastName": "Murad"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Amy",
+        "lastName": "O’Broin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mary Ellen",
+        "lastName": "Pavone"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mark",
+        "lastName": "Powell"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gary",
+        "lastName": "Scott"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Elisheva",
+        "lastName": "Shanes"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mahalakshmi",
+        "lastName": "Shankaran"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Eric",
+        "lastName": "Verdin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "Winer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fei",
+        "lastName": "Wu"
+      },
+      {
+        "creatorType": "author",
+        "name": "Consortium Organization and Data Coordinating Center (CODCC)"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew",
+        "lastName": "Adams"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Philip D.",
+        "lastName": "Blood"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andreas",
+        "lastName": "Bueckle"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ivan",
+        "lastName": "Cao-Berg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hao",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Davis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shane",
+        "lastName": "Filus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yuhan",
+        "lastName": "Hao"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Austin",
+        "lastName": "Hartman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Euxhen",
+        "lastName": "Hasanaj"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jesse",
+        "lastName": "Helfer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Bruce",
+        "lastName": "Herr"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ziv Bar",
+        "lastName": "Joseph"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gesmira",
+        "lastName": "Molla"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gloria",
+        "lastName": "Mou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Juan",
+        "lastName": "Puerto"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ellen M.",
+        "lastName": "Quardokus"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander J.",
+        "lastName": "Ropelewski"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matt",
+        "lastName": "Ruffalo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rahul",
+        "lastName": "Satija"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Melissa",
+        "lastName": "Schwenk"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robin",
+        "lastName": "Scibek"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "William",
+        "lastName": "Shirey"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Max",
+        "lastName": "Sibilla"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joel",
+        "lastName": "Welling"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zhou",
+        "lastName": "Yuan"
+      },
+      {
+        "creatorType": "author",
+        "name": "Columbia TMC"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Richard",
+        "lastName": "Bonneau"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Angela",
+        "lastName": "Christiano"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Benjamin",
+        "lastName": "Izar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vilas",
+        "lastName": "Menon"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David M.",
+        "lastName": "Owens"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hemali",
+        "lastName": "Phatnani"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Colin",
+        "lastName": "Smith"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yousin",
+        "lastName": "Suh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew F.",
+        "lastName": "Teich"
+      },
+      {
+        "creatorType": "author",
+        "name": "Duke University TMC"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Valerie",
+        "lastName": "Bekker"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Cliburn",
+        "lastName": "Chan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Elias",
+        "lastName": "Coutavas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthew G.",
+        "lastName": "Hartwig"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zhicheng",
+        "lastName": "Ji"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew B.",
+        "lastName": "Nixon"
+      },
+      {
+        "creatorType": "author",
+        "name": "Massachusetts General Hospital TDA"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zhixun",
+        "lastName": "Dou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jayaraj",
+        "lastName": "Rajagopal"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nikolai",
+        "lastName": "Slavov"
+      },
+      {
+        "creatorType": "author",
+        "name": "Mayo Clinic TDA"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Holmes"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Diana",
+        "lastName": "Jurk"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James L.",
+        "lastName": "Kirkland"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anthony",
+        "lastName": "Lagnado"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tamara",
+        "lastName": "Tchkonia"
+      },
+      {
+        "creatorType": "author",
+        "name": "National Institute of Health (NIH)"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kristin",
+        "lastName": "Abraham"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Amanda",
+        "lastName": "Dibattista"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yih-Woei",
+        "lastName": "Fridell"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "T. Kevin",
+        "lastName": "Howcroft"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chamelli",
+        "lastName": "Jhappan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Viviana Perez",
+        "lastName": "Montes"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mercy",
+        "lastName": "Prabhudas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Haluk",
+        "lastName": "Resat"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Veronica",
+        "lastName": "Taylor"
+      },
+      {
+        "creatorType": "author",
+        "name": "Stanford TDA"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Manoj",
+        "lastName": "Kumar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vidyani",
+        "lastName": "Suryadevara"
+      },
+      {
+        "creatorType": "author",
+        "name": "University of Connecticut TMC"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Francisco",
+        "lastName": "Cigarroa"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rachel",
+        "lastName": "Cohn"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tiffany M.",
+        "lastName": "Cortes"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Elise",
+        "lastName": "Courtois"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jeffrey",
+        "lastName": "Chuang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Monica",
+        "lastName": "Davé"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sergii",
+        "lastName": "Domanskyi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Elizabeth Ann Lieser",
+        "lastName": "Enninga"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Giray Naim",
+        "lastName": "Eryilmaz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sara E.",
+        "lastName": "Espinoza"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jon",
+        "lastName": "Gelfond"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James",
+        "lastName": "Kirkland"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "George A.",
+        "lastName": "Kuchel"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chia-Ling",
+        "lastName": "Kuo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Julia S.",
+        "lastName": "Lehman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Cristina",
+        "lastName": "Aguayo-Mazzucato"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Meves"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Meenakshi",
+        "lastName": "Rani"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shane",
+        "lastName": "Sanders"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Asa",
+        "lastName": "Thibodeau"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stefan G.",
+        "lastName": "Tullius"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Duygu",
+        "lastName": "Ucar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Brian",
+        "lastName": "White"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qian",
+        "lastName": "Wu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ming",
+        "lastName": "Xu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Seiji",
+        "lastName": "Yamaguchi"
+      },
+      {
+        "creatorType": "author",
+        "name": "University of Michigan TDA"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Naziheh",
+        "lastName": "Assarzadegan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chun-Seok",
+        "lastName": "Cho"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Irene",
+        "lastName": "Hwang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yongha",
+        "lastName": "Hwang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jingyue",
+        "lastName": "Xi"
+      },
+      {
+        "creatorType": "author",
+        "name": "University of Minnesota TMC"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Oyedele A.",
+        "lastName": "Adeyi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Constantin F.",
+        "lastName": "Aliferis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alessandro",
+        "lastName": "Bartolomucci"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xiao",
+        "lastName": "Dong"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mickayla J.",
+        "lastName": "DuFresne-To"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sayeed",
+        "lastName": "Ikramuddin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Steve G.",
+        "lastName": "Johnson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew C.",
+        "lastName": "Nelson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Laura J.",
+        "lastName": "Niedernhofer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xavier S.",
+        "lastName": "Revelo"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Claudia",
+        "lastName": "Trevilla-Garcia"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "John M.",
+        "lastName": "Sedivy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Elizabeth L.",
+        "lastName": "Thompson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Paul D.",
+        "lastName": "Robbins"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jinhua",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "name": "University of Pittsburgh TMC"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Katherine M.",
+        "lastName": "Aird"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jonathan K.",
+        "lastName": "Alder"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Delphine",
+        "lastName": "Beaulieu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marta",
+        "lastName": "Bueno"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jazmin",
+        "lastName": "Calyeca"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Julián A.",
+        "lastName": "Chamucero-Millaris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen Y.",
+        "lastName": "Chan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dongjun",
+        "lastName": "Chung"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anthony",
+        "lastName": "Corbett"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vera",
+        "lastName": "Gorbunova"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kymberly M.",
+        "lastName": "Gowdy"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Aditi",
+        "lastName": "Gurkar"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jeffrey C.",
+        "lastName": "Horowitz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qianjiang",
+        "lastName": "Hu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gagandeep",
+        "lastName": "Kaur"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Timur O.",
+        "lastName": "Khaliullin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robert",
+        "lastName": "Lafyatis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Serafina",
+        "lastName": "Lanna"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dongmei",
+        "lastName": "Li"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anjun",
+        "lastName": "Ma"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alison",
+        "lastName": "Morris"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thivanka M.",
+        "lastName": "Muthumalage"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Victor",
+        "lastName": "Peters"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gloria S.",
+        "lastName": "Pryhuber"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Brenda F.",
+        "lastName": "Reader"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lorena",
+        "lastName": "Rosas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "John C.",
+        "lastName": "Sembrat"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sadiya",
+        "lastName": "Shaikh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hangchuan",
+        "lastName": "Shi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sean D.",
+        "lastName": "Stacey"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Claudette St.",
+        "lastName": "Croix"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Cankun",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qixin",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew",
+        "lastName": "Watts"
+      },
+      {
+        "creatorType": "author",
+        "name": "University of Washington TDA"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Liangcai",
+        "lastName": "Gu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yiing",
+        "lastName": "Lin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter S.",
+        "lastName": "Rabinovitch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mariya T.",
+        "lastName": "Sweetwyne"
+      },
+      {
+        "creatorType": "author",
+        "name": "Washington University TMC"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Maxim N.",
+        "lastName": "Artyomov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Samuel J.",
+        "lastName": "Ballentine"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Milan G.",
+        "lastName": "Chheda"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sherri R.",
+        "lastName": "Davies"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "John F.",
+        "lastName": "DiPersio"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ryan C.",
+        "lastName": "Fields"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "James A. J.",
+        "lastName": "Fitzpatrick"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robert S.",
+        "lastName": "Fulton"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shin-ichiro",
+        "lastName": "Imai"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sanjay",
+        "lastName": "Jain"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tao",
+        "lastName": "Ju"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladimir M.",
+        "lastName": "Kushnir"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel C.",
+        "lastName": "Link"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Ben Major"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephen T.",
+        "lastName": "Oh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "Rapp"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael P.",
+        "lastName": "Rettig"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Shelia A.",
+        "lastName": "Stewart"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Deborah J.",
+        "lastName": "Veis"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kiran R.",
+        "lastName": "Vij"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael C.",
+        "lastName": "Wendl"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Matthew A.",
+        "lastName": "Wyczalkowski"
+      },
+      {
+        "creatorType": "author",
+        "name": "Yale TMC"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joseph E.",
+        "lastName": "Craft"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Archibald",
+        "lastName": "Enninful"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Negin",
+        "lastName": "Farzad"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter",
+        "lastName": "Gershkovich"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephanie",
+        "lastName": "Halene"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Yuval",
+        "lastName": "Kluger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jennifer",
+        "lastName": "VanOudenhove"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mina",
+        "lastName": "Xu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Junchen",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Mingyu",
+        "lastName": "Yang"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Aging",
+    "volume": "2",
+    "issue": "12",
+    "pages": "1090-1100",
+    "journalAbbreviation": "Nat Aging",
+    "DOI": "10.1038/s43587-022-00326-5",
+    "ISSN": "2662-8465",
+    "url": "https://www.nature.com/articles/s43587-022-00326-5",
+    "date": {
+      "year": 2022,
+      "month": 12,
+      "day": 20
     }
   },
   {
@@ -21492,238 +22812,6 @@
     }
   },
   {
-    "key": "EFU7ERH7",
-    "version": 2279,
-    "itemType": "preprint",
-    "title": "NIH SenNet Consortium: Mapping Senescent Cells in the Human Body to Understand Health and Disease",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Patty",
-        "lastName": "Lee"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Philip",
-        "lastName": "Blood"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Katy",
-        "lastName": "Börner"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Judith",
-        "lastName": "Campisi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Feng",
-        "lastName": "Chen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Heike",
-        "lastName": "Daldrup-Link"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Phil",
-        "lastName": "De Jager"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Li",
-        "lastName": "Ding"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Francesca E.",
-        "lastName": "Duncan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Oliver",
-        "lastName": "Eickelberg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Rong",
-        "lastName": "Fan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Toren",
-        "lastName": "Finkel"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Vesna",
-        "lastName": "Garovic"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Carolyn",
-        "lastName": "Glass"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ziv",
-        "lastName": "Bar-Joseph"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Pragati",
-        "lastName": "Katiyar"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "So-Jin",
-        "lastName": "Kim"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Melanie",
-        "lastName": "Königshoff"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "George",
-        "lastName": "Kuchel"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Haesung",
-        "lastName": "Lee"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jun H.",
-        "lastName": "Lee"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jian",
-        "lastName": "Ma"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Qin",
-        "lastName": "Ma"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Simon",
-        "lastName": "Melov"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kay",
-        "lastName": "Metis"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ana L.",
-        "lastName": "Mora"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nicolas",
-        "lastName": "Musi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nicola",
-        "lastName": "Neretti"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "João F.",
-        "lastName": "Passos"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Irfan",
-        "lastName": "Rahman"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Juan Carlos",
-        "lastName": "Rivera-Mulia"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Paul",
-        "lastName": "Robson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mauricio",
-        "lastName": "Rojas"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ananda L.",
-        "lastName": "Roy"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Birgit",
-        "lastName": "Schilling"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Pixu",
-        "lastName": "Shi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jonathan",
-        "lastName": "Silverstein"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Vidyani",
-        "lastName": "Suryadevera"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jichun",
-        "lastName": "Xie"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jinhua",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "An-Kwok Ian",
-        "lastName": "Wong"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Laura",
-        "lastName": "Niedernhofer"
-      }
-    ],
-    "abstractNote": "Cells respond to a myriad of stressors by senescing, acquiring stable growth arrest, morphologic and metabolic changes, and a senescence-associated-secretory-phenotype (SASP). The heterogeneity of senescent cells (SnCs) and their SASP is vast, yet poorly characterized. SnCs have diverse roles in health and disease and are therapeutically targetable, making characterization of SnCs and harmonization of their nomenclature a priority. The Cellular Senescence Network (SenNet), a NIH Common Fund initiative, will leverage emerging single cell and spatial-omics to identify and map SnCs in numerous organs across the lifespan of humans and mice. A common coordinate framework will integrate the data, using validated, standardized methods, creating public 4-dimensional SnC atlases. Key SenNet deliverables include development of innovative tools/technologies to detect SnCs, biomarker discovery, common annotations to describe SnCs and extensive public data sets. The goal is to comprehensively understand and map SnCs for diagnostic and therapeutic purposes to improve human health.",
-    "DOI": "10.20944/preprints202207.0160.v1",
-    "shortTitle": "NIH SenNet Consortium",
-    "url": "https://www.preprints.org/manuscript/202207.0160/v1",
-    "date": {
-      "year": 2022,
-      "month": 7,
-      "day": 11
-    }
-  },
-  {
     "pmid": "35697747",
     "key": "EL85K8FP",
     "version": 2440,
@@ -30816,37 +31904,6 @@
     }
   },
   {
-    "key": "RX6BRJQN",
-    "version": 2280,
-    "itemType": "preprint",
-    "title": "Towards a Knowledge-Based Recommendation System for Genomics Visualization",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Aditeya",
-        "lastName": "Pandey"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Analysis and interpretation of genomics data are the backbones of breakthroughs and discoveries in biomedical research. Visualization tools and techniques play a significant role in the workflow of genomics researchers, and they are regularly employed in the interpretation of genomics data. However, the vast majority of genomics researchers have little or no formal training in data visualization design. Therefore, they require guidance on designing effective visualizations for a given set of data and analysis tasks. In this poster, we present the methodology behind a recommender system for genomics data and our preliminary design of a knowledge-based recommendation system. The system allows genomics researchers to navigate through a selection of visualization options and identify the techniques that meet their preferences and requirements.",
-    "DOI": "10.31219/osf.io/t74da",
-    "url": "https://osf.io/t74da",
-    "date": {
-      "year": 2020,
-      "month": 9,
-      "day": 5
-    }
-  },
-  {
     "pmid": "32864472",
     "key": "D7ZAJ8K7",
     "version": 2424,
@@ -31303,47 +32360,6 @@
       "year": 2020,
       "month": 8,
       "day": 19
-    }
-  },
-  {
-    "key": "LBA5BV5P",
-    "version": 2280,
-    "itemType": "preprint",
-    "title": "Data Visualization for Surgical Informed Consent to Communicate Personalized Risks and Patient Preferences",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Undina",
-        "lastName": "Gisladottir"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Drashko",
-        "lastName": "Nakikj"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Rashi",
-        "lastName": "Jhunjhunwala"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gabriel",
-        "lastName": "Brat"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "STRUCTURED ABSTRACT\n          \n            Objective\n            Identify key elements of an effective visualization method for communicating personalized surgical risks to patients.\n          \n          \n            Background\n            Currently, there is no consensus on which risks should be communicated during the informed consent process and how. Furthermore, patient preferences are often not considered during the consent process. These inefficiencies can lead to non-beneficial outcomes and raise the potential for legal implications. To address the limitations of the informed consent process, we propose a visual consent tool (VCT) that incorporates patient preferences and communicates personalized risks to patients using data visualization.\n          \n          \n            Methods\n            To understand how patients perceive risk visualizations and their role in the informed consent discussion, we gathered feedback on visualizations by conducting semi-structured interviews during postoperative visits. Thematic analysis was performed to identify major themes. Iterative evaluation and consolidation of the major themes were performed with domain experts.\n          \n          \n            Results\n            A total of 20 patients were interviewed for this study with a median age of 59 (sd = 14). The thematic analysis revealed factors that influence the perception of risk, of risk visualizations, and the usefulness of the proposed VCT. We found that patients preferred VCT over the current methods and had different preferences for risk visualization. Further, our findings suggest that surgical concerns of patients were not in line with existing risk calculators.\n          \n          \n            Conclusion\n            We were able to identify key elements that influence effective risk communication in the perioperative setting. We found that patient preference is variable and should influence choices for risk presentation and visualization.",
-    "DOI": "10.1101/2020.03.25.20038398",
-    "url": "http://medrxiv.org/lookup/doi/10.1101/2020.03.25.20038398",
-    "date": {
-      "year": 2020,
-      "month": 3,
-      "day": 27
     }
   },
   {
