@@ -21726,7 +21726,7 @@
   {
     "pmid": "35697747",
     "key": "EL85K8FP",
-    "version": 2426,
+    "version": 2440,
     "itemType": "journalArticle",
     "title": "International comparisons of laboratory values from the 4CE collaborative to predict COVID-19 mortality",
     "creators": [
@@ -31349,7 +31349,7 @@
   {
     "pmid": "34334852",
     "key": "MXQ5NQFW",
-    "version": 2429,
+    "version": 2439,
     "itemType": "journalArticle",
     "title": "Peax: Interactive Visual Pattern Search in Sequential Data Using Unsupervised Deep Representation Learning",
     "creators": [
@@ -151150,15 +151150,15 @@
     }
   },
   {
-    "key": "WDCI2QXP",
-    "version": 2437,
+    "key": "9WYSPMPB",
+    "version": 2443,
     "itemType": "journalArticle",
-    "title": "The Stem Cell Commons: an exemplar for data integration in the biomedical domain driven by the ISA framework.",
+    "title": "The Stem Cell Commons: an exemplar for data integration in the biomedical domain driven by the ISA framework",
     "creators": [
       {
         "creatorType": "author",
-        "firstName": "S Sui",
-        "lastName": "Ho"
+        "firstName": "Shannan",
+        "lastName": "Ho Sui"
       },
       {
         "creatorType": "author",
@@ -151207,13 +151207,37 @@
       },
       {
         "creatorType": "author",
-        "name": "others"
+        "firstName": "Oliver",
+        "lastName": "Hofmann"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter J.",
+        "lastName": "Park"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sudeshna",
+        "lastName": "Das"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Susanna-Assunta",
+        "lastName": "Sansone"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Winston",
+        "lastName": "Hide"
       }
     ],
-    "abstractNote": "",
+    "abstractNote": "Comparisons of stem cell experiments at both molecular and semantic levels remain challenging due to inconsistencies in results, data formats, and descriptions among biomedical research discoveries. The Harvard Stem Cell Institute (HSCI) has created the Stem Cell Commons (stemcellcommons.org), an open, community-based approach to data sharing. Experimental information is integrated using the Investigation-Study-Assay tabular format (ISA-Tab) used by over 30 organizations (ISA Commons, isacommons.org). The early adoption of this format permitted the novel integration of three independent systems to facilitate stem cell data storage, exchange and analysis: the Blood Genomics Repository, the Stem Cell Discovery Engine, and the new Refinery platform that links the Galaxy analytical engine to data repositories.",
     "publicationTitle": "AMIA Joint Summits on Translational Science",
     "volume": "2013",
-    "pages": "70–70",
+    "pages": "70",
+    "journalAbbreviation": "AMIA Jt Summits Transl Sci Proc",
+    "ISSN": "2153-4063",
+    "shortTitle": "The Stem Cell Commons",
     "date": {
       "year": 2013
     }
