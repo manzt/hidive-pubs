@@ -34153,6 +34153,53 @@
     }
   },
   {
+    "pmid": "31396383",
+    "key": "JQA9HF8T",
+    "version": 2436,
+    "itemType": "conferencePaper",
+    "title": "Visual Pattern-Driven Exploration of Big Data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Michael",
+        "lastName": "Behrisch"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Robert",
+        "lastName": "Krueger"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fritz",
+        "lastName": "Lekschas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Tobias",
+        "lastName": "Schreck"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hanspeter",
+        "lastName": "Pfister"
+      }
+    ],
+    "abstractNote": "",
+    "proceedingsTitle": "Proceedings of International Symposium on Big Data Visual and Immersive Analytics (BDVA)",
+    "pages": "1-11",
+    "DOI": "10.1109/BDVA.2018.8534028",
+    "url": "https://ieeexplore.ieee.org/document/8534028/",
+    "date": {
+      "year": 2018
+    }
+  },
+  {
     "pmid": "30268436",
     "key": "X893GCKP",
     "version": 2300,
@@ -127189,53 +127236,6 @@
     "issue": "4",
     "pages": "690–705.e9",
     "url": "https://www.cell.com/cancer-cell/pdfExtended/S1535-6108%2818%2930119-3",
-    "date": {
-      "year": 2018
-    }
-  },
-  {
-    "pmid": "31396383",
-    "key": "JQA9HF8T",
-    "version": 2300,
-    "itemType": "conferencePaper",
-    "title": "Visual Pattern-Driven Exploration of Big Data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Michael",
-        "lastName": "Behrisch"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Robert",
-        "lastName": "Krueger"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Fritz",
-        "lastName": "Lekschas"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tobias",
-        "lastName": "Schreck"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hanspeter",
-        "lastName": "Pfister"
-      }
-    ],
-    "abstractNote": "",
-    "proceedingsTitle": "2018 International Symposium on Big Data Visual and Immersive Analytics (BDVA)",
-    "pages": "1-11",
-    "DOI": "10.1109/BDVA.2018.8534028",
-    "url": "https://ieeexplore.ieee.org/document/8534028/",
     "date": {
       "year": 2018
     }
