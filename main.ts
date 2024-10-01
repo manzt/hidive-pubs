@@ -3,6 +3,7 @@ import { z } from "npm:zod@3.23.8";
 import * as fs from "jsr:@std/fs@1.0.4";
 import * as path from "jsr:@std/path@1.0.6";
 import * as colors from "jsr:@std/fmt@1.0.2/colors";
+import { assert } from "jsr:@std/assert@1.0.6";
 import { stringify } from "jsr:@std/csv@1.0.3";
 
 let HIDIVE_GROUP_ID = "5145258" as const;
@@ -90,13 +91,7 @@ async function getPubMedIds(
 }
 
 function formatAuthors(
-  authors: Array<
-    { creatorType: string; name: string } | {
-      creatorType: string;
-      firstName: string;
-      lastName: string;
-    }
-  >,
+  authors: Array<Author>,
   options: { rich?: boolean } = {},
 ) {
   let it = (text: string) => options.rich ? `_${text}_` : text;
@@ -115,13 +110,17 @@ function formatAuthors(
   return formatted.join(", ");
 }
 
-function formatJournalInfo(meta: ZoteroItem, options: { rich?: boolean } = {}) {
+function formatJournalInfo(
+  meta: ZoteroItem,
+  options: { rich?: boolean } = {},
+) {
   let it = (text: string) => options.rich ? `_${text}_` : text;
   let b = (text: string) => options.rich ? `**${text}**` : text;
 
   if (meta.itemType === "thesis") {
     return it("Thesis");
   }
+
   if (meta.itemType === "preprint") {
     if (meta.url?.includes("arxiv")) return it("arXiv");
     if (meta.url?.includes("biorxiv")) return it("bioRxiv");
@@ -130,7 +129,9 @@ function formatJournalInfo(meta: ZoteroItem, options: { rich?: boolean } = {}) {
     if (meta.url?.includes("ssrn")) return it("SSRN Preprints");
     return it("Preprint");
   }
+
   if (meta.publicationTitle) {
+    assert(meta.itemType === "journalArticle");
     let { publicationTitle, volume, issue, pages } = meta;
     let citation = it(publicationTitle);
     if (volume) citation += ` ${b(volume)}`;
@@ -140,24 +141,42 @@ function formatJournalInfo(meta: ZoteroItem, options: { rich?: boolean } = {}) {
     }
     return citation;
   }
+
   if (meta.proceedingsTitle) {
+    assert(meta.itemType === "conferencePaper");
     return it(meta.proceedingsTitle);
   }
+
   if (meta.bookTitle) {
+    assert(meta.itemType === "bookSection");
     return `${it(meta.bookTitle)} (Book)`;
   }
+
   if (meta.institution) {
+    assert(meta.itemType === "report");
     return `${it(meta.institution)}${meta.pages ? ` ${meta.pages}` : ""}`;
   }
+
+  console.error("Unhandled item type", meta);
+
   return "";
 }
 
+export function formatZoteroItem(
+  item: ZoteroItem,
+  options: { rich?: boolean } = {},
+): { title: string; authors: string; published: string; year: number } {
+  return {
+    title: item.title,
+    authors: formatAuthors(item.creators, options),
+    published: formatJournalInfo(item, options),
+    year: item.date.year,
+  };
+}
+
 function formatCitation(item: ZoteroItem) {
-  let authors = formatAuthors(item.creators);
-  let title = item.title;
-  let info = formatJournalInfo(item);
-  let year = item.date.year;
-  return `${authors}, "${title}", ${info} (${year}).`;
+  let { authors, title, published, year } = formatZoteroItem(item);
+  return `${authors}, "${title}", ${published} (${year}).`;
 }
 
 function toCsv(pubs: Array<ZoteroItem & { pmid?: string }>) {
