@@ -151150,6 +151150,75 @@
     }
   },
   {
+    "key": "WDCI2QXP",
+    "version": 2437,
+    "itemType": "journalArticle",
+    "title": "The Stem Cell Commons: an exemplar for data integration in the biomedical domain driven by the ISA framework.",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "S Sui",
+        "lastName": "Ho"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Emily",
+        "lastName": "Merrill"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Psalm",
+        "lastName": "Haseley"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ilya",
+        "lastName": "Sytchev"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Richard",
+        "lastName": "Park"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Philippe",
+        "lastName": "Rocca-Serra"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Stephane",
+        "lastName": "Corlosquet"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alejandra",
+        "lastName": "Gonzalez-Beltran"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Eamonn",
+        "lastName": "Maguire"
+      },
+      {
+        "creatorType": "author",
+        "name": "others"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "AMIA Joint Summits on Translational Science",
+    "volume": "2013",
+    "pages": "70–70",
+    "date": {
+      "year": 2013
+    }
+  },
+  {
     "pmid": "23663786",
     "key": "HJSPFY5I",
     "version": 2300,
@@ -152894,75 +152963,6 @@
     "ISSN": "1077-2626",
     "shortTitle": "LineUp",
     "url": "http://ieeexplore.ieee.org/document/6634146/",
-    "date": {
-      "year": 2013
-    }
-  },
-  {
-    "key": "WDCI2QXP",
-    "version": 2284,
-    "itemType": "journalArticle",
-    "title": "The Stem Cell Commons: an exemplar for data integration in the biomedical domain driven by the ISA framework.",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "S Sui",
-        "lastName": "Ho"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Emily",
-        "lastName": "Merrill"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Psalm",
-        "lastName": "Haseley"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ilya",
-        "lastName": "Sytchev"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Richard",
-        "lastName": "Park"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Philippe",
-        "lastName": "Rocca-Serra"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Stephane",
-        "lastName": "Corlosquet"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alejandra",
-        "lastName": "Gonzalez-Beltran"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Eamonn",
-        "lastName": "Maguire"
-      },
-      {
-        "creatorType": "author",
-        "name": "others"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "AMIA Joint Summits on Translational Science proceedings. AMIA Joint Summits on Translational Science",
-    "volume": "2013",
-    "pages": "70–70",
     "date": {
       "year": 2013
     }
