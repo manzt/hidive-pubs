@@ -3532,6 +3532,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "2023 IEEE Visualization and Visual Analytics (VIS)",
     "pages": "111-115",
     "DOI": "10.1109/VIS54172.2023.00031",
     "url": "https://ieeexplore.ieee.org/document/10360908/",
@@ -3564,6 +3565,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "2023 IEEE Visualization and Visual Analytics (VIS)",
     "pages": "101-105",
     "DOI": "10.1109/VIS54172.2023.00029",
     "shortTitle": "The Role of Visualization in Genomics Data Analysis Workflows",
@@ -3622,6 +3624,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "2023 IEEE VIS Workshop on Visualization Education, Literacy, and Activities (EduVis)",
     "pages": "16-21",
     "DOI": "10.1109/EduVis60792.2023.00009",
     "shortTitle": "Beyond Generating Code",
@@ -3694,6 +3697,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
     "pages": "1-15",
     "DOI": "10.1145/3544548.3581127",
     "shortTitle": "DRAVA",
@@ -29663,6 +29667,44 @@
     }
   },
   {
+    "key": "H28UFSKE",
+    "version": 2431,
+    "itemType": "conferencePaper",
+    "title": "Interactive Visual Explanations for Deep Drug Repurposing",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Qianwen",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Kexin",
+        "lastName": "Huang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Payal",
+        "lastName": "Chandak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marinka",
+        "lastName": "Zitnik"
+      }
+    ],
+    "abstractNote": "",
+    "proceedingsTitle": "Workshop on Interpretable ML in Healthcare at International Conference on Machine Learning (ICML)",
+    "date": {
+      "year": 2021
+    }
+  },
+  {
     "pmid": "33026994",
     "key": "5R2WBFVC",
     "version": 2292,
@@ -30774,43 +30816,6 @@
     }
   },
   {
-    "key": "H28UFSKE",
-    "version": 2284,
-    "itemType": "journalArticle",
-    "title": "Interactive Visual Explanations for Deep Drug Repurposing",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kexin",
-        "lastName": "Huang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Payal",
-        "lastName": "Chandak"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marinka",
-        "lastName": "Zitnik"
-      }
-    ],
-    "abstractNote": "",
-    "date": {
-      "year": 2021
-    }
-  },
-  {
     "key": "RX6BRJQN",
     "version": 2280,
     "itemType": "preprint",
@@ -31411,6 +31416,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "Biocomputing 2021",
     "pages": "346-350",
     "DOI": "10.1142/9789811232701_0034",
     "shortTitle": "Making Tools that People Will Use",
@@ -32459,6 +32465,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "2019 IEEE Visualization Conference (VIS)",
     "pages": "1-5",
     "DOI": "10.1109/VISUAL.2019.8933582",
     "url": "https://ieeexplore.ieee.org/document/8933582/",
@@ -33995,6 +34002,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "AMIA",
     "date": {
       "year": 2019
     }
@@ -34027,6 +34035,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "Proceedings of the IEEE Information Visualization Conference–Posters (InfoVis’ 19)",
     "volume": "7",
     "date": {
       "year": 2019
@@ -127223,6 +127232,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "2018 International Symposium on Big Data Visual and Immersive Analytics (BDVA)",
     "pages": "1-11",
     "DOI": "10.1109/BDVA.2018.8534028",
     "url": "https://ieeexplore.ieee.org/document/8534028/",
@@ -131129,6 +131139,7 @@
       }
     ],
     "abstractNote": "Our ability to generate and collect biological data has accelerated significantly in the past two decades. In response, many novel computational and statistical analysis techniques have been developed to process and integrate biological data sets. However, in addition to computational and statistical approaches, visualization techniques are needed to enable the interpretation of data as well as the communication of results. The design and implementation of such techniques lies at the intersection of the biology, bioinformatics, and data visualization fields.  \nThe purpose of Dagstuhl Seminar 18161 \"Visualization of Biological Data - Crossroads\" was to bring together researchers from all three fields, to identify opportunities and challenges, and to develop a path forward for biological data visualization research.",
+    "institution": "Schloss Dagstuhl – Leibniz-Zentrum für Informatik",
     "pages": "32-71",
     "url": "https://drops.dagstuhl.de/entities/document/10.4230/DagRep.8.4.32",
     "date": {
@@ -139615,8 +139626,8 @@
   },
   {
     "key": "67A8XVNB",
-    "version": 2385,
-    "itemType": "journalArticle",
+    "version": 2434,
+    "itemType": "conferencePaper",
     "title": "TaCo: Comparative Visualization of Large Tabular Data",
     "creators": [
       {
@@ -139641,6 +139652,7 @@
       }
     ],
     "abstractNote": "Tabular data plays a vital role in many different domains. In the course of a project, changes to the structure and content of tables can result in multiple instances of a table. A challenging task when working with such derived tables is to understand what exactly has changed from one version to another. Traditional comparison tools assist users in inspecting differences between multiple table instances, however, the resulting visualizations are often hard to interpret or do not scale to large tables with thousands of rows and columns. To address these challenges, we developed TaCo, an interactive comparison tool that effectively visualizes the differences between multiple tables at various levels of granularity: (1) the aggregated differences between all table instances, (2) the differences between one table compared to all others, and (3) the detailed differences between two instances.",
+    "proceedingsTitle": "EuroVis 2016 - Posters",
     "DOI": "10.2312/EURP.20161149",
     "shortTitle": "TaCo",
     "url": "https://diglib.eg.org/handle/10.2312/eurp20161149",
@@ -139861,6 +139873,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "Biocomputing 2016: Proceedings of the Pacific Symposium",
     "pages": "180–182",
     "DOI": "10.1142/9789814749411_0017",
     "date": {
@@ -141156,28 +141169,6 @@
     "url": "http://f1000research.com/posters/5-1956",
     "date": {
       "year": 2016
-    }
-  },
-  {
-    "key": "ZYIFJN6W",
-    "version": 2297,
-    "itemType": "dataset",
-    "title": "UpSetR: A More Scalable Alternative to Venn and Euler Diagrams for Visualizing Intersecting Sets",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Creates visualizations of intersecting sets using a novel matrix design, along with visualizations of several common set, element and attribute related tasks (Conway 2017) <doi:10.1093/bioinformatics/btx364>.",
-    "DOI": "10.32614/CRAN.package.UpSetR",
-    "shortTitle": "UpSetR",
-    "url": "https://CRAN.R-project.org/package=UpSetR",
-    "date": {
-      "year": 2015,
-      "month": 7,
-      "day": 16
     }
   },
   {
@@ -145603,6 +145594,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "Poster Compendium of the IEEE Conference on Information Visualization (InfoVis’ 15)",
     "date": {
       "year": 2015
     }
@@ -145640,6 +145632,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "Poster Compendium of the IEEE Conference on Information Visualization (InfoVis’ 15)",
     "date": {
       "year": 2015
     }
@@ -151050,6 +151043,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "Poster Compendium of the IEEE VIS Conference. IEEE",
     "date": {
       "year": 2014
     }
@@ -153352,6 +153346,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "IEEE Symposium on Biological Data Visualization 2011",
     "date": {
       "year": 2011
     }
@@ -153389,6 +153384,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "2010 IEEE International Conference on Acoustics, Speech and Signal Processing",
     "pages": "2178-2181",
     "DOI": "10.1109/ICASSP.2010.5495665",
     "url": "http://ieeexplore.ieee.org/document/5495665/",
@@ -154102,6 +154098,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "55 th ASMS Conference Proceedings",
     "date": {
       "year": 2007
     }
@@ -154195,6 +154192,7 @@
       }
     ],
     "abstractNote": "",
+    "proceedingsTitle": "The Korea Genome Conference",
     "pages": "43–43",
     "date": {
       "year": 2006
@@ -154265,6 +154263,7 @@
       }
     ],
     "abstractNote": "",
+    "bookTitle": "Aktuelle Trends in der Softwareforschung",
     "volume": "3",
     "pages": "259–270",
     "date": {

@@ -38,6 +38,9 @@ let zoteroItemSchema = z.object({
     abstractNote: z.string().transform((value) =>
       value.replace(/^Abstract\s+/, "") // remove "Abstract" prefix
     ),
+    institution: maybeStringSchema,
+    bookTitle: maybeStringSchema,
+    proceedingsTitle: maybeStringSchema,
     publicationTitle: maybeStringSchema,
     volume: maybeStringSchema,
     issue: maybeStringSchema,
@@ -86,40 +89,67 @@ async function getPubMedIds(
   return records;
 }
 
-function formatAuthors(authors: Array<Author>) {
-  let formatted = authors.map((author) => {
-    if ("name" in author) {
-      return author.name;
+function formatAuthors(
+  authors: Array<
+    { creatorType: string; name: string } | {
+      creatorType: string;
+      firstName: string;
+      lastName: string;
     }
-    let { firstName, lastName } = author;
-    // extract capital letters from first name as initials
-    let initials = firstName.match(/[A-Z]/g);
-    return `${initials?.join("") ?? ""} ${lastName}`;
-  });
+  >,
+  options: { rich?: boolean } = {},
+) {
+  let it = (text: string) => options.rich ? `_${text}_` : text;
+  let formatted = authors
+    .filter((author) => author.creatorType === "author")
+    .map((author) => {
+      if ("name" in author) {
+        return it(author.name);
+      }
+      let { firstName, lastName } = author;
+      // extract capital letters from first name as initials
+      let initials = firstName.match(/[A-Z]/g);
+      return `${initials?.join("") ?? ""} ${lastName}`;
+    });
   if (formatted.length === 2) return formatted.join(" and ");
   return formatted.join(", ");
 }
 
-function formatJournalInfo(meta: ZoteroItem) {
+function formatJournalInfo(meta: ZoteroItem, options: { rich?: boolean } = {}) {
+  let it = (text: string) => options.rich ? `_${text}_` : text;
+  let b = (text: string) => options.rich ? `**${text}**` : text;
+
   if (meta.itemType === "thesis") {
-    return "Thesis";
+    return it("Thesis");
   }
   if (meta.itemType === "preprint") {
-    if (meta.url?.includes("arxiv")) return "arXiv";
-    if (meta.url?.includes("biorxiv")) return "bioRxiv";
-    if (meta.url?.includes("medrxiv")) return "medRxiv";
-    if (meta.url?.includes("osf")) return "OSF Preprints";
-    return "Preprint";
+    if (meta.url?.includes("arxiv")) return it("arXiv");
+    if (meta.url?.includes("biorxiv")) return it("bioRxiv");
+    if (meta.url?.includes("medrxiv")) return it("medRxiv");
+    if (meta.url?.includes("osf.io")) return it("OSF Preprints");
+    if (meta.url?.includes("ssrn")) return it("SSRN Preprints");
+    return it("Preprint");
   }
-  let { publicationTitle, volume, issue, pages } = meta;
-  if (!publicationTitle) return "";
-  let citation = publicationTitle;
-  if (volume) citation += ` ${volume}`;
-  if (issue) citation += `(${issue})`;
-  if (pages) {
-    citation += `${(issue || volume) ? ":" : " "}${pages}`;
+  if (meta.publicationTitle) {
+    let { publicationTitle, volume, issue, pages } = meta;
+    let citation = it(publicationTitle);
+    if (volume) citation += ` ${b(volume)}`;
+    if (issue) citation += `(${issue})`;
+    if (pages) {
+      citation += `${(issue || volume) ? ":" : " "}${pages}`;
+    }
+    return citation;
   }
-  return citation;
+  if (meta.proceedingsTitle) {
+    return it(meta.proceedingsTitle);
+  }
+  if (meta.bookTitle) {
+    return `${it(meta.bookTitle)} (Book)`;
+  }
+  if (meta.institution) {
+    return `${it(meta.institution)}${meta.pages ? ` ${meta.pages}` : ""}`;
+  }
+  return "";
 }
 
 function formatCitation(item: ZoteroItem) {
