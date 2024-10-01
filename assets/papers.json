@@ -23651,6 +23651,48 @@
     }
   },
   {
+    "pmid": "34596551",
+    "key": "FAGH79C9",
+    "version": 2454,
+    "itemType": "journalArticle",
+    "title": "Gosling: A Grammar-based Toolkit for Scalable and Interactive Genomics Data Visualization",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L'Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Qianwen",
+        "lastName": "Wang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Fritz",
+        "lastName": "Lekschas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "28",
+    "issue": "1",
+    "pages": "140-150",
+    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
+    "DOI": "10.1109/TVCG.2021.3114876",
+    "ISSN": "1077-2626, 1941-0506, 2160-9306",
+    "shortTitle": "Gosling",
+    "url": "https://ieeexplore.ieee.org/document/9557192/",
+    "date": {
+      "year": 2022
+    }
+  },
+  {
     "pmid": "35545714",
     "key": "ZLNB3PQY",
     "version": 2409,
@@ -24069,48 +24111,6 @@
     "ISSN": "2566-9346",
     "shortTitle": "Design and Development of Halyos",
     "url": "http://www.thieme-connect.de/DOI/DOI?10.1055/s-0042-1749191",
-    "date": {
-      "year": 2022
-    }
-  },
-  {
-    "pmid": "34596551",
-    "key": "FAGH79C9",
-    "version": 2291,
-    "itemType": "journalArticle",
-    "title": "Gosling: A Grammar-based Toolkit for Scalable and Interactive Genomics Data Visualization",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "LYi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Qianwen",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Fritz",
-        "lastName": "Lekschas"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
-    "volume": "28",
-    "issue": "1",
-    "pages": "140-150",
-    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
-    "DOI": "10.1109/TVCG.2021.3114876",
-    "ISSN": "1077-2626, 1941-0506, 2160-9306",
-    "shortTitle": "Gosling",
-    "url": "https://ieeexplore.ieee.org/document/9557192/",
     "date": {
       "year": 2022
     }
@@ -141226,167 +141226,9 @@
     }
   },
   {
-    "key": "5MERTEFS",
-    "version": 2351,
-    "itemType": "journalArticle",
-    "title": "Points of View: Temporal data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Marc",
-        "lastName": "Streit"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "12",
-    "issue": "2",
-    "pages": "97-97",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.3262",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.3262",
-    "date": {
-      "year": 2015
-    }
-  },
-  {
-    "key": "QQSJTBM9",
-    "version": 2300,
-    "itemType": "journalArticle",
-    "title": "Response to \"Plotting intersections\" by Lentini",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Lex"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "12",
-    "issue": "4",
-    "pages": "281-281",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/nmeth.3331",
-    "ISSN": "1548-7091, 1548-7105",
-    "url": "https://www.nature.com/articles/nmeth.3331",
-    "date": {
-      "year": 2015
-    }
-  },
-  {
-    "pmid": "26356912",
-    "key": "Z3KK6ICA",
-    "version": 2287,
-    "itemType": "journalArticle",
-    "title": "UpSet: Visualization of Intersecting Sets",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Lex"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hendrik",
-        "lastName": "Strobelt"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Romain",
-        "lastName": "Vuillemot"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hanspeter",
-        "lastName": "Pfister"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
-    "volume": "20",
-    "issue": "12",
-    "pages": "1983-1992",
-    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
-    "DOI": "10.1109/TVCG.2014.2346248",
-    "ISSN": "1077-2626",
-    "shortTitle": "UpSet",
-    "url": "http://ieeexplore.ieee.org/document/6876017/",
-    "date": {
-      "year": 2014,
-      "month": 12,
-      "day": 31
-    }
-  },
-  {
-    "pmid": "26356916",
-    "key": "ZC8U3UYV",
-    "version": 2291,
-    "itemType": "journalArticle",
-    "title": "Domino: Extracting, Comparing, and Manipulating Subsets Across Multiple Tabular Datasets",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Samuel",
-        "lastName": "Gratzl"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Lex"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hanspeter",
-        "lastName": "Pfister"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marc",
-        "lastName": "Streit"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
-    "volume": "20",
-    "issue": "12",
-    "pages": "2023-2032",
-    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
-    "DOI": "10.1109/TVCG.2014.2346260",
-    "ISSN": "1077-2626, 1941-0506, 2160-9306",
-    "shortTitle": "Domino",
-    "url": "https://ieeexplore.ieee.org/document/6875920/",
-    "date": {
-      "year": 2014,
-      "month": 12,
-      "day": 31
-    }
-  },
-  {
     "pmid": "26451490",
     "key": "2A6X3T2S",
-    "version": 2287,
+    "version": 2453,
     "itemType": "journalArticle",
     "title": "Comprehensive Molecular Portraits of Invasive Lobular Breast Cancer",
     "creators": [
@@ -141547,638 +141389,12 @@
       },
       {
         "creatorType": "author",
+        "name": "The Cancer Genome Atlas Research Network"
+      },
+      {
+        "creatorType": "author",
         "firstName": "Charles M.",
         "lastName": "Perou"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Rehan",
-        "lastName": "Akbani"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "J. Todd",
-        "lastName": "Auman"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Miruna",
-        "lastName": "Balasundaram"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Saianand",
-        "lastName": "Balu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Thomas",
-        "lastName": "Barr"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Andrew",
-        "lastName": "Beck"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Christopher",
-        "lastName": "Benz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Stephen",
-        "lastName": "Benz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mario",
-        "lastName": "Berrios"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Rameen",
-        "lastName": "Beroukhim"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tom",
-        "lastName": "Bodenheimer"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lori",
-        "lastName": "Boice"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Moiz S.",
-        "lastName": "Bootwalla"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jay",
-        "lastName": "Bowen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Reanne",
-        "lastName": "Bowlby"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Denise",
-        "lastName": "Brooks"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Andrew D.",
-        "lastName": "Cherniack"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lynda",
-        "lastName": "Chin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Juok",
-        "lastName": "Cho"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sudha",
-        "lastName": "Chudamani"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Giovanni",
-        "lastName": "Ciriello"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tanja",
-        "lastName": "Davidsen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "John A.",
-        "lastName": "Demchok"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jennifer B.",
-        "lastName": "Dennison"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Li",
-        "lastName": "Ding"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ina",
-        "lastName": "Felau"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Martin L.",
-        "lastName": "Ferguson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Scott",
-        "lastName": "Frazer"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Stacey B.",
-        "lastName": "Gabriel"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "JianJiong",
-        "lastName": "Gao"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Julie M.",
-        "lastName": "Gastier-Foster"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michael L.",
-        "lastName": "Gatza"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mark",
-        "lastName": "Gerken"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gad",
-        "lastName": "Getz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "William J.",
-        "lastName": "Gibson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "D. Neil",
-        "lastName": "Hayes"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "David I.",
-        "lastName": "Heiman"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Katherine A.",
-        "lastName": "Hoadley"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Andrea",
-        "lastName": "Holbrook"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Robert A.",
-        "lastName": "Holt"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alan P.",
-        "lastName": "Hoyle"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hai",
-        "lastName": "Hu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mei",
-        "lastName": "Huang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Carolyn M.",
-        "lastName": "Hutter"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "E. Shelley",
-        "lastName": "Hwang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Stuart R.",
-        "lastName": "Jefferys"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Steven J.M.",
-        "lastName": "Jones"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Zhenlin",
-        "lastName": "Ju"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jaegil",
-        "lastName": "Kim"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Phillip H.",
-        "lastName": "Lai"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter W.",
-        "lastName": "Laird"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michael S.",
-        "lastName": "Lawrence"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kristen M.",
-        "lastName": "Leraas"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tara M.",
-        "lastName": "Lichtenberg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Pei",
-        "lastName": "Lin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Shiyun",
-        "lastName": "Ling"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jia",
-        "lastName": "Liu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Wenbin",
-        "lastName": "Liu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Laxmi",
-        "lastName": "Lolla"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Yiling",
-        "lastName": "Lu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Yussanne",
-        "lastName": "Ma"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Dennis T.",
-        "lastName": "Maglinte"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Elaine",
-        "lastName": "Mardis"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jeffrey",
-        "lastName": "Marks"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marco A.",
-        "lastName": "Marra"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Cynthia",
-        "lastName": "McAllister"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michael",
-        "lastName": "McLellan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Shaowu",
-        "lastName": "Meng"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Matthew",
-        "lastName": "Meyerson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gordon B.",
-        "lastName": "Mills"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Richard A.",
-        "lastName": "Moore"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lisle E.",
-        "lastName": "Mose"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Andrew J.",
-        "lastName": "Mungall"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Bradley A.",
-        "lastName": "Murray"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Rashi",
-        "lastName": "Naresh"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michael S.",
-        "lastName": "Noble"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Steffi",
-        "lastName": "Oesterreich"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Olufunmilayo",
-        "lastName": "Olopade"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Joel S.",
-        "lastName": "Parker"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Charles M.",
-        "lastName": "Perou"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Todd",
-        "lastName": "Pihl"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gordon",
-        "lastName": "Saksena"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Steven E.",
-        "lastName": "Schumacher"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kenna R. Mills",
-        "lastName": "Shaw"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nilsa C.",
-        "lastName": "Ramirez"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "W. Kimryn",
-        "lastName": "Rathmell"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Suhn K.",
-        "lastName": "Rhie"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jeffrey",
-        "lastName": "Roach"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "A. Gordon",
-        "lastName": "Robertson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gordon",
-        "lastName": "Saksena"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Chris",
-        "lastName": "Sander"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jacqueline E.",
-        "lastName": "Schein"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nikolaus",
-        "lastName": "Schultz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hui",
-        "lastName": "Shen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Margi",
-        "lastName": "Sheth"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Yan",
-        "lastName": "Shi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Juliann",
-        "lastName": "Shih"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Carl Simon",
-        "lastName": "Shelley"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Craig",
-        "lastName": "Shriver"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Janae V.",
-        "lastName": "Simons"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Heidi J.",
-        "lastName": "Sofia"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Matthew G.",
-        "lastName": "Soloway"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Carrie",
-        "lastName": "Sougnez"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Charlie",
-        "lastName": "Sun"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Roy",
-        "lastName": "Tarnuzzer"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Daniel G.",
-        "lastName": "Tiezzi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "David J.",
-        "lastName": "Van Den Berg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Doug",
-        "lastName": "Voet"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Yunhu",
-        "lastName": "Wan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Zhining",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "John N.",
-        "lastName": "Weinstein"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Daniel J.",
-        "lastName": "Weisenberger"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Matthew D.",
-        "lastName": "Wilkerson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Richard",
-        "lastName": "Wilson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lisa",
-        "lastName": "Wise"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Maciej",
-        "lastName": "Wiznerowicz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Junyuan",
-        "lastName": "Wu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ye",
-        "lastName": "Wu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Liming",
-        "lastName": "Yang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Christina",
-        "lastName": "Yau"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Travis I.",
-        "lastName": "Zack"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jean C.",
-        "lastName": "Zenklusen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hailei",
-        "lastName": "Zhang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jiashan",
-        "lastName": "Zhang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Erik",
-        "lastName": "Zmuda"
       }
     ],
     "abstractNote": "",
@@ -142192,6 +141408,164 @@
     "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867415011952",
     "date": {
       "year": 2015
+    }
+  },
+  {
+    "key": "5MERTEFS",
+    "version": 2351,
+    "itemType": "journalArticle",
+    "title": "Points of View: Temporal data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Marc",
+        "lastName": "Streit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "12",
+    "issue": "2",
+    "pages": "97-97",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.3262",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.3262",
+    "date": {
+      "year": 2015
+    }
+  },
+  {
+    "key": "QQSJTBM9",
+    "version": 2300,
+    "itemType": "journalArticle",
+    "title": "Response to \"Plotting intersections\" by Lentini",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Lex"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "12",
+    "issue": "4",
+    "pages": "281-281",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/nmeth.3331",
+    "ISSN": "1548-7091, 1548-7105",
+    "url": "https://www.nature.com/articles/nmeth.3331",
+    "date": {
+      "year": 2015
+    }
+  },
+  {
+    "pmid": "26356912",
+    "key": "Z3KK6ICA",
+    "version": 2287,
+    "itemType": "journalArticle",
+    "title": "UpSet: Visualization of Intersecting Sets",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Lex"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hendrik",
+        "lastName": "Strobelt"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Romain",
+        "lastName": "Vuillemot"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hanspeter",
+        "lastName": "Pfister"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "20",
+    "issue": "12",
+    "pages": "1983-1992",
+    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
+    "DOI": "10.1109/TVCG.2014.2346248",
+    "ISSN": "1077-2626",
+    "shortTitle": "UpSet",
+    "url": "http://ieeexplore.ieee.org/document/6876017/",
+    "date": {
+      "year": 2014,
+      "month": 12,
+      "day": 31
+    }
+  },
+  {
+    "pmid": "26356916",
+    "key": "ZC8U3UYV",
+    "version": 2291,
+    "itemType": "journalArticle",
+    "title": "Domino: Extracting, Comparing, and Manipulating Subsets Across Multiple Tabular Datasets",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Samuel",
+        "lastName": "Gratzl"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Lex"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hanspeter",
+        "lastName": "Pfister"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Marc",
+        "lastName": "Streit"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "20",
+    "issue": "12",
+    "pages": "2023-2032",
+    "journalAbbreviation": "IEEE Trans. Visual. Comput. Graphics",
+    "DOI": "10.1109/TVCG.2014.2346260",
+    "ISSN": "1077-2626, 1941-0506, 2160-9306",
+    "shortTitle": "Domino",
+    "url": "https://ieeexplore.ieee.org/document/6875920/",
+    "date": {
+      "year": 2014,
+      "month": 12,
+      "day": 31
     }
   },
   {
@@ -148039,6 +147413,71 @@
     }
   },
   {
+    "key": "MFFHWRBZ",
+    "version": 2446,
+    "itemType": "journalArticle",
+    "title": "Ontologies in Biological Data Visualization",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sheelagh",
+        "lastName": "Carpendale"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Min",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Daniel",
+        "lastName": "Evanko"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carsten",
+        "lastName": "Görg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Larry",
+        "lastName": "Hunter"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Francis",
+        "lastName": "Rowland"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Margaret-Anne",
+        "lastName": "Storey"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hendrik",
+        "lastName": "Strobelt"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "IEEE Computer Graphics and Applications",
+    "volume": "34",
+    "issue": "2",
+    "pages": "8-15",
+    "journalAbbreviation": "IEEE Comput. Grap. Appl.",
+    "DOI": "10.1109/MCG.2014.33",
+    "ISSN": "0272-1716",
+    "url": "http://ieeexplore.ieee.org/document/6777435/",
+    "date": {
+      "year": 2014
+    }
+  },
+  {
     "key": "QPTTZ7ZX",
     "version": 2351,
     "itemType": "journalArticle",
@@ -149711,70 +149150,6 @@
     }
   },
   {
-    "key": "MFFHWRBZ",
-    "version": 2292,
-    "itemType": "journalArticle",
-    "title": "Ontologies in Biological Data Visualization",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sheelagh",
-        "lastName": "Carpendale"
-      },
-      {
-        "creatorType": "author",
-        "name": "Min Chen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Daniel",
-        "lastName": "Evanko"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Carsten",
-        "lastName": "Gorg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Larry",
-        "lastName": "Hunter"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Francis",
-        "lastName": "Rowland"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Margaret-Anne",
-        "lastName": "Storey"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hendrik",
-        "lastName": "Strobelt"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "IEEE Computer Graphics and Applications",
-    "volume": "34",
-    "issue": "2",
-    "pages": "8-15",
-    "journalAbbreviation": "IEEE Comput. Grap. Appl.",
-    "DOI": "10.1109/MCG.2014.33",
-    "ISSN": "0272-1716",
-    "url": "http://ieeexplore.ieee.org/document/6777435/",
-    "date": {
-      "year": 2014
-    }
-  },
-  {
     "pmid": "25417114",
     "key": "GPRJYQ8J",
     "version": 2286,
@@ -151150,6 +150525,96 @@
     }
   },
   {
+    "pmid": "23663786",
+    "key": "HJSPFY5I",
+    "version": 2444,
+    "itemType": "journalArticle",
+    "title": "Diverse Mechanisms of Somatic Structural Variations in Human Cancer Genomes",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Lixing",
+        "lastName": "Yang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lovelace J.",
+        "lastName": "Luquette"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ruibin",
+        "lastName": "Xi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Psalm S.",
+        "lastName": "Haseley"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chih-Heng",
+        "lastName": "Hsieh"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Chengsheng",
+        "lastName": "Zhang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Xiaojia",
+        "lastName": "Ren"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexei",
+        "lastName": "Protopopov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lynda",
+        "lastName": "Chin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Raju",
+        "lastName": "Kucherlapati"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Charles",
+        "lastName": "Lee"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter J.",
+        "lastName": "Park"
+      },
+      {
+        "creatorType": "author",
+        "name": "The Cancer Genome Atlas Research Network"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Cell",
+    "volume": "153",
+    "issue": "4",
+    "pages": "919-929",
+    "journalAbbreviation": "Cell",
+    "DOI": "10.1016/j.cell.2013.04.010",
+    "ISSN": "00928674",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867413004510",
+    "date": {
+      "year": 2013
+    }
+  },
+  {
     "key": "9WYSPMPB",
     "version": 2443,
     "itemType": "journalArticle",
@@ -151238,92 +150703,6 @@
     "journalAbbreviation": "AMIA Jt Summits Transl Sci Proc",
     "ISSN": "2153-4063",
     "shortTitle": "The Stem Cell Commons",
-    "date": {
-      "year": 2013
-    }
-  },
-  {
-    "pmid": "23663786",
-    "key": "HJSPFY5I",
-    "version": 2300,
-    "itemType": "journalArticle",
-    "title": "Diverse Mechanisms of Somatic Structural Variations in Human Cancer Genomes",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Lixing",
-        "lastName": "Yang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lovelace J.",
-        "lastName": "Luquette"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ruibin",
-        "lastName": "Xi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Psalm S.",
-        "lastName": "Haseley"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Chih-Heng",
-        "lastName": "Hsieh"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Chengsheng",
-        "lastName": "Zhang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Xiaojia",
-        "lastName": "Ren"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alexei",
-        "lastName": "Protopopov"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lynda",
-        "lastName": "Chin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Raju",
-        "lastName": "Kucherlapati"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Charles",
-        "lastName": "Lee"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter J.",
-        "lastName": "Park"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Cell",
-    "volume": "153",
-    "issue": "4",
-    "pages": "919-929",
-    "journalAbbreviation": "Cell",
-    "DOI": "10.1016/j.cell.2013.04.010",
-    "ISSN": "00928674",
-    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867413004510",
     "date": {
       "year": 2013
     }
