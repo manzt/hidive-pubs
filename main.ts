@@ -235,6 +235,17 @@ async function fetchZoteroCollection(
   return items;
 }
 
+export async function fetchZoteroItem(groupId: string, itemId: string): Promise<ZoteroItem> {
+  let url = new URL(
+    `https://api.zotero.org/groups/${groupId}/items/${itemId}`,
+  );
+  url.searchParams.set("format", "json");
+  url.searchParams.set("include", "csljson,data");
+  let response = await fetch(url);
+  let json = await response.json();
+  return zoteroItemSchema.parse(json);
+}
+
 async function main() {
   let items: Array<ZoteroItem> = [];
   let idMap: Record<string, string> = {};
