@@ -94,7 +94,7 @@ function formatAuthors(
   authors: Array<Author>,
   options: { rich?: boolean } = {},
 ) {
-  let it = (text: string) => options.rich ? `_${text}_` : text;
+  let it = (text: string) => options.rich ? `*${text}*` : text;
   let formatted = authors
     .filter((author) => author.creatorType === "author")
     .map((author) => {
@@ -114,7 +114,7 @@ function formatJournalInfo(
   meta: ZoteroItem,
   options: { rich?: boolean } = {},
 ) {
-  let it = (text: string) => options.rich ? `_${text}_` : text;
+  let it = (text: string) => options.rich ? `*${text}*` : text;
   let b = (text: string) => options.rich ? `**${text}**` : text;
 
   if (meta.itemType === "thesis") {
