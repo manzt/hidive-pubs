@@ -699,6 +699,42 @@
     }
   },
   {
+    "key": "D8YCD6QT",
+    "version": 2481,
+    "itemType": "preprint",
+    "title": "Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Lawrence",
+        "lastName": "Weru"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L'Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Thomas Chris",
+        "lastName": "Smits"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "Many data visualization tools require a mouse. While such tools widen access to data communication and expression, their implementations are difficult or impossible to use by people with certain disabilities who experience difficulties using a mouse. What if people could use them as easily with a keyboard? We present OpenKeyNav, a zero-dependency JavaScript code library that exposes a developer-friendly API for initiating keyboard accessibility enhancements. We demonstrate a usage scenario of OpenKeyNav for improving the keyboard-accessibility of Voyager 2, an open-source web-based data visualization tool based on the shelf configuration similar to industry-leading Tableau. Since mouse-driven interactions such as drag-and-drop are found in software in a broad range of industries, the interaction methods we describe have potential implications for the education, employment, and autonomy of people with motor disabilities in various fields. A demonstration is at https://voyager-keyboard-demo.github.io/. Its instructions are at https://github.com/voyager- keyboard- demo/voyager- keyboard- demo.github.io/",
+    "DOI": "10.31219/osf.io/3wjsa",
+    "url": "https://osf.io/3wjsa",
+    "date": {
+      "year": 2024,
+      "month": 7,
+      "day": 30
+    }
+  },
+  {
     "key": "S4RH9GKM",
     "version": 2280,
     "itemType": "preprint",
@@ -737,42 +773,6 @@
       "year": 2024,
       "month": 7,
       "day": 31
-    }
-  },
-  {
-    "key": "D8YCD6QT",
-    "version": 2280,
-    "itemType": "preprint",
-    "title": "Using OpenKeyNav to Enhance the Keyboard-Accessibility of Web-based Data Visualization Tools",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Lawrence",
-        "lastName": "Weru"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Thomas Chris",
-        "lastName": "Smits"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "Many data visualization tools require a mouse. While such tools widen access to data communication and expression, their implementations are difficult or impossible to use by people with certain disabilities who experience difficulties using a mouse. What if people could use them as easily with a keyboard? We present OpenKeyNav, a zero-dependency JavaScript code library that exposes a developer-friendly API for initiating keyboard accessibility enhancements. We demonstrate a usage scenario of OpenKeyNav for improving the keyboard-accessibility of Voyager 2, an open-source web-based data visualization tool based on the shelf configuration similar to industry-leading Tableau. Since mouse-driven interactions such as drag-and-drop are found in software in a broad range of industries, the interaction methods we describe have potential implications for the education, employment, and autonomy of people with motor disabilities in various fields. A demonstration is at https://voyager-keyboard-demo.github.io/. Its instructions are at https://github.com/voyager- keyboard- demo/voyager- keyboard- demo.github.io/",
-    "DOI": "10.31219/osf.io/3wjsa",
-    "url": "https://osf.io/3wjsa",
-    "date": {
-      "year": 2024,
-      "month": 7,
-      "day": 30
     }
   },
   {
@@ -3749,14 +3749,14 @@
   {
     "pmid": "36688700",
     "key": "ZB57KPNC",
-    "version": 2295,
+    "version": 2476,
     "itemType": "journalArticle",
     "title": "Cistrome Explorer: an interactive visual analysis tool for large-scale epigenomic data",
     "creators": [
       {
         "creatorType": "author",
         "firstName": "Sehi",
-        "lastName": "L’Yi"
+        "lastName": "L'Yi"
       },
       {
         "creatorType": "author",
@@ -3960,6 +3960,37 @@
     }
   },
   {
+    "pmid": "36166553",
+    "key": "EBW4IH5W",
+    "version": 2478,
+    "itemType": "journalArticle",
+    "title": "Multi-View Design Patterns and Responsive Visualization for Genomics Data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L'Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "A series of recent studies has focused on designing cross-resolution and cross-device visualizations, i.e., responsive visualization, a concept adopted from responsive web design. However, these studies mainly focused on visualizations with a single view to a small number of views, and there are still unresolved questions about how to design responsive multi-view visualizations. In this paper, we present a reusable and generalizable framework for designing responsive multi-view visualizations focused on genomics data. To gain a better understanding of existing design challenges, we review web-based genomics visualization tools in the wild. By characterizing tools based on a taxonomy of responsive designs, we find that responsiveness is rarely supported in existing tools. To distill insights from the survey results in a systematic way, we classify typical view composition patterns, such as \"vertically long,\" \"horizontally wide,\" \"circular,\" and \"cross-shaped\" compositions. We then identify their usability issues in different resolutions that stem from the composition patterns, as well as discussing approaches to address the issues and to make genomics visualizations responsive. By extending the Gosling visualization grammar to support responsive constructs, we show how these approaches can be supported. A valuable follow-up study would be taking different input modalities into account, such as mouse and touch interactions, which was not considered in our study.",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "volume": "29",
+    "issue": "1",
+    "pages": "559-569",
+    "journalAbbreviation": "IEEE Trans Vis Comput Graph",
+    "DOI": "10.1109/TVCG.2022.3209398",
+    "ISSN": "1941-0506",
+    "date": {
+      "year": 2023,
+      "month": 1
+    }
+  },
+  {
     "key": "H6YDK8WJ",
     "version": 2456,
     "itemType": "journalArticle",
@@ -4000,37 +4031,6 @@
     "DOI": "10.1109/TVCG.2022.3209435",
     "ISSN": "1941-0506",
     "shortTitle": "Extending the Nested Model for User-Centric XAI",
-    "date": {
-      "year": 2023,
-      "month": 1
-    }
-  },
-  {
-    "pmid": "36166553",
-    "key": "EBW4IH5W",
-    "version": 2455,
-    "itemType": "journalArticle",
-    "title": "Multi-View Design Patterns and Responsive Visualization for Genomics Data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "A series of recent studies has focused on designing cross-resolution and cross-device visualizations, i.e., responsive visualization, a concept adopted from responsive web design. However, these studies mainly focused on visualizations with a single view to a small number of views, and there are still unresolved questions about how to design responsive multi-view visualizations. In this paper, we present a reusable and generalizable framework for designing responsive multi-view visualizations focused on genomics data. To gain a better understanding of existing design challenges, we review web-based genomics visualization tools in the wild. By characterizing tools based on a taxonomy of responsive designs, we find that responsiveness is rarely supported in existing tools. To distill insights from the survey results in a systematic way, we classify typical view composition patterns, such as \"vertically long,\" \"horizontally wide,\" \"circular,\" and \"cross-shaped\" compositions. We then identify their usability issues in different resolutions that stem from the composition patterns, as well as discussing approaches to address the issues and to make genomics visualizations responsive. By extending the Gosling visualization grammar to support responsive constructs, we show how these approaches can be supported. A valuable follow-up study would be taking different input modalities into account, such as mouse and touch interactions, which was not considered in our study.",
-    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
-    "volume": "29",
-    "issue": "1",
-    "pages": "559-569",
-    "journalAbbreviation": "IEEE Trans Vis Comput Graph",
-    "DOI": "10.1109/TVCG.2022.3209398",
-    "ISSN": "1941-0506",
     "date": {
       "year": 2023,
       "month": 1
@@ -4357,6 +4357,73 @@
       "year": 2023,
       "month": 1,
       "day": 1
+    }
+  },
+  {
+    "pmid": "37914857",
+    "key": "MBYKK2HR",
+    "version": 2475,
+    "itemType": "journalArticle",
+    "title": "Chromoscope: interactive multiscale visualization for structural variation in human genomes",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L'Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dominika",
+        "lastName": "Maziec"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Victoria",
+        "lastName": "Stevens"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Trevor",
+        "lastName": "Manz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Alexander",
+        "lastName": "Veit"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michele",
+        "lastName": "Berselli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter J.",
+        "lastName": "Park"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dominik",
+        "lastName": "Głodzik"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Nature Methods",
+    "volume": "20",
+    "issue": "12",
+    "pages": "1834-1835",
+    "journalAbbreviation": "Nat Methods",
+    "DOI": "10.1038/s41592-023-02056-x",
+    "ISSN": "1548-7091, 1548-7105",
+    "shortTitle": "Chromoscope",
+    "url": "https://www.nature.com/articles/s41592-023-02056-x",
+    "date": {
+      "year": 2023
     }
   },
   {
@@ -5677,73 +5744,6 @@
       "year": 2022,
       "month": 12,
       "day": 20
-    }
-  },
-  {
-    "pmid": "37914857",
-    "key": "MBYKK2HR",
-    "version": 2355,
-    "itemType": "journalArticle",
-    "title": "Chromoscope: interactive multiscale visualization for structural variation in human genomes",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L’Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Dominika",
-        "lastName": "Maziec"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Victoria",
-        "lastName": "Stevens"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Trevor",
-        "lastName": "Manz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alexander",
-        "lastName": "Veit"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michele",
-        "lastName": "Berselli"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter J.",
-        "lastName": "Park"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Dominik",
-        "lastName": "Głodzik"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Nature Methods",
-    "volume": "20",
-    "issue": "12",
-    "pages": "1834-1835",
-    "journalAbbreviation": "Nat Methods",
-    "DOI": "10.1038/s41592-023-02056-x",
-    "ISSN": "1548-7091, 1548-7105",
-    "shortTitle": "Chromoscope",
-    "url": "https://www.nature.com/articles/s41592-023-02056-x",
-    "date": {
-      "year": 2023
     }
   },
   {
@@ -32565,14 +32565,10 @@
   {
     "pmid": "31597973",
     "key": "EYA2W538",
-    "version": 2319,
+    "version": 2468,
     "itemType": "journalArticle",
     "title": "The human body at cellular resolution: the NIH Human Biomolecular Atlas Program",
     "creators": [
-      {
-        "creatorType": "author",
-        "name": "HuBMAP Consortium Writing Group"
-      },
       {
         "creatorType": "author",
         "firstName": "Michael P.",
@@ -32705,687 +32701,7 @@
       },
       {
         "creatorType": "author",
-        "name": "Caltech-UW TMC"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Long",
-        "lastName": "Cai"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jay",
-        "lastName": "Shendure"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Cole",
-        "lastName": "Trapnell"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Shin",
-        "lastName": "Lin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Dana",
-        "lastName": "Jackson"
-      },
-      {
-        "creatorType": "author",
-        "name": "Stanford-WashU TMC"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michael P.",
-        "lastName": "Snyder"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Garry",
-        "lastName": "Nolan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "William James",
-        "lastName": "Greenleaf"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Yiing",
-        "lastName": "Lin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sylvia",
-        "lastName": "Plevritis"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sara",
-        "lastName": "Ahadi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Stephanie A.",
-        "lastName": "Nevins"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hayan",
-        "lastName": "Lee"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Christian Martijn",
-        "lastName": "Schuerch"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sarah",
-        "lastName": "Black"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Vishal Gautham",
-        "lastName": "Venkataraaman"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ed",
-        "lastName": "Esplin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Aaron",
-        "lastName": "Horning"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Amir",
-        "lastName": "Bahmani"
-      },
-      {
-        "creatorType": "author",
-        "name": "UCSD TMC"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kun",
-        "lastName": "Zhang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Xin",
-        "lastName": "Sun"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sanjay",
-        "lastName": "Jain"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "James",
-        "lastName": "Hagood"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gloria",
-        "lastName": "Pryhuber"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter",
-        "lastName": "Kharchenko"
-      },
-      {
-        "creatorType": "author",
-        "name": "University of Florida TMC"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mark",
-        "lastName": "Atkinson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Bernd",
-        "lastName": "Bodenmiller"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Todd",
-        "lastName": "Brusko"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michael",
-        "lastName": "Clare-Salzler"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Harry",
-        "lastName": "Nick"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kevin",
-        "lastName": "Otto"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Amanda",
-        "lastName": "Posgai"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Clive",
-        "lastName": "Wasserfall"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marda",
-        "lastName": "Jorgensen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Maigan",
-        "lastName": "Brusko"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sergio",
-        "lastName": "Maffioletti"
-      },
-      {
-        "creatorType": "author",
-        "name": "Vanderbilt University TMC"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Richard M.",
-        "lastName": "Caprioli"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jeffrey M.",
-        "lastName": "Spraggins"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Danielle",
-        "lastName": "Gutierrez"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nathan Heath",
-        "lastName": "Patterson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Elizabeth K.",
-        "lastName": "Neumann"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Raymond",
-        "lastName": "Harris"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Mark",
-        "lastName": "deCaestecker"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Agnes B.",
-        "lastName": "Fogo"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Raf",
-        "lastName": "Van De Plas"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ken",
-        "lastName": "Lau"
-      },
-      {
-        "creatorType": "author",
-        "name": "California Institute of Technology TTD"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Long",
-        "lastName": "Cai"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Guo-Cheng",
-        "lastName": "Yuan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Qian",
-        "lastName": "Zhu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ruben",
-        "lastName": "Dries"
-      },
-      {
-        "creatorType": "author",
-        "name": "Harvard TTD"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peng",
-        "lastName": "Yin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sinem K.",
-        "lastName": "Saka"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jocelyn Y.",
-        "lastName": "Kishi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Yu",
-        "lastName": "Wang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Isabel",
-        "lastName": "Goldaracena"
-      },
-      {
-        "creatorType": "author",
-        "name": "Purdue TTD"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Julia",
-        "lastName": "Laskin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "DongHye",
-        "lastName": "Ye"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kristin E.",
-        "lastName": "Burnum-Johnson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Paul D.",
-        "lastName": "Piehowski"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Charles",
-        "lastName": "Ansong"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ying",
-        "lastName": "Zhu"
-      },
-      {
-        "creatorType": "author",
-        "name": "Stanford TTD"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Pehr",
-        "lastName": "Harbury"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tushar",
-        "lastName": "Desai"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jay",
-        "lastName": "Mulye"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter",
-        "lastName": "Chou"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Monica",
-        "lastName": "Nagendran"
-      },
-      {
-        "creatorType": "author",
-        "name": "HuBMAP Integration, Visualization, and Engagement (HIVE) Collaboratory: Carnegie Mellon, Tools Component"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ziv",
-        "lastName": "Bar-Joseph"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sarah A.",
-        "lastName": "Teichmann"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Benedict",
-        "lastName": "Paten"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Robert F.",
-        "lastName": "Murphy"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jian",
-        "lastName": "Ma"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Vladimir Yu.",
-        "lastName": "Kiselev"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Carl",
-        "lastName": "Kingsford"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Allyson",
-        "lastName": "Ricarte"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Maria",
-        "lastName": "Keays"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sushma A.",
-        "lastName": "Akoju"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Matthew",
-        "lastName": "Ruffalo"
-      },
-      {
-        "creatorType": "author",
-        "name": "Harvard Medical School, Tools Component"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter",
-        "lastName": "Kharchenko"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Margaret",
-        "lastName": "Vella"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Chuck",
-        "lastName": "McCallum"
-      },
-      {
-        "creatorType": "author",
-        "name": "Indiana University Bloomington, Mapping Component"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Katy",
-        "lastName": "Börner"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Leonard E.",
-        "lastName": "Cross"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Samuel H.",
-        "lastName": "Friedman"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Randy",
-        "lastName": "Heiland"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Bruce",
-        "lastName": "Herr"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Paul",
-        "lastName": "Macklin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ellen M.",
-        "lastName": "Quardokus"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lisel",
-        "lastName": "Record"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "James P.",
-        "lastName": "Sluka"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Griffin M.",
-        "lastName": "Weber"
-      },
-      {
-        "creatorType": "author",
-        "name": "Pittsburgh Supercomputing Center and University of Pittsburgh, Infrastructure and Engagement Component"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nicholas A.",
-        "lastName": "Nystrom"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jonathan C.",
-        "lastName": "Silverstein"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Philip D.",
-        "lastName": "Blood"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Alexander J.",
-        "lastName": "Ropelewski"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "William E.",
-        "lastName": "Shirey"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Robin M.",
-        "lastName": "Scibek"
-      },
-      {
-        "creatorType": "author",
-        "name": "University of South Dakota, Collaboration Core"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Paula",
-        "lastName": "Mabee"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "W. Christopher",
-        "lastName": "Lenhardt"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Kimberly",
-        "lastName": "Robasky"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Stavros",
-        "lastName": "Michailidis"
-      },
-      {
-        "creatorType": "author",
-        "name": "New York Genome Center, Mapping Component"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Rahul",
-        "lastName": "Satija"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "John",
-        "lastName": "Marioni"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Aviv",
-        "lastName": "Regev"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Andrew",
-        "lastName": "Butler"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tim",
-        "lastName": "Stuart"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Eyal",
-        "lastName": "Fisher"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Shila",
-        "lastName": "Ghazanfar"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jennifer",
-        "lastName": "Rood"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Leslie",
-        "lastName": "Gaffney"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gokcen",
-        "lastName": "Eraslan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Tommaso",
-        "lastName": "Biancalani"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Eeshit D.",
-        "lastName": "Vaishnav"
-      },
-      {
-        "creatorType": "author",
-        "name": "NIH HuBMAP Working Group"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Richard",
-        "lastName": "Conroy"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Dena",
-        "lastName": "Procaccini"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ananda",
-        "lastName": "Roy"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ajay",
-        "lastName": "Pillai"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Marishka",
-        "lastName": "Brown"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Zorina",
-        "lastName": "Galis"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Pothur",
-        "lastName": "Srinivas"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Aaron",
-        "lastName": "Pawlyk"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Salvatore",
-        "lastName": "Sechi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Elizabeth",
-        "lastName": "Wilder"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "James",
-        "lastName": "Anderson"
+        "name": "HuBMAP Consortium"
       }
     ],
     "abstractNote": "Transformative technologies are enabling the construction of three-dimensional maps of tissues with unprecedented spatial and molecular resolution. Over the next seven years, the NIH Common Fund Human Biomolecular Atlas Program (HuBMAP) intends to develop a widely accessible framework for comprehensively mapping the human body at single-cell resolution by supporting technology development, data acquisition, and detailed spatial mapping. HuBMAP will integrate its efforts with other funding agencies, programs, consortia, and the biomedical research community at large towards the shared vision of a comprehensive, accessible three-dimensional molecular and cellular atlas of the human body, in health and under various disease conditions.",
@@ -140642,7 +139958,7 @@
   },
   {
     "key": "67A8XVNB",
-    "version": 2434,
+    "version": 2479,
     "itemType": "conferencePaper",
     "title": "TaCo: Comparative Visualization of Large Tabular Data",
     "creators": [
@@ -140669,6 +139985,7 @@
     ],
     "abstractNote": "Tabular data plays a vital role in many different domains. In the course of a project, changes to the structure and content of tables can result in multiple instances of a table. A challenging task when working with such derived tables is to understand what exactly has changed from one version to another. Traditional comparison tools assist users in inspecting differences between multiple table instances, however, the resulting visualizations are often hard to interpret or do not scale to large tables with thousands of rows and columns. To address these challenges, we developed TaCo, an interactive comparison tool that effectively visualizes the differences between multiple tables at various levels of granularity: (1) the aggregated differences between all table instances, (2) the differences between one table compared to all others, and (3) the detailed differences between two instances.",
     "proceedingsTitle": "EuroVis 2016 - Posters",
+    "pages": "3 pages",
     "DOI": "10.2312/EURP.20161149",
     "shortTitle": "TaCo",
     "url": "https://diglib.eg.org/handle/10.2312/eurp20161149",
@@ -148429,6 +147746,191 @@
     }
   },
   {
+    "pmid": "25109877",
+    "key": "JVV46NFN",
+    "version": 2474,
+    "itemType": "journalArticle",
+    "title": "Multiplatform Analysis of 12 Cancer Types Reveals Molecular Classification within and across Tissues of Origin",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Katherine A.",
+        "lastName": "Hoadley"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christina",
+        "lastName": "Yau"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Denise M.",
+        "lastName": "Wolf"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andrew D.",
+        "lastName": "Cherniack"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Tamborero"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sam",
+        "lastName": "Ng"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Max D.M.",
+        "lastName": "Leiserson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Beifang",
+        "lastName": "Niu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michael D.",
+        "lastName": "McLellan"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Vladislav",
+        "lastName": "Uzunangelov"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Jiashan",
+        "lastName": "Zhang"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Cyriac",
+        "lastName": "Kandoth"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Rehan",
+        "lastName": "Akbani"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Hui",
+        "lastName": "Shen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Larsson",
+        "lastName": "Omberg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Andy",
+        "lastName": "Chu"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Adam A.",
+        "lastName": "Margolin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Laura J.",
+        "lastName": "van’t Veer"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nuria",
+        "lastName": "Lopez-Bigas"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Peter W.",
+        "lastName": "Laird"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Benjamin J.",
+        "lastName": "Raphael"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Li",
+        "lastName": "Ding"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "A. Gordon",
+        "lastName": "Robertson"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Lauren A.",
+        "lastName": "Byers"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Gordon B.",
+        "lastName": "Mills"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "John N.",
+        "lastName": "Weinstein"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Carter",
+        "lastName": "Van Waes"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Zhong",
+        "lastName": "Chen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Eric A.",
+        "lastName": "Collisson"
+      },
+      {
+        "creatorType": "author",
+        "name": "Cancer Genome Atlas Research Network"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Christopher C.",
+        "lastName": "Benz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Charles M.",
+        "lastName": "Perou"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Joshua M.",
+        "lastName": "Stuart"
+      }
+    ],
+    "abstractNote": "",
+    "publicationTitle": "Cell",
+    "volume": "158",
+    "issue": "4",
+    "pages": "929-944",
+    "journalAbbreviation": "Cell",
+    "DOI": "10.1016/j.cell.2014.06.049",
+    "ISSN": "00928674",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867414008769",
+    "date": {
+      "year": 2014
+    }
+  },
+  {
     "key": "MFFHWRBZ",
     "version": 2446,
     "itemType": "journalArticle",
@@ -148549,191 +148051,6 @@
     "DOI": "10.1038/nmeth.2807",
     "ISSN": "1548-7091, 1548-7105",
     "url": "https://www.nature.com/articles/nmeth.2807",
-    "date": {
-      "year": 2014
-    }
-  },
-  {
-    "pmid": "25109877",
-    "key": "JVV46NFN",
-    "version": 2299,
-    "itemType": "journalArticle",
-    "title": "Multiplatform Analysis of 12 Cancer Types Reveals Molecular Classification within and across Tissues of Origin",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Katherine A.",
-        "lastName": "Hoadley"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Christina",
-        "lastName": "Yau"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Denise M.",
-        "lastName": "Wolf"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Andrew D.",
-        "lastName": "Cherniack"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "David",
-        "lastName": "Tamborero"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sam",
-        "lastName": "Ng"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Max D.M.",
-        "lastName": "Leiserson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Beifang",
-        "lastName": "Niu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Michael D.",
-        "lastName": "McLellan"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Vladislav",
-        "lastName": "Uzunangelov"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Jiashan",
-        "lastName": "Zhang"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Cyriac",
-        "lastName": "Kandoth"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Rehan",
-        "lastName": "Akbani"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Hui",
-        "lastName": "Shen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Larsson",
-        "lastName": "Omberg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Andy",
-        "lastName": "Chu"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Adam A.",
-        "lastName": "Margolin"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Laura J.",
-        "lastName": "Van’T Veer"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nuria",
-        "lastName": "Lopez-Bigas"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Peter W.",
-        "lastName": "Laird"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Benjamin J.",
-        "lastName": "Raphael"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Li",
-        "lastName": "Ding"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "A. Gordon",
-        "lastName": "Robertson"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Lauren A.",
-        "lastName": "Byers"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Gordon B.",
-        "lastName": "Mills"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "John N.",
-        "lastName": "Weinstein"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Carter",
-        "lastName": "Van Waes"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Zhong",
-        "lastName": "Chen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Eric A.",
-        "lastName": "Collisson"
-      },
-      {
-        "creatorType": "author",
-        "name": "Cancer Genome Atlas Research Network"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Christopher C.",
-        "lastName": "Benz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Charles M.",
-        "lastName": "Perou"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Joshua M.",
-        "lastName": "Stuart"
-      }
-    ],
-    "abstractNote": "",
-    "publicationTitle": "Cell",
-    "volume": "158",
-    "issue": "4",
-    "pages": "929-944",
-    "journalAbbreviation": "Cell",
-    "DOI": "10.1016/j.cell.2014.06.049",
-    "ISSN": "00928674",
-    "url": "https://linkinghub.elsevier.com/retrieve/pii/S0092867414008769",
     "date": {
       "year": 2014
     }
@@ -151488,15 +150805,15 @@
     }
   },
   {
-    "key": "EKYM3HGT",
-    "version": 2294,
+    "key": "M7QVT54G",
+    "version": 2473,
     "itemType": "journalArticle",
     "title": "Don't Wear Your New Shoes (Yet): Taking the Right Steps to Become a Successful Principal Investigator",
     "creators": [
       {
         "creatorType": "author",
         "firstName": "Jeroen",
-        "lastName": "De Ridder"
+        "lastName": "de Ridder"
       },
       {
         "creatorType": "author",
