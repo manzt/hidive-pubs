@@ -1,5 +1,71 @@
 [
   {
+    "key": "FZGEFV8V",
+    "version": 2522,
+    "itemType": "preprint",
+    "title": "The‬‭ challenge‬‭ of‬‭ chromatin‬‭ model‬‭ comparison‬‭ and‬‭ validation‬‭ a‬‭ project‬‭ from‬‭ the‬ first international 4D Nucleome Hackathon‬",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Jedrzej",
+        "lastName": "Kubica"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sevastianos",
+        "lastName": "Korsak"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ariana Brenner",
+        "lastName": "Clerkin"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "David",
+        "lastName": "Kouřil"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dvir",
+        "lastName": "Schirman"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Anurupa Devi",
+        "lastName": "Yadavalli"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Krzysztof",
+        "lastName": "Banecki"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Michal",
+        "lastName": "Kadlof"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ben",
+        "lastName": "Busby"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Dariusz",
+        "lastName": "Plewczynski"
+      }
+    ],
+    "abstractNote": "The computational modeling of chromatin structure is highly complex and challenging due to the hierarchical organization of chromatin, which reflects its diverse biophysical principles, as well as inherent dynamism, which underlies its complexity. The variety of methods for chromatin structure modeling, which are based on different approaches, assumptions and scales of modeling, suggests that there is a necessity for a comprehensive benchmark. This inspired us to conduct a project at the NIH-funded 4D Nucleome Hackathon on March 18-21, 2024 at The University of Washington in Seattle, USA. The hackathon provided an amazing opportunity to gather an international, multi-institutional and unbiased group of experts to discuss, understand and undertake the challenges of chromatin model comparison and validation. These challenges seem straightforward in theory, however in practice, they are challenging and ambiguous. To address them, we developed a bioinformatics workflow for chromatin model comparison and validation, in which we use distance matrices to represent chromatin models, and we calculate Spearman correlation coefficients between pairs of matrices to estimate correlations between models, as well as between models and experimental data. During the 4-day hackathon, we tested our workflow on several distinct software packages for chromatin structure modeling and we discovered several challenges that include: 1) different aspects of chromatin biophysics and scales complicate model comparisons, 2) expertise in biology, bioinformatics, and physics is necessary to conduct a comprehensive research on chromatin structure, 3) bioinformatic software, which is often developed in academic settings, is characterized by insufficient support and documentation. Therefore, our work constitutes a way to advance the modeling of the 3D organization of the human genome, while emphasizing the importance of establishing guidelines for software development and standardization.",
+    "DOI": "10.1101/2024.10.02.616241",
+    "url": "http://biorxiv.org/lookup/doi/10.1101/2024.10.02.616241",
+    "date": {
+      "year": 2024,
+      "month": 10,
+      "day": 3
+    }
+  },
+  {
     "key": "ULRFBUJD",
     "version": 2415,
     "itemType": "journalArticle",
@@ -699,6 +765,39 @@
     }
   },
   {
+    "key": "55VWPUVL",
+    "version": 2519,
+    "itemType": "conferencePaper",
+    "title": "Any notebook served: authoring and sharing reusable interactive widgets",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Trevor",
+        "lastName": "Manz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nezar",
+        "lastName": "Abdennur"
+      }
+    ],
+    "abstractNote": "The open-source Jupyter project has fostered a robust ecosystem around notebook-based computing, resulting in diverse Jupyter-compatible platforms (e.g., JupyterLab, Google Colab, VS Code). Jupyter Widgets extend these environments with custom visualizations and interactive elements that communicate directly with user code and data. While this bidirectional communication makes the widget system powerful, its architecture is currently tightly coupled to platforms. As a result, widgets are complex and error-prone to author and distribute, limiting the potential of the wider widget ecosystem. Here we describe the motivation and approach behind the anywidget project, a specification and toolset for portable and reusable web-based widgets in interactive computing environments. It ensures cross-platform compatibility by using the web browser’s built-in module system to load these modules from the notebook kernel. This design simplifies widget authorship and distribution, enables rapid prototyping, and lowers the barrier to entry for newcomers. Anywidget is compatible with not just JCPs but any web-based notebook platform or authoring environment and is already adopted by other projects. Its adoption has sparked a widget renaissance, improving reusability, interoperability, and making interactive computing more accessible.",
+    "proceedingsTitle": "Proceedings of the 23rd Python in Science Conference",
+    "DOI": "10.25080/NRPV2311",
+    "shortTitle": "Any notebook served",
+    "url": "https://doi.curvenote.com/10.25080/NRPV2311",
+    "date": {
+      "year": 2024,
+      "month": 7,
+      "day": 10
+    }
+  },
+  {
     "key": "D8YCD6QT",
     "version": 2481,
     "itemType": "preprint",
@@ -810,38 +909,6 @@
       "year": 2024,
       "month": 6,
       "day": 13
-    }
-  },
-  {
-    "key": "3QLBRNCL",
-    "version": 2279,
-    "itemType": "preprint",
-    "title": "Any notebook served: authoring and sharing reusable interactive widgets",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Trevor",
-        "lastName": "Manz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nezar",
-        "lastName": "Abdennur"
-      }
-    ],
-    "abstractNote": "The open-source Jupyter project has fostered a robust ecosystem around notebook-based computing, resulting in diverse Jupyter-compatible platforms (e.g., JupyterLab, Google Colab, VS Code). Jupyter Widgets extend these environments with custom visualizations and interactive elements that communicate directly with user code and data. While this bidirectional communication makes the widget system powerful, its architecture is currently tightly coupled to platforms. As a result, widgets are complex and error-prone to author and distribute, limiting the potential of the wider widget ecosystem. Here we describe the motivation and approach behind the anywidget project, a specification and toolset for portable and reusable web-based widgets in interactive computing environments. It ensures cross-platform compatibility by using the web browser’s built-in module system to load these modules from the notebook kernel. This design simplifies widget authorship and distribution, enables rapid prototyping, and lowers the barrier to entry for newcomers. Anywidget is compatible with not just JCPs but any web-based notebook platform or authoring environment and is already adopted by other projects. Its adoption has sparked a widget renaissance, improving reusability, interoperability, and making interactive computing more accessible.",
-    "DOI": "10.31219/osf.io/pyn7u",
-    "shortTitle": "Any notebook served",
-    "url": "https://osf.io/pyn7u",
-    "date": {
-      "year": 2024,
-      "month": 6,
-      "day": 10
     }
   },
   {
@@ -1432,62 +1499,9 @@
     }
   },
   {
-    "pmid": "37971305",
-    "key": "QZEYKLBY",
-    "version": 2298,
-    "itemType": "journalArticle",
-    "title": "Cistrome Data Browser: integrated search, analysis and visualization of chromatin data",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Len",
-        "lastName": "Taing"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Ariaki",
-        "lastName": "Dandawate"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L’Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Myles",
-        "lastName": "Brown"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Clifford A",
-        "lastName": "Meyer"
-      }
-    ],
-    "abstractNote": "The Cistrome Data Browser is a resource of ChIP-seq, ATAC-seq and DNase-seq data from humans and mice. It provides maps of the genome-wide locations of transcription factors, cofactors, chromatin remodelers, histone post-translational modifications and regions of chromatin accessible to endonuclease activity. Cistrome DB v3.0 contains approximately 45 000 human and 44 000 mouse samples with about 32 000 newly collected datasets compared to the previous release. The Cistrome DB v3.0 user interface is implemented as a single page application that unifies menu driven and data driven search functions and provides an embedded genome browser, which allows users to find and visualize data more effectively. Users can find informative chromatin profiles through keyword, menu, and data-driven search tools. Browser search functions can predict the regulators of query genes as well as the cell type and factor dependent functionality of potential cis-regulatory elements. Cistrome DB v3.0 expands the display of quality control statistics, incorporates sequence logos into motif enrichment displays and includes more expansive sample metadata. Cistrome DB v3.0 is available at http://db3.cistrome.org/browser.",
-    "publicationTitle": "Nucleic Acids Research",
-    "volume": "52",
-    "issue": "D1",
-    "pages": "D61-D66",
-    "DOI": "10.1093/nar/gkad1069",
-    "ISSN": "0305-1048, 1362-4962",
-    "shortTitle": "Cistrome Data Browser",
-    "url": "https://academic.oup.com/nar/article/52/D1/D61/7424438",
-    "date": {
-      "year": 2024,
-      "month": 1,
-      "day": 5
-    }
-  },
-  {
     "pmid": "38199997",
     "key": "TXEDYWXC",
-    "version": 2294,
+    "version": 2484,
     "itemType": "journalArticle",
     "title": "The chromatin landscape of healthy and injured cell types in the human kidney",
     "creators": [
@@ -3272,6 +3286,101 @@
     }
   },
   {
+    "pmid": "37971305",
+    "key": "QZEYKLBY",
+    "version": 2298,
+    "itemType": "journalArticle",
+    "title": "Cistrome Data Browser: integrated search, analysis and visualization of chromatin data",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Len",
+        "lastName": "Taing"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Ariaki",
+        "lastName": "Dandawate"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L’Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Myles",
+        "lastName": "Brown"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Clifford A",
+        "lastName": "Meyer"
+      }
+    ],
+    "abstractNote": "The Cistrome Data Browser is a resource of ChIP-seq, ATAC-seq and DNase-seq data from humans and mice. It provides maps of the genome-wide locations of transcription factors, cofactors, chromatin remodelers, histone post-translational modifications and regions of chromatin accessible to endonuclease activity. Cistrome DB v3.0 contains approximately 45 000 human and 44 000 mouse samples with about 32 000 newly collected datasets compared to the previous release. The Cistrome DB v3.0 user interface is implemented as a single page application that unifies menu driven and data driven search functions and provides an embedded genome browser, which allows users to find and visualize data more effectively. Users can find informative chromatin profiles through keyword, menu, and data-driven search tools. Browser search functions can predict the regulators of query genes as well as the cell type and factor dependent functionality of potential cis-regulatory elements. Cistrome DB v3.0 expands the display of quality control statistics, incorporates sequence logos into motif enrichment displays and includes more expansive sample metadata. Cistrome DB v3.0 is available at http://db3.cistrome.org/browser.",
+    "publicationTitle": "Nucleic Acids Research",
+    "volume": "52",
+    "issue": "D1",
+    "pages": "D61-D66",
+    "DOI": "10.1093/nar/gkad1069",
+    "ISSN": "0305-1048, 1362-4962",
+    "shortTitle": "Cistrome Data Browser",
+    "url": "https://academic.oup.com/nar/article/52/D1/D61/7424438",
+    "date": {
+      "year": 2024,
+      "month": 1,
+      "day": 5
+    }
+  },
+  {
+    "key": "WQT4999N",
+    "version": 2486,
+    "itemType": "journalArticle",
+    "title": "Learnable and Expressive Visualization Authoring through Blended Interfaces",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L'Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Astrid",
+        "lastName": "van den Brandt"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Etowah",
+        "lastName": "Adams"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Huyen N.",
+        "lastName": "Nguyen"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      }
+    ],
+    "abstractNote": "A wide range of visualization authoring interfaces enable the creation of highly customized visualizations. However, prioritizing expressiveness often impedes the learnability of the authoring interface. The diversity of users, such as varying computational skills and prior experiences in user interfaces, makes it even more challenging for a single authoring interface to satisfy the needs of a broad audience. In this paper, we introduce a framework to balance learnability and expressivity in a visualization authoring system. Adopting insights from learnability studies, such as multimodal interaction and visualization literacy, we explore the design space of blending multiple visualization authoring interfaces for supporting authoring tasks in a complementary and fexible manner. To evaluate the effectiveness of blending interfaces, we implemented a proof-of-concept system, Blace, that combines four common visualization authoring interfaces—template-based, shelf confguration, natural language, and code editor—that are tightly linked to one another to help users easily relate unfamiliar interfaces to more familiar ones. Using the system, we conducted a user study with 12 domain experts who regularly visualize genomics data as part of their analysis workfow. Participants with varied visualization and programming backgrounds were able to successfully reproduce unfamiliar visualization examples without a guided tutorial in the study. Feedback from a post-study qualitative questionnaire further suggests that blending interfaces enabled participants to learn the system easily and assisted them in confdently editing unfamiliar visualization grammar in the code editor, enabling expressive customization. Refecting on our study results and the design of our system, we discuss the different interaction patterns that we identifed and design implications for blending visualization authoring interfaces.",
+    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
+    "pages": "1-11",
+    "DOI": "10.1109/TVCG.2024.3456598",
+    "ISSN": "1941-0506",
+    "url": "https://ieeexplore.ieee.org/document/10670517/",
+    "date": {
+      "year": 2024
+    }
+  },
+  {
     "key": "9ZZVZPRR",
     "version": 2418,
     "itemType": "journalArticle",
@@ -3331,48 +3440,6 @@
     "ISSN": "1077-2626, 1941-0506, 2160-9306",
     "shortTitle": "Cell2Cell",
     "url": "https://ieeexplore.ieee.org/document/10672552/",
-    "date": {
-      "year": 2024
-    }
-  },
-  {
-    "key": "WQT4999N",
-    "version": 2285,
-    "itemType": "journalArticle",
-    "title": "Learnable and Expressive Visualization Authoring through Blended Interfaces",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L'Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Astrid van den",
-        "lastName": "Brandt"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Etowah",
-        "lastName": "Adams"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Huyen N.",
-        "lastName": "Nguyen"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      }
-    ],
-    "abstractNote": "A wide range of visualization authoring interfaces enable the creation of highly customized visualizations. However, prioritizing expressiveness often impedes the learnability of the authoring interface. The diversity of users, such as varying computational skills and prior experiences in user interfaces, makes it even more challenging for a single authoring interface to satisfy the needs of a broad audience. In this paper, we introduce a framework to balance learnability and expressivity in a visualization authoring system. Adopting insights from learnability studies, such as multimodal interaction and visualization literacy, we explore the design space of blending multiple visualization authoring interfaces for supporting authoring tasks in a complementary and fexible manner. To evaluate the effectiveness of blending interfaces, we implemented a proof-of-concept system, Blace, that combines four common visualization authoring interfaces—template-based, shelf confguration, natural language, and code editor—that are tightly linked to one another to help users easily relate unfamiliar interfaces to more familiar ones. Using the system, we conducted a user study with 12 domain experts who regularly visualize genomics data as part of their analysis workfow. Participants with varied visualization and programming backgrounds were able to successfully reproduce unfamiliar visualization examples without a guided tutorial in the study. Feedback from a post-study qualitative questionnaire further suggests that blending interfaces enabled participants to learn the system easily and assisted them in confdently editing unfamiliar visualization grammar in the code editor, enabling expressive customization. Refecting on our study results and the design of our system, we discuss the different interaction patterns that we identifed and design implications for blending visualization authoring interfaces.",
-    "publicationTitle": "IEEE Transactions on Visualization and Computer Graphics",
-    "pages": "1-11",
-    "DOI": "10.1109/TVCG.2024.3456598",
-    "ISSN": "1941-0506",
-    "url": "https://ieeexplore.ieee.org/document/10670517/",
     "date": {
       "year": 2024
     }
@@ -3960,6 +4027,49 @@
     }
   },
   {
+    "pmid": "36688709",
+    "key": "DJLIVG8Q",
+    "version": 2482,
+    "itemType": "journalArticle",
+    "title": "Gos: a declarative library for interactive genomics visualization in Python",
+    "creators": [
+      {
+        "creatorType": "author",
+        "firstName": "Trevor",
+        "lastName": "Manz"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Sehi",
+        "lastName": "L’Yi"
+      },
+      {
+        "creatorType": "author",
+        "firstName": "Nils",
+        "lastName": "Gehlenborg"
+      },
+      {
+        "creatorType": "editor",
+        "firstName": "Alfonso",
+        "lastName": "Valencia"
+      }
+    ],
+    "abstractNote": "Gos is a declarative Python library designed to create interactive multiscale visualizations of genomics and epigenomics data. It provides a consistent and simple interface to the flexible Gosling visualization grammar. Gos hides technical complexities involved with configuring web-based genome browsers and integrates seamlessly within computational notebooks environments to enable new interactive analysis workflows. \n\nGos is released under the MIT License and available on the Python Package Index (PyPI). The source code is publicly available on GitHub (https://github.com/gosling-lang/gos), and documentation with examples can be found at https://gosling-lang.github.io/gos.",
+    "publicationTitle": "Bioinformatics",
+    "volume": "39",
+    "issue": "1",
+    "pages": "btad050",
+    "DOI": "10.1093/bioinformatics/btad050",
+    "ISSN": "1367-4811",
+    "shortTitle": "Gos",
+    "url": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btad050/6998203",
+    "date": {
+      "year": 2023,
+      "month": 1,
+      "day": 1
+    }
+  },
+  {
     "pmid": "36166553",
     "key": "EBW4IH5W",
     "version": 2478,
@@ -4314,49 +4424,6 @@
       "year": 2023,
       "month": 1,
       "day": 4
-    }
-  },
-  {
-    "pmid": "36688709",
-    "key": "DJLIVG8Q",
-    "version": 2294,
-    "itemType": "journalArticle",
-    "title": "Gos: a declarative library for interactive genomics visualization in Python",
-    "creators": [
-      {
-        "creatorType": "author",
-        "firstName": "Trevor",
-        "lastName": "Manz"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Sehi",
-        "lastName": "L’Yi"
-      },
-      {
-        "creatorType": "author",
-        "firstName": "Nils",
-        "lastName": "Gehlenborg"
-      },
-      {
-        "creatorType": "editor",
-        "firstName": "Alfonso",
-        "lastName": "Valencia"
-      }
-    ],
-    "abstractNote": "Summary\n              Gos is a declarative Python library designed to create interactive multiscale visualizations of genomics and epigenomics data. It provides a consistent and simple interface to the flexible Gosling visualization grammar. Gos hides technical complexities involved with configuring web-based genome browsers and integrates seamlessly within computational notebooks environments to enable new interactive analysis workflows.\n            \n            \n              Availability and implementation\n              Gos is released under the MIT License and available on the Python Package Index (PyPI). The source code is publicly available on GitHub (https://github.com/gosling-lang/gos), and documentation with examples can be found at https://gosling-lang.github.io/gos.",
-    "publicationTitle": "Bioinformatics",
-    "volume": "39",
-    "issue": "1",
-    "pages": "btad050",
-    "DOI": "10.1093/bioinformatics/btad050",
-    "ISSN": "1367-4811",
-    "shortTitle": "Gos",
-    "url": "https://academic.oup.com/bioinformatics/article/doi/10.1093/bioinformatics/btad050/6998203",
-    "date": {
-      "year": 2023,
-      "month": 1,
-      "day": 1
     }
   },
   {
